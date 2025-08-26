@@ -18,12 +18,12 @@ Seed：固定 or キャラごとに指定
 Clip Skip：2
 Aspect Ratio：1024x1536 or 832x1216（全身用）
 
-https://civitai.com/models/827184/wai-nsfw-illustrious-sdxl
-https://civitai.com/models/1261988/niji-anime-style-illustriousorfluxorpony
-https://civitai.com/models/974076/enchanting-eyes-detailed-eyes?modelVersionId=1463317
-https://civitai.com/models/147821/realesrganx4plus-anime-6b
+- https://civitai.com/models/827184/wai-nsfw-illustrious-sdxl
+- https://civitai.com/models/1261988/niji-anime-style-illustriousorfluxorpony
+- https://civitai.com/models/974076/enchanting-eyes-detailed-eyes?modelVersionId=1463317
+- https://civitai.com/models/147821/realesrganx4plus-anime-6b
 
-💛 Mei Soleil（メイ・ソレイユ）
+## 💛 Mei Soleil（メイ・ソレイユ）
 
 Checkpoint：WAI-NSFW-illustrious-SDXL
 LoRA：Niji anime illustrious, EnchantingEyesillustrious 
@@ -34,6 +34,7 @@ Clip Skip：2
 Seed：23255246635205
 
 Positive Prompt
+```
 #基本構成
 1girl, solo, masterpiece, best quality, anime idol girl, full body,
 upright standing pose, full body visible, centered composition,
@@ -75,8 +76,10 @@ subtle shadows cast to lower right, gentle ambient fill from front,
 
 #背景
 plain white background
+```
 
 Negative Prompt
+```
 low quality, worst quality, bad anatomy, deformed face, asymmetrical eyes,
 multiple faces, extra limbs, blurry face, cropped, out of frame,
 text, watermark, nsfw, mature woman, old woman, loli, heavy makeup,
@@ -97,8 +100,9 @@ holding item, orb, charm, prop, device, keychain, mic, wand, pendant, strap, bra
 jumping pose, crouching pose, exaggerated pose, dramatic gesture,
 particles, sparkles, aura, glow, floating hearts,
 studio lighting, shadows, background objects, scene props
+```
 
-💚 Nao Verde（ナオ・ヴェルデ）
+## 💚 Nao Verde（ナオ・ヴェルデ）
 
 Checkpoint：WAI-NSFW-illustrious-SDXL
 LoRA：Niji anime illustrious, EnchantingEyesillustrious 
@@ -153,7 +157,7 @@ cat ears, animal ears, bob cut, curled bob, medium hair, long hair, asymmetrical
 side shaved, undercut, fluffy hair, layered bob, bangs covering ears,  
 ribbons, accessories, charms, props, gadgets
 
-❤️ Elena Bloom（エレナ・ブルーム）
+## ❤️ Elena Bloom（エレナ・ブルーム）
 
 Checkpoint：WAI-NSFW-illustrious-SDXL
 LoRA：Niji anime illustrious, EnchantingEyesillustrious , Gradient Hair
@@ -203,7 +207,7 @@ asymmetrical eyes, multiple faces, extra limbs, cropped, blurry, out of frame,
 watermark, text, nsfw, loli, mature woman, heavy makeup,
 inconsistent outfit, duplicate costume
 
-💙 Mina Azure（ミナ・アズール）
+## 💙 Mina Azure（ミナ・アズール）
 
 Checkpoint：WAI-NSFW-illustrious-SDXL
 LoRA：Niji anime illustrious, EnchantingEyesillustrious , (Gradient Hair)
@@ -254,7 +258,7 @@ cropped, blurry, out of frame, watermark, text, nsfw,
 apron, maid outfit, heavy makeup, mature woman, loli,  
 frame, border, overly long cape, overly dark colors, no uniform
 
-💜 Saki Noir（サキ・ノワール）
+## 💜 Saki Noir（サキ・ノワール）
 
 Checkpoint：WAI-NSFW-illustrious-SDXL
 LoRA：Niji anime illustrious, EnchantingEyesillustrious , (Gradient Hair)
