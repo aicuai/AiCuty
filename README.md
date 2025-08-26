@@ -4,26 +4,34 @@
 
 ![](AiCuty-5.png)
 
-## AiCuty制作過程について
 
-詳しくは AICUマガジン Vol.15にて！
-https://j.aicu.ai/MagV15
+## 公式AIデザインルール
 
-## 公式
+- Checkpoint：WAI-NSFW-illustrious-SDXL
 
-Checkpoint：WAI-NSFW-illustrious-SDXL
-LoRA：Niji anime illustrious, EnchantingEyesillustrious（Anime_artist_illustrious　は　ショートヘアが出にくいので外した）
-Steps：28
-Sampler：DPM++ 2M SDE Karras
-CFG Scale：5
-Seed：固定 or キャラごとに指定
-Clip Skip：2
-Aspect Ratio：1024x1536 or 832x1216（全身用）
+生成AIサービスでの利用はできないモデルなので、準公式のモデルも検討中です。
+
+- LoRA：Niji anime illustrious, EnchantingEyesillustrious
 
 - https://civitai.com/models/827184/wai-nsfw-illustrious-sdxl
 - https://civitai.com/models/1261988/niji-anime-style-illustriousorfluxorpony
 - https://civitai.com/models/974076/enchanting-eyes-detailed-eyes?modelVersionId=1463317
 - https://civitai.com/models/147821/realesrganx4plus-anime-6b
+
+- KSampler設定
+
+ - Steps：28
+ - Sampler：DPM++ 2M SDE Karras
+ - CFG Scale：5
+ - Seed：固定 or キャラごとに指定します
+ - Clip Skip：2
+ - Aspect Ratio：1024x1536 or 832x1216（全身用）
+
+
+### 詳細なAiCutyのAIデザイン制作過程について 詳しくは AICUマガジン Vol.15にて！
+
+https://j.aicu.ai/MagV15
+
 
 ## 💛 Mei Soleil（メイ・ソレイユ）
 
@@ -169,7 +177,9 @@ CFG Scale：5
 Clip Skip：2
 Seed：798458095628920
 
-Positive Prompt
+### Positive Prompt
+
+```
 # 構図と品質
 masterpiece, best quality, solo, full body, sweet and gentle anime idol girl in center position, from front,
 soft and affectionate personality, slightly shy warm smile,
@@ -202,12 +212,16 @@ white background, simple background, clean studio light,
 
 # ライティング（統一指示）
 soft directional white light from upper left, consistent shadowing across all elements
+```
 
-Negative Prompt
+### Negative Prompt
+```
 low quality, worst quality, bad anatomy, poorly drawn face, deformed eyes,
 asymmetrical eyes, multiple faces, extra limbs, cropped, blurry, out of frame,
 watermark, text, nsfw, loli, mature woman, heavy makeup,
 inconsistent outfit, duplicate costume
+```
+
 
 ## 💙 Mina Azure（ミナ・アズール）
 
