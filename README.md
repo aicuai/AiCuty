@@ -7,9 +7,9 @@
 
 ## 公式AIデザインルール
 
-- Checkpoint：WAI-NSFW-illustrious-SDXL
-
-生成AIサービスでの利用はできないモデルなので、準公式のモデルも検討中です。
+- Checkpoint：[WAI-NSFW-illustrious-SDXL](https://civitai.com/models/827184/wai-nsfw-illustrious-sdxl)
+ - License: [Illustrious License](https://freedevproject.org/faipl-1.0-sd/)
+ - 上記のFAIPLに加えて、「生成AIサービスでの使用を許可しない」と明記されたモデルなので、AICUとしては別のモデルによる準公式プロンプトも検討中です。個人の環境にダウンロードして使う上では問題がないと考えます。
 
 - LoRA：Niji anime illustrious, EnchantingEyesillustrious
 
