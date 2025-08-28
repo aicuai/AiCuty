@@ -34,7 +34,7 @@
 
 4. 生成したいキャラクターのワークフローJSONファイルか PNGファイルを入手
 
-- ** Elena Bloom ** [JSON]()[PNG]()
+- Elena Bloom [JSON](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/ElenaBloom/ElenaBloom.json) [PNG](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/ElenaBloom/ElenaBloom.png)
  
 5. ComfyUIを起動して左上の[C]メニューのファイルから読み込み
    
@@ -54,6 +54,7 @@
 
 https://j.aicu.ai/MagV15
 
+# 以下はプロンプトです
 
 ## 💛 Mei Soleil（メイ・ソレイユ）
 
