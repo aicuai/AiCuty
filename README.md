@@ -27,9 +27,9 @@
 
  ※Civitaiへのユーザー登録が必要です
 
-3. upscale_models にRealESRGAN_x4Plus Anime 6B を配置
+3. upscale_models に RealESRGAN_x4Plus Anime 6B を配置
 
-- RealESRGAN_x4plus_anime_6B.pth  https://civitai.com/models/147821/realesrganx4plus-anime-6b
+- realesrganX4plusAnime_v1.pt  https://civitai.com/models/147821/realesrganx4plus-anime-6b
 
 4. 生成したいキャラクターのワークフローJSONファイルか PNGファイルを入手
 
@@ -145,6 +145,7 @@ Clip Skip：2
 Seed：23255246635273
 
 Positive Prompt
+```
 # 構図と品質  
 1boy, solo, full body, centered composition, standing pose, masterpiece, best quality, anime style,
 
@@ -179,8 +180,10 @@ subtle natural shadows cast to lower right, evenly lit face and body, no strong 
 
 # 背景  
 white background, simple background
+```
 
 Negative Prompt
+```
 low quality, worst quality, bad anatomy, deformed face, blurry face, cropped, out of frame,  
 extra limbs, fused hands, duplicate face, watermark, text, nsfw,  
 muscular build, wide shoulders, thick neck, bulky arms, six pack, abs, exaggerated muscles,  
@@ -188,6 +191,7 @@ female body, big chest, visible breasts, curvy body, mature woman, loli, feminin
 cat ears, animal ears, bob cut, curled bob, medium hair, long hair, asymmetrical hair,  
 side shaved, undercut, fluffy hair, layered bob, bangs covering ears,  
 ribbons, accessories, charms, props, gadgets
+```
 
 ## ❤️ Elena Bloom（エレナ・ブルーム）
 
@@ -256,6 +260,7 @@ Clip Skip：2
 Seed：798458095628920
 
 Positive Prompt
+```
 # 構図と品質  
 masterpiece, best quality, solo, full body, standing pose, anime style, centered composition, soft lighting,
 
@@ -288,13 +293,16 @@ standing in a graceful schoolgirl pose with legs slightly crossed,
 # 背景とライティング  
 white background, simple background, clean studio light,  
 soft directional white light from upper left, consistent shadowing
+```
 
 Negative Prompt
+```
 low quality, worst quality, bad anatomy, deformed hands,  
 poorly drawn face, asymmetrical eyes, multiple faces, extra limbs,  
 cropped, blurry, out of frame, watermark, text, nsfw,  
 apron, maid outfit, heavy makeup, mature woman, loli,  
 frame, border, overly long cape, overly dark colors, no uniform
+```
 
 ## 💜 Saki Noir（サキ・ノワール）
 
@@ -307,6 +315,7 @@ Clip Skip：2
 Seed：23255246635292
 
 Positive Prompt
+```
 # 構図と品質
 1girl, solo, full body, centered composition, standing pose, masterpiece, best quality, anime style,
 
@@ -334,13 +343,15 @@ body slightly angled, one leg relaxed, elegant and composed stance,
 
 # 背景
 white background, simple background, clean studio light,
+```
 
 Negative Prompt
+```
 low quality, worst quality, bad anatomy, poorly drawn face, deformed eyes,
 asymmetrical eyes, multiple faces, extra limbs, cropped, blurry, out of frame,
 watermark, text, nsfw, loli, mature woman, heavy makeup,
 inconsistent outfit, duplicate costume, frilly white dress, fluffy skirt
-
+```
 
 
 
