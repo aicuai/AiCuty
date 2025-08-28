@@ -7,23 +7,45 @@
 
 ## 公式AIデザインルール
 
-- Checkpoint：[WAI-NSFW-illustrious-SDXL](https://civitai.com/models/827184/wai-nsfw-illustrious-sdxl)
+### 使い方
+
+以下のファイルをダウンロードして ComfyUI のインストールディレクトリに配置してください。
+
+- ComfyUI Desktop Mac版の場合は Finder で 書類→ComfyUI→models 以下のフォルダになります。
+
+1. checkpointsフォルダに「waiNSFWIllustrious_v140.safetensors」を配置
+
+- 入手元 [WAI-NSFW-illustrious-SDXL](https://civitai.com/models/827184/wai-nsfw-illustrious-sdxl)
  - License: [Illustrious License](https://freedevproject.org/faipl-1.0-sd/)
  - 上記のFAIPLに加えて、「生成AIサービスでの使用を許可しない」と明記されたモデルなので、AICUとしては別のモデルによる準公式プロンプトも検討中です。個人の環境にダウンロードして使う上では問題がないと考えます。
 
-- LoRA：Niji anime illustrious, EnchantingEyesillustrious
+2. loras に以下の2つのファイルを配置
 
-- https://civitai.com/models/827184/wai-nsfw-illustrious-sdxl
-- https://civitai.com/models/1261988/niji-anime-style-illustriousorfluxorpony
-- https://civitai.com/models/974076/enchanting-eyes-detailed-eyes?modelVersionId=1463317
-- https://civitai.com/models/147821/realesrganx4plus-anime-6b
+- Niji_anime_illustrious.safetensors
+ - https://civitai.com/models/1261988/niji-anime-style-illustriousorfluxorpony
 
-- KSampler設定
+- EnchantingEyesIllustrious.safetensors
+ - https://civitai.com/models/974076/enchanting-eyes-detailed-eyes?modelVersionId=1463317
+
+3. upscale_models にRealESRGAN_x4Plus Anime 6B を配置
+
+- RealESRGAN_x4plus_anime_6B.pth
+ - https://civitai.com/models/147821/realesrganx4plus-anime-6b
+
+4. 生成したいキャラクターのワークフローJSONファイルか PNGファイルを入手
+
+- ** Elena Bloom ** [JSON]()[PNG]()
+ 
+5. ComfyUIを起動して左上の[C]メニューのファイルから読み込み
+   
+6. 一度生成してみて(Cmd+Enter)ファイルが足りないなどのエラーがないことを確認する
+
+7. KSampler設定を確認する
 
  - Steps：28
  - Sampler：DPM++ 2M SDE Karras
  - CFG Scale：5
- - Seed：固定 or キャラごとに指定します
+ - Seed：固定 or キャラごとに指定します（例：Elena の場合は `798458095628920` )
  - Clip Skip：2
  - Aspect Ratio：1024x1536 or 832x1216（全身用）
 
