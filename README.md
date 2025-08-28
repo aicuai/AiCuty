@@ -21,20 +21,15 @@
 
 2. loras に以下の2つのファイルを配置
 
-- Niji_anime_illustrious.safetensors
+- Niji_anime_illustrious.safetensors https://civitai.com/models/1261988/niji-anime-style-illustriousorfluxorpony
 
- - https://civitai.com/models/1261988/niji-anime-style-illustriousorfluxorpony
+- EnchantingEyesIllustrious.safetensors https://civitai.com/models/974076/enchanting-eyes-detailed-eyes?modelVersionId=1463317
 
-- EnchantingEyesIllustrious.safetensors
-
- - https://civitai.com/models/974076/enchanting-eyes-detailed-eyes?modelVersionId=1463317
- - Civitaiへのユーザー登録が必要です
+ ※Civitaiへのユーザー登録が必要です
 
 3. upscale_models にRealESRGAN_x4Plus Anime 6B を配置
 
-- RealESRGAN_x4plus_anime_6B.pth 
-
- - https://civitai.com/models/147821/realesrganx4plus-anime-6b
+- RealESRGAN_x4plus_anime_6B.pth  https://civitai.com/models/147821/realesrganx4plus-anime-6b
 
 4. 生成したいキャラクターのワークフローJSONファイルか PNGファイルを入手
 
