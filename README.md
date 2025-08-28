@@ -29,7 +29,10 @@
 
 3. upscale_models に RealESRGAN_x4Plus Anime 6B を配置
 
-- realesrganX4plusAnime_v1.pt  https://civitai.com/models/147821/realesrganx4plus-anime-6b
+- RealESRGAN_x4plus_anime_6B.pth   https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth
+
+[配布元](https://github.com/xinntao/Real-ESRGAN/blob/master/docs/anime_model.md)
+
 
 4. 生成したいキャラクターのワークフローJSONファイルか PNGファイルを入手
 
