@@ -4,6 +4,11 @@
 
 ![](AiCuty-5.png)
 
+## AiCutyコミュニティライセンスとガイドライン
+
+最新のライセンスとガイドラインはこちらのURLで公開されています。
+
+https://www.aicu.jp/terms/aicuty-guideline
 
 ## 公式AIデザインルール
 
