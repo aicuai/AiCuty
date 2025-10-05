@@ -14,6 +14,8 @@ https://www.aicu.jp/terms/aicuty-guideline
 
 ### 使い方
 
+- [超初心者向け AiCutyを標準プロンプトで作ってみた！](https://www.aicu.jp/post/aicuty-20250902)
+
 以下のファイルをダウンロードして ComfyUI のインストールディレクトリに配置してください。
 
 - ComfyUI Desktop Mac版の場合は Finder で 書類→ComfyUI→models 以下のフォルダになります。
