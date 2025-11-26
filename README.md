@@ -77,7 +77,7 @@ Seed：23255246635205
 
 Positive Prompt
 ```
-#基本構成
+#基本構成 Mei Soleil（メイ・ソレイユ）
 1girl, solo, masterpiece, best quality, anime idol girl, full body,
 upright standing pose, full body visible, centered composition,
 looking directly at viewer,
@@ -156,7 +156,7 @@ Seed：23255246635273
 
 Positive Prompt
 ```
-# 構図と品質  
+# 構図と品質  Nao Verde（ナオ・ヴェルデ）
 1boy, solo, full body, centered composition, standing pose, masterpiece, best quality, anime style,
 
 # 髪型（襟足長めのショート／中性バランス）  
@@ -216,7 +216,7 @@ Seed：798458095628920
 ### Positive Prompt
 
 ```
-# 構図と品質
+# 構図と品質 Elena Bloom（エレナ・ブルーム）
 masterpiece, best quality, solo, full body, sweet and gentle anime idol girl in center position, from front,
 soft and affectionate personality, slightly shy warm smile,
 
@@ -271,7 +271,7 @@ Seed：798458095628920
 
 Positive Prompt
 ```
-# 構図と品質  
+# 構図と品質  Mina Azure（ミナ・アズール）
 masterpiece, best quality, solo, full body, standing pose, anime style, centered composition, soft lighting,
 
 # 髪型・髪色・眼鏡  
@@ -326,7 +326,7 @@ Seed：23255246635292
 
 Positive Prompt
 ```
-# 構図と品質
+# 構図と品質 Saki Noir（サキ・ノワール）
 1girl, solo, full body, centered composition, standing pose, masterpiece, best quality, anime style,
 
 # 髪型（シャープで内巻きしないストレートボブ、左目にかかる前髪）
