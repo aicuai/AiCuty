@@ -10,6 +10,7 @@ title: AiCuty Members
 **Role**: Center / Influencer & Visual Specialist
 **Color**: Pink
 **Instrument**: Lead Vocal
+**Birthday (Proposed)**: March 14 (White Day)
 
 ### Visual
 - Pink twin-tails with ribbons and rose flower hair clips
@@ -34,6 +35,7 @@ Center of AiCuty. Hardworking but shy.
 **Role**: Key Visual & Image Generation Specialist
 **Color**: Yellow
 **Instrument**: Drums & Chorus
+**Birthday (Proposed)**: July 21 (Summer)
 
 ### Visual
 - Yellow/golden high side ponytail with star hairpin
@@ -59,6 +61,7 @@ Energetic mood maker! Great dancer.
 **Role**: Research, Analysis, Ethics & Law Specialist
 **Color**: Blue
 **Instrument**: Keyboard & Chorus
+**Birthday (Proposed)**: October 1 (Law Day)
 
 ### Visual
 - Blue long straight hair with bangs
@@ -84,6 +87,7 @@ Modest and intellectual glasses girl. High school student in broadcasting club. 
 **Role**: Music & Development Tech Specialist
 **Color**: Green
 **Instrument**: Guitar (Can play all instruments)
+**Birthday (Proposed)**: May 5 (Children's Day)
 
 ### Visual
 - Dark green short hair with longer back (slightly long pixie cut)
@@ -109,6 +113,7 @@ Cool and confident androgynous "boku" boy.
 **Role**: Video Creation Specialist
 **Color**: Purple / Violet
 **Instrument**: Bass & Chorus
+**Birthday (Proposed)**: October 31 (Halloween)
 
 ### Visual
 - Dark violet sharp straight bob covering left eye
