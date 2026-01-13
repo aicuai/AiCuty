@@ -7,7 +7,7 @@ title: AiCuty - AI Idol Project
 
 人とAIがつくるアイドルプロジェクト / AI-Generated Idol Project by Humans and AI
 
-![AiCuty Members](../AiCuty-5.png)
+![AiCuty Members](AiCuty-5.png)
 
 ## About AiCuty
 
