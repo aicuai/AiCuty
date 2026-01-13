@@ -1,0 +1,31 @@
+title: AiCuty
+description: 人とAIがつくるアイドルプロジェクト / AI Idol Project
+baseurl: "/AiCuty"
+url: "https://aicuai.github.io"
+
+theme: minima
+
+# Navigation
+header_pages:
+  - index.md
+  - members.md
+  - license.md
+
+# Social links
+github_username: aicuai
+
+# Footer
+footer_content: |
+  © AICU Japan / AiCuty
+  License: https://www.aicu.jp/terms/aicuty-guideline
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
