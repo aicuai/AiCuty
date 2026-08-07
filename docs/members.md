@@ -16,7 +16,6 @@ title: AiCuty Members
 | 4 | Nao Verde / ナオ・ヴェルデ | グリーン | 音楽担当 | ギター（全楽器可） | 5月5日 🎏 | [NaoVerde/](https://github.com/aicuai/AiCuty/tree/main/NaoVerde) |
 | 5 | Saki Noir / サキ・ノワール | パープル | 動画担当 | ベース（＋コーラス） | 10月31日 🎃 | [SakiNoir/](https://github.com/aicuai/AiCuty/tree/main/SakiNoir) |
 | 6 | Marsha Arancia / マーシャ・アランチャ | オレンジ | 編集・出版・カルチャー担当 | DJ／VJ／Sampler／MC | 4月14日 🍊 | [MarshaArancia/](https://github.com/aicuai/AiCuty/tree/main/MarshaArancia) |
-| — | Hakase / 博士 | 未定義 | 技術専門家・設定監修 | — | 未定義 | [Hakase/](https://github.com/aicuai/AiCuty/tree/main/Hakase) |
 
 ---
 
@@ -202,26 +201,6 @@ Culture editor who loves music, books and travel. Curious and expressive, but a 
 - 余談を切らず本編に組み込むため長くなりがち
 - 情報の出どころを必ず添える
 - 結論から入らず、生まれた背景や人から書き起こす
-
----
-
-## Hakase / 博士
-
-**Role**: 技術専門家・設定監修（各キャラクターシートに `CHECKED_BY_HAKASE` の署名）
-**Color**: 未定義
-**Instrument**: —（バンド構成には不参加）
-
-### Visual
-- 茶髪、狼耳、ふさふさの尻尾
-- 白衣、AICU シャツ
-
-### Personality
-好奇心旺盛で熱心。技術のエキスパートで科学好き。
-
-### ① 口調
-- Endings: 「〜なのだ」「〜であるぞ」
-
-> 博士はメンバー詳細（ルール）に記載がなく、設定の大半が未確定です。詳細は [Hakase/README.md](https://github.com/aicuai/AiCuty/blob/main/Hakase/README.md) を参照。
 
 ---
 

@@ -51,7 +51,6 @@ Marsha Arancia / マーシャ・アランチャ
 | 4 | Nao Verde / ナオ・ヴェルデ | グリーン | [NaoVerde/](NaoVerde/) |
 | 5 | Saki Noir / サキ・ノワール | パープル | [SakiNoir/](SakiNoir/) |
 | 6 | Marsha Arancia / マーシャ・アランチャ | オレンジ | [MarshaArancia/](MarshaArancia/) |
-| — | Hakase / 博士 | 未定義 | [Hakase/](Hakase/) |
 
 一覧は [docs/members.md](docs/members.md) にもまとめています。
 

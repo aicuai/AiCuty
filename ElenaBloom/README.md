@@ -73,6 +73,8 @@ AiCutyのセンター。頑張り屋さんで恥ずかしがり屋さん。
 | Clip Skip | 2 |
 | Seed | 798458095628920 |
 
+※ Seed は [Mina Azure](../MinaAzure/README.md) と共通の値を使用します（意図的な共有。誤記ではありません）。
+
 ### Positive Prompt
 
 ```
@@ -138,5 +140,4 @@ inconsistent outfit, duplicate costume
 
 - **担当名称の表記ゆれ**: ルール文書「LLM×SNS活用・ビジュアル担当」／リポジトリ README「インフルエンサー・ビジュアル担当」／docs/members.md「Center / Influencer & Visual Specialist」。本シートはルール文書を採用。
 - **口調の使い分け**: 会話時「〜だよ」「〜なの」に対し、AICU media 記事執筆時は「〜しましょう」「ステップ1は〜」。文脈による使い分けとして整理したが、正式な切り分け基準は要確認。
-- **Seed の重複**: Elena と [Mina Azure](../MinaAzure/README.md) が同一 Seed（798458095628920）。原本 README 由来のため意図的か転記ミスか要確認。
 - Marsha Arancia からの呼ばれ方は「エレナ」（[MarshaArancia/README.md](../MarshaArancia/README.md) で定義済み）。Elena から Marsha への呼び方は未定義。
