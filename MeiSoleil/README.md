@@ -171,6 +171,13 @@ studio lighting, shadows, background objects, scene props
 
 ---
 
+## クレジット
+
+- キャラクターデザイン: [ジュニ](https://x.com/jAlpha_create) さん
+- ちびキャラ版デザイン: [TORAKO](https://x.com/toratorako123) さん
+
+---
+
 ## 要確認項目
 
 - Negative Prompt に `twin tails` が含まれるため、Elena との描き分けは担保されているが、メイ自身のサイドポニーテール指定と衝突しないか（現行運用で問題が出ていなければそのまま）。

@@ -54,6 +54,11 @@ Marsha Arancia / マーシャ・アランチャ
 
 一覧は [docs/members.md](docs/members.md) にもまとめています。
 
+### デザインクレジット
+
+- 既存5キャラクター（Elena Bloom / Mei Soleil / Mina Azure / Nao Verde / Saki Noir）のキャラクターデザイン: **[ジュニ](https://x.com/jAlpha_create) さん**
+- ちびキャラ版デザイン: **[TORAKO](https://x.com/toratorako123) さん**
+
 ### バンド構成の場合
 
 - ドラム：メイ（コーラスも担当）

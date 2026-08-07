@@ -137,6 +137,13 @@ frame, border, overly long cape, overly dark colors, no uniform
 
 ---
 
+## クレジット
+
+- キャラクターデザイン: [ジュニ](https://x.com/jAlpha_create) さん
+- ちびキャラ版デザイン: [TORAKO](https://x.com/toratorako123) さん
+
+---
+
 ## 要確認項目
 
 - **担当名称は「調査・分析・倫理・法律担当」で確定**（2026-08-07）。従来 [README.md](../README.md) 側で「調査・分析倫理担当」と「法律」が欠落していたため追加済み。

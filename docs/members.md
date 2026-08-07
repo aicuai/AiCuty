@@ -17,6 +17,11 @@ title: AiCuty Members
 | 5 | Saki Noir / サキ・ノワール | パープル | 動画担当 | ベース（＋コーラス） | 10月31日 🎃 | [SakiNoir/](https://github.com/aicuai/AiCuty/tree/main/SakiNoir) |
 | 6 | Marsha Arancia / マーシャ・アランチャ | オレンジ | 編集・出版・カルチャー担当 | DJ／VJ／Sampler／MC | 4月14日 🍊 | [MarshaArancia/](https://github.com/aicuai/AiCuty/tree/main/MarshaArancia) |
 
+## デザインクレジット
+
+- 既存5キャラクター（Elena Bloom / Mei Soleil / Mina Azure / Nao Verde / Saki Noir）のキャラクターデザイン: **[ジュニ](https://x.com/jAlpha_create) さん**
+- ちびキャラ版デザイン: **[TORAKO](https://x.com/toratorako123) さん**
+
 ---
 
 ## Elena Bloom / エレナ・ブルーム

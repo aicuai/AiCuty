@@ -129,6 +129,13 @@ inconsistent outfit, duplicate costume, frilly white dress, fluffy skirt
 
 ---
 
+## クレジット
+
+- キャラクターデザイン: [ジュニ](https://x.com/jAlpha_create) さん
+- ちびキャラ版デザイン: [TORAKO](https://x.com/toratorako123) さん
+
+---
+
 ## 要確認項目
 
 - **ワークフローファイル名の誤記**: `AiCuty-Workflows/AiCutu_SakiNoir.json` は `AiCuty` が **`AiCutu`** になっている。他4人は `AiCuty_` で統一されているため誤記と思われるが、外部リンク切れを避けるため本 PR では改名していない。改名の可否を要判断。

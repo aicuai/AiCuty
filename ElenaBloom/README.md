@@ -136,6 +136,13 @@ inconsistent outfit, duplicate costume
 
 ---
 
+## クレジット
+
+- キャラクターデザイン: [ジュニ](https://x.com/jAlpha_create) さん
+- ちびキャラ版デザイン: [TORAKO](https://x.com/toratorako123) さん
+
+---
+
 ## 要確認項目
 
 - **担当名称の表記ゆれ**: ルール文書「LLM×SNS活用・ビジュアル担当」／リポジトリ README「インフルエンサー・ビジュアル担当」／docs/members.md「Center / Influencer & Visual Specialist」。本シートはルール文書を採用。

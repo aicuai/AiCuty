@@ -136,6 +136,13 @@ ribbons, accessories, charms, props, gadgets
 
 ---
 
+## クレジット
+
+- キャラクターデザイン: [ジュニ](https://x.com/jAlpha_create) さん
+- ちびキャラ版デザイン: [TORAKO](https://x.com/toratorako123) さん
+
+---
+
 ## 要確認項目
 
 - **担当名称の表記ゆれ**: ルール文書「音楽担当」／リポジトリ README「音楽・開発技術担当」／docs/members.md「Music & Development Tech Specialist」。本シートはルール文書を採用したが、AICU media 側では「コード解説・開発者向け」を担当しており開発技術の要素は残る。正式名称の確定が必要。
