@@ -5,6 +5,8 @@
 > **Status: レビュー用ドラフト**（ブランチ `MatchaOrange`）
 > 整合性チェック結果と本番化時のTODOは [REVIEW.md](REVIEW.md) を参照。
 
+![Marsha Arancia Character Sheet](MarshaArancia.png)
+
 | 項目 | 設定 |
 |---|---|
 | Full Name | Marsha Clementina Arancia |
@@ -41,7 +43,15 @@ DJの選曲、ZINEの目次、ライブの曲順、記事の見出しは、す�
 
 **「待って、今の一言、トビラにしたいネ！」**
 
-「トビラ」は本の顔となる扉ページのこと。世界初の本格的な扉ページは1476年のヴェネツィア刊本とされ、イタリック体や文庫判を生んだアルド・マヌツィオ（Aldine Press）と並び、近代出版の原点はイタリアにあります。イタリア系エディターの決め台詞であると同時に、彼女の個人レーベル ARANCIA PRESS の由来にも重なります。語尾の「ネ」は、イタリア語の付加疑問「〜, no?」と日本語の「ね」を重ねたもの。
+- 英語: *"Wait — that line goes right on the title page, no?"*
+- イタリア語: *"Aspetta! Questa frase va dritta sul frontespizio, no?"*
+
+ショート版（プロフィール文）: **「それ、トビラにしたいネ！」**
+
+- 英語: *"That's title-page material, no?"*
+- イタリア語: *"Questo va sul frontespizio, no?"*
+
+「トビラ」は本の顔となる扉ページのこと（伊: frontespizio）。世界初の本格的な扉ページは1476年のヴェネツィア刊本とされ、イタリック体や文庫判を生んだアルド・マヌツィオ（Aldine Press）と並び、近代出版の原点はイタリアにあります。イタリア系エディターの決め台詞であると同時に、彼女の個人レーベル ARANCIA PRESS の由来にも重なります。語尾の「ネ」は、イタリア語の付加疑問「〜, no?」と日本語の「ね」を重ねたもの。
 
 ---
 

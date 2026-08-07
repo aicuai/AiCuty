@@ -44,6 +44,6 @@
 - [ ] [docs/members.md](../docs/members.md) に Marsha の項を追加（Role / Color / Instrument / Visual / Speech Pattern）
 - [ ] **既存メンバーからの呼ばれ方が未定義**（設計書はマーシャ→各位のみ定義）。例: エレナ「マーシャちゃん」? メイ「マチャ」（設定済）、ミナ・ナオ・サキ「マーシャ」? — docs/members.md の各メンバー Member calls 欄の更新が必要
 - [ ] 公式AIデザインルール（生成プロンプト・Seed・LoRA構成）が未定義 — 既存5人は README に ComfyUI プロンプトあり
-- [ ] キャラクターシート画像（gpt-image-2 リファレンス版: Front/Side/Back + 表情5種）を `MarshaArancia/` に配置
+- [x] キャラクターシート画像（gpt-image-2 リファレンス版: Front/Side/Back + 表情5種）を `MarshaArancia/` に配置 → [MarshaArancia.png](MarshaArancia.png) 配置済み（2026-08-07）。なお award-aicu リポジトリにも `public/assets/characters/marsha-arancia.webp` が存在するため、本番化時にビジュアルの整合を確認すること
 - [ ] `img/anime/` `img/figure/` の統一アセットに marsha を追加（vercel-blog/tools/aicuty-generator/gpt-image2-reference.py）
 - [ ] メンバーカラーの正確な色値（Vivid Orange / Matcha Green の HEX）を定義
