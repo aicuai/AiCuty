@@ -60,6 +60,7 @@ Marsha Arancia / マーシャ・アランチャ
 - ちびキャラ版デザイン: **[TORAKO](https://x.com/toratorako123) さん**
 - Marsha Arancia 原案キャラクターデザイン: **抹茶オレンジ さん（[@MATCHA_ORANGE_](https://x.com/MATCHA_ORANGE_)）**
   作品名「本を買った帰り道」／[C2606 ざすこ賞（道草雑草子 選）](https://cert.aicu.ai/v?id=C2606-3)受賞（かわいい！AIキャラクターオーディション）
+- Marsha Arancia ちびキャラ版シート画像: **AICU Draft Edition**（作者確認中）
 
 ### バンド構成の場合
 

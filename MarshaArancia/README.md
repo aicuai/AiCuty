@@ -332,7 +332,8 @@ Sakiが作った映像へ、マーシャが文字や引用を重ねます。マ�
 
 ## クレジット
 
-原案キャラクターデザイン: **抹茶オレンジ さん（[@MATCHA_ORANGE_](https://x.com/MATCHA_ORANGE_)）**
+- 原案キャラクターデザイン: **抹茶オレンジ さん（[@MATCHA_ORANGE_](https://x.com/MATCHA_ORANGE_)）**
+- ちびキャラ版シート画像（[MarshaArancia.png](MarshaArancia.png)）: **AICU Draft Edition**（作者確認中）
 
 | 項目 | 内容 |
 |---|---|
