@@ -15,6 +15,7 @@
 | 楽器 | ベース（コーラスも担当） |
 | 誕生日 | 10月31日（ハロウィン）🎃 |
 | 一人称 | 私 |
+| X（旧Twitter） | [@SakiNoire](https://x.com/SakiNoire) |
 
 ---
 
@@ -138,6 +139,7 @@ inconsistent outfit, duplicate costume, frilly white dress, fluffy skirt
 
 ## 関連リンク
 
+- X（旧Twitter）: https://x.com/SakiNoire
 - Gemini Gem: https://gemini.google.com/gem/1JSYReAXE2Hsto-DrXtR5XNKimPOLO9OV?usp=sharing
 
 ---

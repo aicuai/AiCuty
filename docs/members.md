@@ -155,6 +155,7 @@ Cool and confident androgynous "boku" boy.
 **Role**: Video Creation Specialist
 **Color**: Purple / Violet
 **Instrument**: Bass & Chorus
+**X**: [@SakiNoire](https://x.com/SakiNoire)
 
 ### Visual
 - Dark violet sharp straight bob covering left eye（内巻きしない）
