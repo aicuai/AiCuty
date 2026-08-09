@@ -12,20 +12,21 @@ title: AiCuty - AI Idol Project
 ## About AiCuty
 
 AiCutyは、AICU Japanが運営する「人とAIが協力して創るアイドルプロジェクト」です。
-5人のメンバーそれぞれが異なる専門分野を持ち、AIアートやコンテンツ制作の可能性を探求しています。
+6人のメンバーそれぞれが異なる専門分野を持ち、AIアートやコンテンツ制作の可能性を探求しています。
 
 AiCuty is an idol project created through collaboration between humans and AI, operated by AICU Japan.
-Each of the five members has different specialties, exploring the possibilities of AI art and content creation.
+Each of the six members has different specialties, exploring the possibilities of AI art and content creation.
 
 ## Members
 
 | Member | Role | Instrument |
 |--------|------|------------|
-| [Elena Bloom](members.md#elena-bloom) | Center / Influencer & Visual | Lead Vocal |
-| [Mei Soleil](members.md#mei-soleil) | Key Visual & Image Generation | Drums & Chorus |
-| [Mina Azure](members.md#mina-azure) | Research, Analysis & Ethics | Keyboard & Chorus |
-| [Nao Verde](members.md#nao-verde) | Music & Development | Guitar (Multi-instrumentalist) |
-| [Saki Noir](members.md#saki-noir) | Video Creation | Bass & Chorus |
+| [Elena Bloom](members.md) | Center / LLM×SNS & Visual | Lead Vocal |
+| [Mei Soleil](members.md) | Key Visual & Image Generation | Drums & Chorus |
+| [Mina Azure](members.md) | Research, Analysis, Ethics & Law | Keyboard & Chorus |
+| [Nao Verde](members.md) | Music | Guitar (Multi-instrumentalist) |
+| [Saki Noire](members.md) | Video Creation | Bass & Chorus |
+| [Marsha Arancia](members.md) | Editorial, Publishing & Culture | DJ / VJ / Sampler / MC |
 
 ## Resources
 
@@ -36,6 +37,7 @@ Each of the five members has different specialties, exploring the possibilities 
 ## Links
 
 - Official Site: [https://www.aicu.jp/aicuty](https://www.aicu.jp/aicuty)
+- Music (TuneCore): [https://www.tunecore.co.jp/artists/AiCuty](https://www.tunecore.co.jp/artists/AiCuty)
 - Guidelines: [https://www.aicu.jp/terms/aicuty-guideline](https://www.aicu.jp/terms/aicuty-guideline)
 - Community License Form: [https://j.aicu.ai/F-aicuty](https://j.aicu.ai/F-aicuty)
 

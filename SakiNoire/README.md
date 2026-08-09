@@ -1,14 +1,14 @@
 # AiCuty Character Sheet No.5
 
-## Saki Noir / サキ・ノワール
+## Saki Noire / サキ・ノワール
 
-![Saki Noir Character Sheet](SakiNoir.png)
+![Saki Noire Character Sheet](SakiNoire.png)
 
-> 本シートは [AiCuty メンバー詳細（ルール）](https://docs.google.com/document/d/1i0EHSfAuAzHho8rhhaRLuPZR1Td6ASij98TWWduz7DE/edit) を正本として、リポジトリ内の既存記述（[README.md](../README.md) / [docs/members.md](../docs/members.md)）と統合したものです。相違点は末尾の「要確認項目」に記載。
+> 本シートは AICU 社内のキャラクター設定資料を正本として、リポジトリ内の既存記述（[README.md](../README.md) / [docs/members.md](../docs/members.md)）と統合したものです。相違点は末尾の「要確認項目」に記載。
 
 | 項目 | 設定 |
 |---|---|
-| 名前 | Saki Noir |
+| 名前 | Saki Noire |
 | 表記 | サキ・ノワール |
 | 担当 | 動画担当 |
 | メンバーカラー | パープル／ヴァイオレット |
@@ -29,7 +29,9 @@
 
 ## 性格
 
-ミステリアスでクリエイター気質。
+ミステリアスでクリエイター気質。**アーティスト**。
+
+喋ると優しいけれど、歌うと**ハスキーボイス**まで出せる。
 
 ---
 
@@ -41,6 +43,7 @@
 - メンバー呼び: 呼び捨て（エレナ、メイ、ミナ、ナオ）
 - 語尾: 「〜ね」「〜かな」「〜でしょ」
 - 落ち着いた声、淡々。**語尾を伸ばさない**
+- 喋ると優しい声だが、歌うとハスキーボイスまで出せる
 
 ### ② 文体のクセ
 
@@ -54,8 +57,18 @@
 
 クリエイティブで表現豊か。動画制作やビジュアル系が得意。
 
-- 口調: 「〜って感じ！」「映えるよね〜」
+- 口調: 「〜って感じ！」「映えるよね〜」（**記事執筆時の口調として確定**。会話時の淡々とした口調とは使い分ける）
 - 得意: 動画制作、ビジュアル、クリエイティブツール
+
+---
+
+## 楽曲
+
+| 楽曲 | リンク |
+|---|---|
+| 人工現実モラトリアム（英語版） | [各種配信サービス](https://linkco.re/qcrsSBu3?lang=ja) ／ [YouTube Music](https://music.youtube.com/watch?v=GgK3HGVu1nc) |
+
+- AiCuty アーティストページ（TuneCore）: https://www.tunecore.co.jp/artists/AiCuty
 
 ---
 
@@ -74,7 +87,7 @@
 ### Positive Prompt
 
 ```
-# 構図と品質 Saki Noir（サキ・ノワール）
+# 構図と品質 Saki Noire（サキ・ノワール）
 1girl, solo, full body, centered composition, standing pose, masterpiece, best quality, anime style,
 
 # 髪型（シャープで内巻きしないストレートボブ、左目にかかる前髪）
@@ -114,7 +127,7 @@ inconsistent outfit, duplicate costume, frilly white dress, fluffy skirt
 
 ### ComfyUI ワークフロー
 
-- [AiCutu_SakiNoir.json](../AiCuty-Workflows/AiCutu_SakiNoir.json)（[raw](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/AiCuty-Workflows/AiCutu_SakiNoir.json)）
+- [AiCuty_SakiNoire.json](../AiCuty-Workflows/AiCuty_SakiNoire.json)（[raw](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/AiCuty-Workflows/AiCuty_SakiNoire.json)）
 
 ---
 
@@ -136,8 +149,13 @@ inconsistent outfit, duplicate costume, frilly white dress, fluffy skirt
 
 ---
 
+## 決定事項（2026-08-10）
+
+- **表記は「Saki Noire」で確定**。従来リポジトリ全体で「Saki Noir」と誤記されていたため、ディレクトリ名（`SakiNoir/` → `SakiNoire/`）・画像ファイル名・全 Markdown を一括修正した。日本語表記「サキ・ノワール」は変更なし。
+- **ワークフローファイル名を修正**: `AiCutu_SakiNoir.json` → **`AiCuty_SakiNoire.json`**（`AiCuty` の誤記 `AiCutu` もあわせて解消）。
+- **口調の使い分けを確定**: AICU media 記事執筆時は「〜って感じ！」「映えるよね〜」を使用する。会話時の「落ち着いた声、淡々、語尾を伸ばさない」とは文脈で使い分ける。
+
 ## 要確認項目
 
-- **ワークフローファイル名の誤記**: `AiCuty-Workflows/AiCutu_SakiNoir.json` は `AiCuty` が **`AiCutu`** になっている。他4人は `AiCuty_` で統一されているため誤記と思われるが、外部リンク切れを避けるため本 PR では改名していない。改名の可否を要判断。
-- **口調の使い分け**: 会話時は「落ち着いた声、淡々、語尾を伸ばさない」に対し、AICU media 記事では「〜って感じ！」「映えるよね〜」と伸ばす表記がある。文脈による切り分けか、記事側の記述を更新すべきか要確認。
+- **生成プロンプト内の表記**: 上記 Positive Prompt 冒頭のラベル行は、承認済みリファレンス画像の生成時に使用した表記のまま `Saki Noire` に更新している。ワークフロー JSON 側のプロンプトにキャラクター名は含まれないため再現性への影響はない。
 - Marsha Arancia からは「サキ」と呼ばれる。Saki から Marsha への呼び方は未定義。

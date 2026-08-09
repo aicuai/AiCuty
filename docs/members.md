@@ -5,7 +5,7 @@ title: AiCuty Members
 
 # AiCuty Members
 
-> 口調・文体のクセの正本は [AiCuty メンバー詳細（ルール）](https://docs.google.com/document/d/1i0EHSfAuAzHho8rhhaRLuPZR1Td6ASij98TWWduz7DE/edit) です。
+> 口調・文体のクセの正本は AICU 社内のキャラクター設定資料です。
 > 各メンバーの詳細シート（ビジュアル・生成プロンプト・Seed・ワークフロー）はリポジトリ内の個別ディレクトリを参照してください。
 
 | No. | メンバー | カラー | 担当 | 楽器 | 誕生日 | 詳細シート |
@@ -14,12 +14,12 @@ title: AiCuty Members
 | 2 | Mei Soleil / メイ・ソレイユ | 黄色 | キービジュアル＆画像担当 | ドラム（＋コーラス） | 7月21日 ☀️ | [MeiSoleil/](https://github.com/aicuai/AiCuty/tree/main/MeiSoleil) |
 | 3 | Mina Azure / ミナ・アズール | ブルー | 調査・分析・倫理・法律担当 | キーボード（＋コーラス） | 10月1日 ⚖️ | [MinaAzure/](https://github.com/aicuai/AiCuty/tree/main/MinaAzure) |
 | 4 | Nao Verde / ナオ・ヴェルデ | グリーン | 音楽担当 | ギター（全楽器可） | 5月5日 🎏 | [NaoVerde/](https://github.com/aicuai/AiCuty/tree/main/NaoVerde) |
-| 5 | Saki Noir / サキ・ノワール | パープル | 動画担当 | ベース（＋コーラス） | 10月31日 🎃 | [SakiNoir/](https://github.com/aicuai/AiCuty/tree/main/SakiNoir) |
+| 5 | Saki Noire / サキ・ノワール | パープル | 動画担当 | ベース（＋コーラス） | 10月31日 🎃 | [SakiNoire/](https://github.com/aicuai/AiCuty/tree/main/SakiNoire) |
 | 6 | Marsha Arancia / マーシャ・アランチャ | オレンジ | 編集・出版・カルチャー担当 | DJ／VJ／Sampler／MC | 4月14日 🍊 | [MarshaArancia/](https://github.com/aicuai/AiCuty/tree/main/MarshaArancia) |
 
 ## デザインクレジット
 
-- 既存5キャラクター（Elena Bloom / Mei Soleil / Mina Azure / Nao Verde / Saki Noir）のキャラクターデザイン: **[ジュニ](https://x.com/jAlpha_create) さん**
+- 既存5キャラクター（Elena Bloom / Mei Soleil / Mina Azure / Nao Verde / Saki Noire）のキャラクターデザイン: **[ジュニ](https://x.com/jAlpha_create) さん**
 - ちびキャラ版デザイン: **[TORAKO](https://x.com/toratorako123) さん**
 - Marsha Arancia 原案キャラクターデザイン: **抹茶オレンジ さん（[@MATCHA_ORANGE_](https://x.com/MATCHA_ORANGE_)）**
   作品名「本を買った帰り道」／[C2606 ざすこ賞（道草雑草子 選）](https://cert.aicu.ai/v?id=C2606-3)受賞（かわいい！AIキャラクターオーディション）
@@ -150,7 +150,7 @@ Cool and confident androgynous "boku" boy.
 
 ---
 
-## Saki Noir / サキ・ノワール
+## Saki Noire / サキ・ノワール
 
 **Role**: Video Creation Specialist
 **Color**: Purple / Violet
@@ -163,9 +163,9 @@ Cool and confident androgynous "boku" boy.
 - Cool, slightly sexy atmosphere
 
 ### Personality
-ミステリアスでクリエイター気質。
+ミステリアスでクリエイター気質。アーティスト。喋ると優しいけれど、歌うとハスキーボイスまで出せる。
 
-Mysterious and creative.
+Mysterious and creative. An artist — gentle when speaking, but can reach a husky voice when singing.
 
 ### ① 口調
 - First person: 私
@@ -177,6 +177,7 @@ Mysterious and creative.
 - 抽象表現や比喩
 - 改行少なめ
 - ぼそっと辛口もOK
+- AICU media 記事執筆時は「〜って感じ！」「映えるよね〜」（会話時の淡々とした口調とは使い分け）
 
 ---
 
