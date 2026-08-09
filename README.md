@@ -16,7 +16,7 @@ https://www.aicu.jp/terms/aicuty-guideline
 
 Elena Bloom / エレナ・ブルーム
 AiCutyのセンター​。頑張り屋さんで恥ずかしがり屋さん。​
-インフルエンサー・ビジュアル担当
+LLM×SNS活用・ビジュアル担当
 
 Mei Soleil / メイ・ソレイユ
 元気いっぱいのムードメーカー！ダンスが得意
@@ -24,15 +24,40 @@ Mei Soleil / メイ・ソレイユ
 
 Mina Azure / ミナ・アズール
 控えめで知的なメガネっ子
-調査・分析倫理担当
+調査・分析・倫理・法律担当
 
 Nao Verde / ナオ・ヴェルデ
 中性的で自信ありげな“僕”男子
-音楽・開発技術担当
+音楽担当
 
 Saki Noir / サキ・ノワール
 ミステリアスでクリエイター気質
 動画担当
+
+Marsha Arancia / マーシャ・アランチャ
+音楽と書籍と旅を愛するカルチャーエディター
+編集・出版・カルチャー担当
+
+### メンバー詳細シート
+
+口調・文体のクセの正本は [AiCuty メンバー詳細（ルール）](https://docs.google.com/document/d/1i0EHSfAuAzHho8rhhaRLuPZR1Td6ASij98TWWduz7DE/edit)。
+ビジュアル・生成プロンプト・Seed・ワークフローを含む詳細は各ディレクトリを参照してください。
+
+| No. | メンバー | カラー | 詳細シート |
+|---|---|---|---|
+| 1 | Elena Bloom / エレナ・ブルーム | ピンク | [ElenaBloom/](ElenaBloom/) |
+| 2 | Mei Soleil / メイ・ソレイユ | 黄色 | [MeiSoleil/](MeiSoleil/) |
+| 3 | Mina Azure / ミナ・アズール | ブルー | [MinaAzure/](MinaAzure/) |
+| 4 | Nao Verde / ナオ・ヴェルデ | グリーン | [NaoVerde/](NaoVerde/) |
+| 5 | Saki Noir / サキ・ノワール | パープル | [SakiNoir/](SakiNoir/) |
+| 6 | Marsha Arancia / マーシャ・アランチャ | オレンジ | [MarshaArancia/](MarshaArancia/) |
+
+一覧は [docs/members.md](docs/members.md) にもまとめています。
+
+### デザインクレジット
+
+- 既存5キャラクター（Elena Bloom / Mei Soleil / Mina Azure / Nao Verde / Saki Noir）のキャラクターデザイン: **[ジュニ](https://x.com/jAlpha_create) さん**
+- ちびキャラ版デザイン: **[TORAKO](https://x.com/toratorako123) さん**
 
 ### バンド構成の場合
 
@@ -41,6 +66,7 @@ Saki Noir / サキ・ノワール
 - ギター：ナオ（男声パート含め全ての楽器を担当できます）
 - ベース：サキ（コーラスも担当）
 - リードボーカル：エレナ
+- DJ／VJ／サンプラー／MC：マーシャ（固定楽器パートを持たない第6ポジション。ライブエディット、セットリスト構成）
 
 ### 誕生日
 
@@ -49,6 +75,7 @@ Saki Noir / サキ・ノワール
 - Mina Azure   - 10月1日 (法の日) ⚖️
 - Nao Verde    - 5月5日 (こどもの日) 🎏
 - Saki Noir    - 10月31日 (ハロウィン) 🎃
+- Marsha Arancia - 4月14日 (オレンジデー) 🍊
  
 ### AICU media での担当
 
@@ -81,6 +108,12 @@ Saki Noir / サキ・ノワール
 丁寧で教育的。初心者向けチュートリアルが得意なAiCutyのセンター。                            
 口調: 「〜しましょう」「ステップ1は〜」                                                     
 得意: 初心者向け, ステップバイステップ, 入門記事, SNS        
+
+### Marsha Arancia
+
+カルチャーへの嗅覚が鋭い編集者。書籍・ZINE・同人誌・音楽・イベントを横断し、作品の背景にいる人や思想を紹介する。
+口調: 「それ、記事になる！」「それ、トビラにしたいネ！」
+得意: インタビュー, 書評・選書, ZINE・同人文化, イベント現地取材, タイトル・コピーライティング
 
 ## 公式AIデザインルール
 
@@ -115,7 +148,13 @@ Saki Noir / サキ・ノワール
 
 4. 生成したいキャラクターのワークフローJSONファイルか PNGファイルを入手
 
-- Elena Bloom [JSON](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/ElenaBloom/ElenaBloom.json) [PNG](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/ElenaBloom/ElenaBloom.png)
+- Elena Bloom [JSON](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/AiCuty-Workflows/AiCuty_ElenaBloom.json) [PNG](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/AiCuty-Workflows/ElenaBloom.png)
+- Mei Soleil [JSON](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/AiCuty-Workflows/AiCuty_MeiSoleil.json)
+- Mina Azure [JSON](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/AiCuty-Workflows/AiCuty_MinaAzure.json)
+- Nao Verde [JSON](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/AiCuty-Workflows/AiCuty_NaoVerde.json)
+- Saki Noir [JSON](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/AiCuty-Workflows/AiCutu_SakiNoir.json)
+
+ ※ 各キャラクターの生成プロンプト・Seed は個別ディレクトリの README にも記載しています。
  
 5. ComfyUIを起動して左上の[C]メニューのファイルから読み込み
    
