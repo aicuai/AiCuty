@@ -189,6 +189,7 @@ Mysterious and creative. An artist — gentle when speaking, but can reach a hus
 **Instrument**: DJ / VJ / Sampler / MC
 
 ### Visual
+- **褐色肌**（AiCuty で唯一。既存5人はいずれも明るい肌）
 - 抹茶色のショートボブ、前髪と毛先にオレンジのインナーカラー
 - 黄緑色の瞳、オレンジの星形ハイライト
 - ポップアート風パッチのオーバーサイズパーカー、厚底スニーカー
