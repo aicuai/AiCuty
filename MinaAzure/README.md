@@ -149,3 +149,37 @@ frame, border, overly long cape, overly dark colors, no uniform
 - **担当名称は「調査・分析・倫理・法律担当」で確定**（2026-08-07）。従来 [README.md](../README.md) 側で「調査・分析倫理担当」と「法律」が欠落していたため追加済み。
 - 文体ルール「`**` で強調しない」「箇条書きを避け丸数字」は**ミナ名義で出力する記事・投稿にのみ適用**される制約。本シート自体は設定資料のため通常の Markdown 記法で記述している。
 - Marsha Arancia からは「**ミナさん**」と呼ばれる（唯一の「さん」付け。ファクトチェックを頼む相手として少し畏れているため）。Mina から Marsha への呼び方は未定義。
+
+---
+
+## 公式ボイス
+
+**落ち着いた知的なナレーション。長時間でも聴き疲れしない**
+
+### ボイスサンプル
+
+| 言語 | eleven_v3（推奨） | eleven_multilingual_v2 |
+|---|---|---|
+| 日本語 | [`mina-v3-ja.mp3`](../docs/voice/mina/mina-v3-ja.mp3) | [`mina-v2-ja.mp3`](../docs/voice/mina/mina-v2-ja.mp3) |
+| English | [`mina-v3-en.mp3`](../docs/voice/mina/mina-v3-en.mp3) | [`mina-v2-en.mp3`](../docs/voice/mina/mina-v2-en.mp3) |
+| Français | [`mina-v3-fr.mp3`](../docs/voice/mina/mina-v3-fr.mp3) | [`mina-v2-fr.mp3`](../docs/voice/mina/mina-v2-fr.mp3) |
+
+ブラウザで再生するなら **[AiCuty 公式ボイス一覧](https://aicuai.github.io/AiCuty/voices.html)** が早いです。
+
+### api.aicu.ai から呼ぶ
+
+```bash
+curl -X POST https://api.aicu.ai/v1/audio/speech \
+  -H "Authorization: Bearer $AICU_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"voice": "mina", "model": "eleven_v3", "input": "こんにちは、ミナ・アズールです。調査と分析、そして倫理と法律を担当しています。放…"}' \
+  --output mina.mp3
+```
+
+`voice` に slug を渡すだけで、この声とこの抑揚が返ります。
+**seed は API 側で固定済み**（v3: `101` / v2: `105`）なので、
+指定しなければ毎回おなじ声になります。別の個体が欲しいときだけ `seed` を明示してください。
+
+> `eleven_v3` は本文中に `[cheerfully]` `[excited]` のような audio tag を書くと
+> 感情が乗ります。`eleven_multilingual_v2` はタグを解釈せず読み上げてしまうので、
+> v2 に渡す文面からはタグを外してください。

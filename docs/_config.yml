@@ -9,6 +9,7 @@ theme: minima
 header_pages:
   - index.md
   - members.md
+  - voices.md
   - license.md
 
 # Social links

@@ -198,3 +198,37 @@ inconsistent outfit, duplicate costume, frilly white dress, fluffy skirt
 
 - **生成プロンプト内の表記**: 上記 Positive Prompt 冒頭のラベル行は、承認済みリファレンス画像の生成時に使用した表記のまま `Saki Noire` に更新している。ワークフロー JSON 側のプロンプトにキャラクター名は含まれないため再現性への影響はない。
 - Marsha Arancia からは「サキ」と呼ばれる。Saki から Marsha への呼び方は未定義。
+
+---
+
+## 公式ボイス
+
+**優しさとあやしい魅力がある囁きボイス**
+
+### ボイスサンプル
+
+| 言語 | eleven_v3（推奨） | eleven_multilingual_v2 |
+|---|---|---|
+| 日本語 | [`saki-v3-ja.mp3`](../docs/voice/saki/saki-v3-ja.mp3) | [`saki-v2-ja.mp3`](../docs/voice/saki/saki-v2-ja.mp3) |
+| English | [`saki-v3-en.mp3`](../docs/voice/saki/saki-v3-en.mp3) | [`saki-v2-en.mp3`](../docs/voice/saki/saki-v2-en.mp3) |
+| Français | [`saki-v3-fr.mp3`](../docs/voice/saki/saki-v3-fr.mp3) | [`saki-v2-fr.mp3`](../docs/voice/saki/saki-v2-fr.mp3) |
+
+ブラウザで再生するなら **[AiCuty 公式ボイス一覧](https://aicuai.github.io/AiCuty/voices.html)** が早いです。
+
+### api.aicu.ai から呼ぶ
+
+```bash
+curl -X POST https://api.aicu.ai/v1/audio/speech \
+  -H "Authorization: Bearer $AICU_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"voice": "saki", "model": "eleven_v3", "input": "こんばんは、サキ・ノワールです。動画を担当しています。夜の渋谷を撮るのが、好きな…"}' \
+  --output saki.mp3
+```
+
+`voice` に slug を渡すだけで、この声とこの抑揚が返ります。
+**seed は API 側で固定済み**（v3: `1033` / v2: `1035`）なので、
+指定しなければ毎回おなじ声になります。別の個体が欲しいときだけ `seed` を明示してください。
+
+> `eleven_v3` は本文中に `[cheerfully]` `[excited]` のような audio tag を書くと
+> 感情が乗ります。`eleven_multilingual_v2` はタグを解釈せず読み上げてしまうので、
+> v2 に渡す文面からはタグを外してください。

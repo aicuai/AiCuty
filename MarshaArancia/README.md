@@ -405,3 +405,38 @@ Sakiが作った映像へ、マーシャが文字や引用を重ねます。マ�
 > — 選評より
 
 コードネーム「Matcha Orange」および開発ブランチ名は、原案作者である抹茶オレンジさんのお名前に由来します。
+
+---
+
+## 公式ボイス
+
+**さわやかで聴きやすい元気な女性**
+
+### ボイスサンプル
+
+| 言語 | eleven_v3（推奨） | eleven_multilingual_v2 |
+|---|---|---|
+| 日本語 | [`marsha-v3-ja.mp3`](../docs/voice/marsha/marsha-v3-ja.mp3) | [`marsha-v2-ja.mp3`](../docs/voice/marsha/marsha-v2-ja.mp3) |
+| English | [`marsha-v3-en.mp3`](../docs/voice/marsha/marsha-v3-en.mp3) | [`marsha-v2-en.mp3`](../docs/voice/marsha/marsha-v2-en.mp3) |
+| Español | [`marsha-v3-es.mp3`](../docs/voice/marsha/marsha-v3-es.mp3) | [`marsha-v2-es.mp3`](../docs/voice/marsha/marsha-v2-es.mp3) |
+| Italiano | [`marsha-v3-it.mp3`](../docs/voice/marsha/marsha-v3-it.mp3) | [`marsha-v2-it.mp3`](../docs/voice/marsha/marsha-v2-it.mp3) |
+
+ブラウザで再生するなら **[AiCuty 公式ボイス一覧](https://aicuai.github.io/AiCuty/voices.html)** が早いです。
+
+### api.aicu.ai から呼ぶ
+
+```bash
+curl -X POST https://api.aicu.ai/v1/audio/speech \
+  -H "Authorization: Bearer $AICU_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"voice": "marsha", "model": "eleven_v3", "input": "¡Hola! はじめまして、マーシャ・アランチャです。アタシは国際文化と書籍出版…"}' \
+  --output marsha.mp3
+```
+
+`voice` に slug を渡すだけで、この声とこの抑揚が返ります。
+**seed は API 側で固定済み**（v3: `418` / v2: `414`）なので、
+指定しなければ毎回おなじ声になります。別の個体が欲しいときだけ `seed` を明示してください。
+
+> `eleven_v3` は本文中に `[cheerfully]` `[excited]` のような audio tag を書くと
+> 感情が乗ります。`eleven_multilingual_v2` はタグを解釈せず読み上げてしまうので、
+> v2 に渡す文面からはタグを外してください。

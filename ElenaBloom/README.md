@@ -148,3 +148,37 @@ inconsistent outfit, duplicate costume
 - **担当名称の表記ゆれ**: ルール文書「LLM×SNS活用・ビジュアル担当」／リポジトリ README「インフルエンサー・ビジュアル担当」／docs/members.md「Center / Influencer & Visual Specialist」。本シートはルール文書を採用。
 - **口調の使い分け**: 会話時「〜だよ」「〜なの」に対し、AICU media 記事執筆時は「〜しましょう」「ステップ1は〜」。文脈による使い分けとして整理したが、正式な切り分け基準は要確認。
 - Marsha Arancia からの呼ばれ方は「エレナ」（[MarshaArancia/README.md](../MarshaArancia/README.md) で定義済み）。Elena から Marsha への呼び方は未定義。
+
+---
+
+## 公式ボイス
+
+**落ち着いて聞き取りやすい、標準語の女性ナレーション**
+
+### ボイスサンプル
+
+| 言語 | eleven_v3（推奨） | eleven_multilingual_v2 |
+|---|---|---|
+| 日本語 | [`elena-v3-ja.mp3`](../docs/voice/elena/elena-v3-ja.mp3) | [`elena-v2-ja.mp3`](../docs/voice/elena/elena-v2-ja.mp3) |
+| English | [`elena-v3-en.mp3`](../docs/voice/elena/elena-v3-en.mp3) | [`elena-v2-en.mp3`](../docs/voice/elena/elena-v2-en.mp3) |
+| Français | [`elena-v3-fr.mp3`](../docs/voice/elena/elena-v3-fr.mp3) | [`elena-v2-fr.mp3`](../docs/voice/elena/elena-v2-fr.mp3) |
+
+ブラウザで再生するなら **[AiCuty 公式ボイス一覧](https://aicuai.github.io/AiCuty/voices.html)** が早いです。
+
+### api.aicu.ai から呼ぶ
+
+```bash
+curl -X POST https://api.aicu.ai/v1/audio/speech \
+  -H "Authorization: Bearer $AICU_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"voice": "elena", "model": "eleven_v3", "input": "こんにちは、エレナ・ブルームです。エルエルエムとエスエヌエス活用を担当しています…"}' \
+  --output elena.mp3
+```
+
+`voice` に slug を渡すだけで、この声とこの抑揚が返ります。
+**seed は API 側で固定済み**（v3: `330` / v2: `330`）なので、
+指定しなければ毎回おなじ声になります。別の個体が欲しいときだけ `seed` を明示してください。
+
+> `eleven_v3` は本文中に `[cheerfully]` `[excited]` のような audio tag を書くと
+> 感情が乗ります。`eleven_multilingual_v2` はタグを解釈せず読み上げてしまうので、
+> v2 に渡す文面からはタグを外してください。

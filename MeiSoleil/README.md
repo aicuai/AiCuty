@@ -182,3 +182,37 @@ studio lighting, shadows, background objects, scene props
 
 - Negative Prompt に `twin tails` が含まれるため、Elena との描き分けは担保されているが、メイ自身のサイドポニーテール指定と衝突しないか（現行運用で問題が出ていなければそのまま）。
 - Marsha Arancia からは「メイ」、Marsha を「マチャ」と呼ぶのはメイのみ（[MarshaArancia/README.md](../MarshaArancia/README.md) で定義済み）。
+
+---
+
+## 公式ボイス
+
+**元気で子供でも聴きやすい、明るい少女の声**
+
+### ボイスサンプル
+
+| 言語 | eleven_v3（推奨） | eleven_multilingual_v2 |
+|---|---|---|
+| 日本語 | [`mei-v3-ja.mp3`](../docs/voice/mei/mei-v3-ja.mp3) | [`mei-v2-ja.mp3`](../docs/voice/mei/mei-v2-ja.mp3) |
+| English | [`mei-v3-en.mp3`](../docs/voice/mei/mei-v3-en.mp3) | [`mei-v2-en.mp3`](../docs/voice/mei/mei-v2-en.mp3) |
+| Français | [`mei-v3-fr.mp3`](../docs/voice/mei/mei-v3-fr.mp3) | [`mei-v2-fr.mp3`](../docs/voice/mei/mei-v2-fr.mp3) |
+
+ブラウザで再生するなら **[AiCuty 公式ボイス一覧](https://aicuai.github.io/AiCuty/voices.html)** が早いです。
+
+### api.aicu.ai から呼ぶ
+
+```bash
+curl -X POST https://api.aicu.ai/v1/audio/speech \
+  -H "Authorization: Bearer $AICU_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"voice": "mei", "model": "eleven_v3", "input": "こんにちは、メイ・ソレイユです。メイはキービジュアルと画像を担当しています。一緒…"}' \
+  --output mei.mp3
+```
+
+`voice` に slug を渡すだけで、この声とこの抑揚が返ります。
+**seed は API 側で固定済み**（v3: `721` / v2: `721`）なので、
+指定しなければ毎回おなじ声になります。別の個体が欲しいときだけ `seed` を明示してください。
+
+> `eleven_v3` は本文中に `[cheerfully]` `[excited]` のような audio tag を書くと
+> 感情が乗ります。`eleven_multilingual_v2` はタグを解釈せず読み上げてしまうので、
+> v2 に渡す文面からはタグを外してください。
