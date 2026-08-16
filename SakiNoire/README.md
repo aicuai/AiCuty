@@ -88,7 +88,7 @@
 
 ![Shibuya in the Dark キービジュアル](SakiNoire-20260925-ShibuyaInTheDark.png)
 
-- Saki Noire 名義のソロ楽曲。2025年9月27日公開
+- ソロ楽曲。2025年9月27日公開（発表時は Saki Noir 名義。表記の経緯は下記「追記（2026-08-16）」参照）
 - YouTube: https://youtu.be/GaYYt1cDleY
 - ハッシュタグ: #AiCuty #AIHalloween #AIハロウィーン
 
@@ -177,6 +177,14 @@ inconsistent outfit, duplicate costume, frilly white dress, fluffy skirt
 - **表記は「Saki Noire」で確定**。従来リポジトリ全体で「Saki Noir」と誤記されていたため、ディレクトリ名（`SakiNoir/` → `SakiNoire/`）・画像ファイル名・全 Markdown を一括修正した。日本語表記「サキ・ノワール」は変更なし。
 - **ワークフローファイル名を修正**: `AiCutu_SakiNoir.json` → **`AiCuty_SakiNoire.json`**（`AiCuty` の誤記 `AiCutu` もあわせて解消）。
 - **口調の使い分けを確定**: AICU media 記事執筆時は「〜って感じ！」「映えるよね〜」を使用する。会話時の「落ち着いた声、淡々、語尾を伸ばさない」とは文脈で使い分ける。
+
+## 追記（2026-08-16）: Saki Noir と Saki Noire 混在問題について
+
+**女性的なゴシック・ペルソナを表現するため、意図的に "Noire" の綴りを正式として採用。**
+
+フランスの姓としては Noir / Noire の双方が存在するが、Saki Noire は実在姓名の再現を目的とした命名ではない。女性的なゴシック・ペルソナを表現するため、意図的に女性形の "Noire" という綴りを採用している。楽曲としては「人工現実モラトリアム」より採用。
+
+（Shibuya In The Dark は発表時は Saki Noir）
 
 ## 要確認項目
 
