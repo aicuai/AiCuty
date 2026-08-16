@@ -67,6 +67,7 @@ Marsha Arancia / マーシャ・アランチャ
 AiCuty の楽曲は TuneCore 経由で各種配信サービスにて公開されています。
 
 - AiCuty アーティストページ（TuneCore）: https://www.tunecore.co.jp/artists/AiCuty
+- Shibuya in the Dark - Saki Noire（2025年）: [YouTube](https://youtu.be/GaYYt1cDleY)（キービジュアルは [SakiNoire/](SakiNoire/) を参照）
 - 人工現実モラトリアム（英語版・2026年）: [各種配信サービス](https://linkco.re/qcrsSBu3?lang=ja) ／ [YouTube Music](https://music.youtube.com/watch?v=GgK3HGVu1nc)
 
 ### バンド構成の場合

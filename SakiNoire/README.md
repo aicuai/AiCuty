@@ -67,9 +67,18 @@
 
 | 楽曲 | 年 | リンク |
 |---|---|---|
+| Shibuya in the Dark | 2025年 | [YouTube](https://youtu.be/GaYYt1cDleY) |
 | 人工現実モラトリアム（英語版） | 2026年 | [各種配信サービス](https://linkco.re/qcrsSBu3?lang=ja) ／ [YouTube Music](https://music.youtube.com/watch?v=GgK3HGVu1nc) |
 
 - AiCuty アーティストページ（TuneCore）: https://www.tunecore.co.jp/artists/AiCuty
+
+### Shibuya in the Dark
+
+![Shibuya in the Dark キービジュアル](SakiNoire-20260925-ShibuyaInTheDark.png)
+
+- Saki Noire 名義のソロ楽曲。2025年9月27日公開
+- YouTube: https://youtu.be/GaYYt1cDleY
+- ハッシュタグ: #AiCuty #AIHalloween #AIハロウィーン
 
 ---
 
