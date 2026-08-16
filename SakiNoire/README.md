@@ -160,8 +160,9 @@ inconsistent outfit, duplicate costume, frilly white dress, fluffy skirt
 
 ## 関連リンク
 
-- X（旧Twitter）: https://x.com/SakiNoire
+- X（旧Twitter・公式、2026-08-10 開設）: https://x.com/SakiNoire
 - Gemini Gem: https://gemini.google.com/gem/1JSYReAXE2Hsto-DrXtR5XNKimPOLO9OV?usp=sharing
+- キャラクターページ: https://aicu.ai/character/saki_noire
 
 ---
 
@@ -185,6 +186,9 @@ inconsistent outfit, duplicate costume, frilly white dress, fluffy skirt
 フランスの姓としては Noir / Noire の双方が存在するが、Saki Noire は実在姓名の再現を目的とした命名ではない。女性的なゴシック・ペルソナを表現するため、意図的に女性形の "Noire" という綴りを採用している。楽曲としては「人工現実モラトリアム」より採用。
 
 （Shibuya In The Dark は発表時は Saki Noir）
+
+コミュニティへの宣言ポスト: https://x.com/SakiNoire/status/2086528132698517905
+他リポジトリ・サービスへの反映状況は https://github.com/aicuai/AiCuty/issues/8 に記録する。
 
 ## 要確認項目
 
