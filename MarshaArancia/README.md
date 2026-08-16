@@ -306,7 +306,7 @@ Sakiが「映像作品を作る人」なら、マーシャはその場で映像�
 
 二人とも緑を持ちますが、Naoが「コードと音の深緑」、マーシャが「紙と街の抹茶色」という対比です。
 
-### Saki Noir
+### Saki Noire
 
 ライブ表現を組み立てるクリエイターペア。
 
@@ -332,7 +332,8 @@ Sakiが作った映像へ、マーシャが文字や引用を重ねます。マ�
 
 ## クレジット
 
-原案キャラクターデザイン: **抹茶オレンジ さん（[@MATCHA_ORANGE_](https://x.com/MATCHA_ORANGE_)）**
+- 原案キャラクターデザイン: **抹茶オレンジ さん（[@MATCHA_ORANGE_](https://x.com/MATCHA_ORANGE_)）**
+- ちびキャラ版シート画像（[MarshaArancia.png](MarshaArancia.png)）: **AICU Draft Edition**（作者確認中）
 
 | 項目 | 内容 |
 |---|---|

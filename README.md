@@ -30,7 +30,7 @@ Nao Verde / ナオ・ヴェルデ
 中性的で自信ありげな“僕”男子
 音楽担当
 
-Saki Noir / サキ・ノワール
+Saki Noire / サキ・ノワール
 ミステリアスでクリエイター気質
 動画担当
 
@@ -40,7 +40,7 @@ Marsha Arancia / マーシャ・アランチャ
 
 ### メンバー詳細シート
 
-口調・文体のクセの正本は [AiCuty メンバー詳細（ルール）](https://docs.google.com/document/d/1i0EHSfAuAzHho8rhhaRLuPZR1Td6ASij98TWWduz7DE/edit)。
+口調・文体のクセの正本は AICU 社内のキャラクター設定資料です。
 ビジュアル・生成プロンプト・Seed・ワークフローを含む詳細は各ディレクトリを参照してください。
 
 | No. | メンバー | カラー | 詳細シート |
@@ -49,17 +49,25 @@ Marsha Arancia / マーシャ・アランチャ
 | 2 | Mei Soleil / メイ・ソレイユ | 黄色 | [MeiSoleil/](MeiSoleil/) |
 | 3 | Mina Azure / ミナ・アズール | ブルー | [MinaAzure/](MinaAzure/) |
 | 4 | Nao Verde / ナオ・ヴェルデ | グリーン | [NaoVerde/](NaoVerde/) |
-| 5 | Saki Noir / サキ・ノワール | パープル | [SakiNoir/](SakiNoir/) |
+| 5 | Saki Noire / サキ・ノワール | パープル | [SakiNoire/](SakiNoire/) |
 | 6 | Marsha Arancia / マーシャ・アランチャ | オレンジ | [MarshaArancia/](MarshaArancia/) |
 
 一覧は [docs/members.md](docs/members.md) にもまとめています。
 
 ### デザインクレジット
 
-- 既存5キャラクター（Elena Bloom / Mei Soleil / Mina Azure / Nao Verde / Saki Noir）のキャラクターデザイン: **[ジュニ](https://x.com/jAlpha_create) さん**
+- 既存5キャラクター（Elena Bloom / Mei Soleil / Mina Azure / Nao Verde / Saki Noire）のキャラクターデザイン: **[ジュニ](https://x.com/jAlpha_create) さん**
 - ちびキャラ版デザイン: **[TORAKO](https://x.com/toratorako123) さん**
 - Marsha Arancia 原案キャラクターデザイン: **抹茶オレンジ さん（[@MATCHA_ORANGE_](https://x.com/MATCHA_ORANGE_)）**
   作品名「本を買った帰り道」／[C2606 ざすこ賞（道草雑草子 選）](https://cert.aicu.ai/v?id=C2606-3)受賞（かわいい！AIキャラクターオーディション）
+- Marsha Arancia ちびキャラ版シート画像: **AICU Draft Edition**（作者確認中）
+
+### 楽曲
+
+AiCuty の楽曲は TuneCore 経由で各種配信サービスにて公開されています。
+
+- AiCuty アーティストページ（TuneCore）: https://www.tunecore.co.jp/artists/AiCuty
+- 人工現実モラトリアム（英語版）: [各種配信サービス](https://linkco.re/qcrsSBu3?lang=ja) ／ [YouTube Music](https://music.youtube.com/watch?v=GgK3HGVu1nc)
 
 ### バンド構成の場合
 
@@ -76,7 +84,7 @@ Marsha Arancia / マーシャ・アランチャ
 - Mei Soleil   - 7月21日 (夏) ☀️
 - Mina Azure   - 10月1日 (法の日) ⚖️
 - Nao Verde    - 5月5日 (こどもの日) 🎏
-- Saki Noir    - 10月31日 (ハロウィン) 🎃
+- Saki Noire    - 10月31日 (ハロウィン) 🎃
 - Marsha Arancia - 4月14日 (オレンジデー) 🍊
  
 ### AICU media での担当
@@ -93,7 +101,7 @@ Marsha Arancia / マーシャ・アランチャ
 口調: 「〜ですね」「分析すると〜」                                                          
 得意: ニュース解説, 技術比較, 市場分析                                                      
                                                                                               
-### Saki Noir
+### Saki Noire
 
 クリエイティブで表現豊か。動画制作やビジュアル系が得意
 口調: 「〜って感じ！」「映えるよね〜」
@@ -154,7 +162,7 @@ Marsha Arancia / マーシャ・アランチャ
 - Mei Soleil [JSON](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/AiCuty-Workflows/AiCuty_MeiSoleil.json)
 - Mina Azure [JSON](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/AiCuty-Workflows/AiCuty_MinaAzure.json)
 - Nao Verde [JSON](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/AiCuty-Workflows/AiCuty_NaoVerde.json)
-- Saki Noir [JSON](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/AiCuty-Workflows/AiCutu_SakiNoir.json)
+- Saki Noire [JSON](https://raw.githubusercontent.com/aicuai/AiCuty/refs/heads/main/AiCuty-Workflows/AiCuty_SakiNoire.json)
 
  ※ 各キャラクターの生成プロンプト・Seed は個別ディレクトリの README にも記載しています。
  
@@ -427,7 +435,7 @@ apron, maid outfit, heavy makeup, mature woman, loli,
 frame, border, overly long cape, overly dark colors, no uniform
 ```
 
-## 💜 Saki Noir（サキ・ノワール）
+## 💜 Saki Noire（サキ・ノワール）
 
 Checkpoint：WAI-NSFW-illustrious-SDXL
 LoRA：Niji anime illustrious, EnchantingEyesillustrious , (Gradient Hair)
@@ -439,7 +447,7 @@ Seed：23255246635292
 
 Positive Prompt
 ```
-# 構図と品質 Saki Noir（サキ・ノワール）
+# 構図と品質 Saki Noire（サキ・ノワール）
 1girl, solo, full body, centered composition, standing pose, masterpiece, best quality, anime style,
 
 # 髪型（シャープで内巻きしないストレートボブ、左目にかかる前髪）
