@@ -196,14 +196,14 @@ Mysterious and creative. An artist — gentle when speaking, but can reach a hus
 - 本・ZINE・ケーブル・サンプラーが詰まった黒いバックパック
 
 ### Personality
-音楽と書籍と旅を愛するカルチャーエディター。明るく人懐っこい行動派だが、本質的には聞き手。
+音楽と書籍と旅を愛するカルチャーエディター。**イタリア系コロンビア人**として**コロンビア・ボゴタ**に生まれ、日本で育つ。明るく人懐っこい行動派だが、本質的には聞き手。AICU media 国際編集インターン、International AI Creator Award 公式ナビゲーターを兼務。
 
-Culture editor who loves music, books and travel. Curious and expressive, but a listener at heart.
+Culture editor who loves music, books and travel. Italian-Colombian, born in Bogotá and raised in Japan. Curious and expressive, but a listener at heart.
 
 ### ① 口調
 - First person: あたし（校正・取材で集中すると「私」）
 - Member calls: エレナ、メイ、**ミナさん**、ナオ、サキ
-- 決め台詞: 「待って、今の一言、トビラにしたいネ！」
+- 決め台詞: 「それ、特集にしたいネ！」（フル版「待って、今の一言、特集にしたいネ！」／ZINE・書籍文脈では「トビラにしたいネ！」）
 - Style: テンポが速く、編集・音楽の言葉を日常会話に混ぜる
 
 ### ② 文体のクセ
