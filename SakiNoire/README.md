@@ -12,7 +12,7 @@
 | 表記 | サキ・ノワール |
 | 担当 | 動画担当 |
 | メンバーカラー | パープル／ヴァイオレット |
-| 楽器 | ベース（コーラスも担当） |
+| 楽器 | ベース（コーラスも担当。ボーカルではハスキーボイスも出せる） |
 | 誕生日 | 10月31日（ハロウィン）🎃 |
 | 一人称 | 私 |
 | X（旧Twitter） | [@SakiNoire](https://x.com/SakiNoire) |
@@ -65,9 +65,9 @@
 
 ## 楽曲
 
-| 楽曲 | リンク |
-|---|---|
-| 人工現実モラトリアム（英語版） | [各種配信サービス](https://linkco.re/qcrsSBu3?lang=ja) ／ [YouTube Music](https://music.youtube.com/watch?v=GgK3HGVu1nc) |
+| 楽曲 | 年 | リンク |
+|---|---|---|
+| 人工現実モラトリアム（英語版） | 2026年 | [各種配信サービス](https://linkco.re/qcrsSBu3?lang=ja) ／ [YouTube Music](https://music.youtube.com/watch?v=GgK3HGVu1nc) |
 
 - AiCuty アーティストページ（TuneCore）: https://www.tunecore.co.jp/artists/AiCuty
 

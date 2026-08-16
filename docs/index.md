@@ -25,7 +25,7 @@ Each of the six members has different specialties, exploring the possibilities o
 | [Mei Soleil](members.md) | Key Visual & Image Generation | Drums & Chorus |
 | [Mina Azure](members.md) | Research, Analysis, Ethics & Law | Keyboard & Chorus |
 | [Nao Verde](members.md) | Music | Guitar (Multi-instrumentalist) |
-| [Saki Noire](members.md) | Video Creation | Bass & Chorus |
+| [Saki Noire](members.md) | Video Creation | Bass, Chorus & Vocals |
 | [Marsha Arancia](members.md) | Editorial, Publishing & Culture | DJ / VJ / Sampler / MC |
 
 ## Resources
