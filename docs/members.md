@@ -189,20 +189,22 @@ Mysterious and creative. An artist — gentle when speaking, but can reach a hus
 **Instrument**: DJ / VJ / Sampler / MC
 
 ### Visual
+- **褐色肌**（AiCuty で唯一。既存5人はいずれも明るい肌）
 - 抹茶色のショートボブ、前髪と毛先にオレンジのインナーカラー
 - 黄緑色の瞳、オレンジの星形ハイライト
 - ポップアート風パッチのオーバーサイズパーカー、厚底スニーカー
 - 本・ZINE・ケーブル・サンプラーが詰まった黒いバックパック
+- 校正用の赤鉛筆
 
 ### Personality
-音楽と書籍と旅を愛するカルチャーエディター。明るく人懐っこい行動派だが、本質的には聞き手。
+音楽と書籍と旅を愛するカルチャーエディター。**イタリア系コロンビア人**として**コロンビア・ボゴタ**に生まれ、日本で育つ。明るく人懐っこい行動派だが、本質的には聞き手。AICU media 国際編集インターン、International AI Creator Award 公式ナビゲーターを兼務。
 
-Culture editor who loves music, books and travel. Curious and expressive, but a listener at heart.
+Culture editor who loves music, books and travel. Italian-Colombian, born in Bogotá and raised in Japan. Curious and expressive, but a listener at heart.
 
 ### ① 口調
-- First person: あたし（校正・取材で集中すると「私」）
+- First person: **アタシ**（カタカナ表記が正。校正・取材で集中すると「私」）
 - Member calls: エレナ、メイ、**ミナさん**、ナオ、サキ
-- 決め台詞: 「待って、今の一言、トビラにしたいネ！」
+- 決め台詞: 「それ、特集にしたいネ！」（フル版「待って、今の一言、特集にしたいネ！」／ZINE・書籍文脈では「トビラにしたいネ！」）
 - Style: テンポが速く、編集・音楽の言葉を日常会話に混ぜる
 
 ### ② 文体のクセ
@@ -211,6 +213,8 @@ Culture editor who loves music, books and travel. Curious and expressive, but a 
 - 余談を切らず本編に組み込むため長くなりがち
 - 情報の出どころを必ず添える
 - 結論から入らず、生まれた背景や人から書き起こす
+- 意味より語感で言葉を選ぶ（同義語でも音が良い方を採る）
+- 出版担当として字詰め・レイアウト・書店での見え方にこだわる。校正は赤鉛筆、図版は手描き
 
 ---
 
