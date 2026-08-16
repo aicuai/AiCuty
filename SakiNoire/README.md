@@ -12,7 +12,7 @@
 | 表記 | サキ・ノワール |
 | 担当 | 動画担当 |
 | メンバーカラー | パープル／ヴァイオレット |
-| 楽器 | ベース（コーラスも担当） |
+| 楽器 | ベース（コーラスも担当。ボーカルではハスキーボイスも出せる） |
 | 誕生日 | 10月31日（ハロウィン）🎃 |
 | 一人称 | 私 |
 | X（旧Twitter） | [@SakiNoire](https://x.com/SakiNoire) |
@@ -25,6 +25,18 @@
 - 左目にかかる前髪
 - アメジストパープルの瞳
 - 肩が出る服などのクールで少し色気のある雰囲気
+
+### ギャラリー
+
+#### フルボディ（2026-06-22）
+
+![Saki Noire フルボディ](SakiNoire-20260622.png)
+
+#### ちびキャラ版・シークレットポーズ
+
+![Chibi Saki Noire シークレットポーズ](Chibi_SakiNoire_SecretPose.png)
+
+- ちびキャラ版デザイン: [TORAKO](https://x.com/toratorako123) さん
 
 ---
 
@@ -65,11 +77,20 @@
 
 ## 楽曲
 
-| 楽曲 | リンク |
-|---|---|
-| 人工現実モラトリアム（英語版） | [各種配信サービス](https://linkco.re/qcrsSBu3?lang=ja) ／ [YouTube Music](https://music.youtube.com/watch?v=GgK3HGVu1nc) |
+| 楽曲 | 年 | リンク |
+|---|---|---|
+| Shibuya in the Dark | 2025年 | [YouTube](https://youtu.be/GaYYt1cDleY) |
+| 人工現実モラトリアム（英語版） | 2026年 | [各種配信サービス](https://linkco.re/qcrsSBu3?lang=ja) ／ [YouTube Music](https://music.youtube.com/watch?v=GgK3HGVu1nc) |
 
 - AiCuty アーティストページ（TuneCore）: https://www.tunecore.co.jp/artists/AiCuty
+
+### Shibuya in the Dark
+
+![Shibuya in the Dark キービジュアル](SakiNoire-20260925-ShibuyaInTheDark.png)
+
+- ソロ楽曲。2025年9月27日公開（発表時は Saki Noir 名義。表記の経緯は下記「追記（2026-08-16）」参照）
+- YouTube: https://youtu.be/GaYYt1cDleY
+- ハッシュタグ: #AiCuty #AIHalloween #AIハロウィーン
 
 ---
 
@@ -156,6 +177,14 @@ inconsistent outfit, duplicate costume, frilly white dress, fluffy skirt
 - **表記は「Saki Noire」で確定**。従来リポジトリ全体で「Saki Noir」と誤記されていたため、ディレクトリ名（`SakiNoir/` → `SakiNoire/`）・画像ファイル名・全 Markdown を一括修正した。日本語表記「サキ・ノワール」は変更なし。
 - **ワークフローファイル名を修正**: `AiCutu_SakiNoir.json` → **`AiCuty_SakiNoire.json`**（`AiCuty` の誤記 `AiCutu` もあわせて解消）。
 - **口調の使い分けを確定**: AICU media 記事執筆時は「〜って感じ！」「映えるよね〜」を使用する。会話時の「落ち着いた声、淡々、語尾を伸ばさない」とは文脈で使い分ける。
+
+## 追記（2026-08-16）: Saki Noir と Saki Noire 混在問題について
+
+**女性的なゴシック・ペルソナを表現するため、意図的に "Noire" の綴りを正式として採用。**
+
+フランスの姓としては Noir / Noire の双方が存在するが、Saki Noire は実在姓名の再現を目的とした命名ではない。女性的なゴシック・ペルソナを表現するため、意図的に女性形の "Noire" という綴りを採用している。楽曲としては「人工現実モラトリアム」より採用。
+
+（Shibuya In The Dark は発表時は Saki Noir）
 
 ## 要確認項目
 

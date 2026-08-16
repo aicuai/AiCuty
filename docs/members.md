@@ -14,7 +14,7 @@ title: AiCuty Members
 | 2 | Mei Soleil / メイ・ソレイユ | 黄色 | キービジュアル＆画像担当 | ドラム（＋コーラス） | 7月21日 ☀️ | [MeiSoleil/](https://github.com/aicuai/AiCuty/tree/main/MeiSoleil) |
 | 3 | Mina Azure / ミナ・アズール | ブルー | 調査・分析・倫理・法律担当 | キーボード（＋コーラス） | 10月1日 ⚖️ | [MinaAzure/](https://github.com/aicuai/AiCuty/tree/main/MinaAzure) |
 | 4 | Nao Verde / ナオ・ヴェルデ | グリーン | 音楽担当 | ギター（全楽器可） | 5月5日 🎏 | [NaoVerde/](https://github.com/aicuai/AiCuty/tree/main/NaoVerde) |
-| 5 | Saki Noire / サキ・ノワール | パープル | 動画担当 | ベース（＋コーラス） | 10月31日 🎃 | [SakiNoire/](https://github.com/aicuai/AiCuty/tree/main/SakiNoire) |
+| 5 | Saki Noire / サキ・ノワール | パープル | 動画担当 | ベース（＋コーラス・ボーカル） | 10月31日 🎃 | [SakiNoire/](https://github.com/aicuai/AiCuty/tree/main/SakiNoire) |
 | 6 | Marsha Arancia / マーシャ・アランチャ | オレンジ | 編集・出版・カルチャー担当 | DJ／VJ／Sampler／MC | 4月14日 🍊 | [MarshaArancia/](https://github.com/aicuai/AiCuty/tree/main/MarshaArancia) |
 
 ## デザインクレジット
@@ -154,7 +154,7 @@ Cool and confident androgynous "boku" boy.
 
 **Role**: Video Creation Specialist
 **Color**: Purple / Violet
-**Instrument**: Bass & Chorus
+**Instrument**: Bass, Chorus & Vocals
 **X**: [@SakiNoire](https://x.com/SakiNoire)
 
 ### Visual
@@ -222,7 +222,7 @@ Culture editor who loves music, books and travel. Curious and expressive, but a 
 | Drums | Mei | Chorus も担当 |
 | Keyboard | Mina | Chorus も担当 |
 | Guitar | Nao | 全楽器演奏可能、男声パート |
-| Bass | Saki | Chorus も担当 |
+| Bass | Saki | Chorus・Vocal も担当（ハスキーボイスも出せる） |
 | DJ / VJ / Sampler / MC | Marsha | 固定楽器パートを持たない第6ポジション。ライブエディット・セットリスト構成 |
 
 ---

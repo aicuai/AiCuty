@@ -67,14 +67,15 @@ Marsha Arancia / マーシャ・アランチャ
 AiCuty の楽曲は TuneCore 経由で各種配信サービスにて公開されています。
 
 - AiCuty アーティストページ（TuneCore）: https://www.tunecore.co.jp/artists/AiCuty
-- 人工現実モラトリアム（英語版）: [各種配信サービス](https://linkco.re/qcrsSBu3?lang=ja) ／ [YouTube Music](https://music.youtube.com/watch?v=GgK3HGVu1nc)
+- Shibuya in the Dark - Saki Noire（2025年）: [YouTube](https://youtu.be/GaYYt1cDleY)（キービジュアルは [SakiNoire/](SakiNoire/) を参照）
+- 人工現実モラトリアム（英語版・2026年）: [各種配信サービス](https://linkco.re/qcrsSBu3?lang=ja) ／ [YouTube Music](https://music.youtube.com/watch?v=GgK3HGVu1nc)
 
 ### バンド構成の場合
 
 - ドラム：メイ（コーラスも担当）
 - キーボード：ミナ（コーラスも担当）
 - ギター：ナオ（男声パート含め全ての楽器を担当できます）
-- ベース：サキ（コーラスも担当）
+- ベース：サキ（コーラスも担当。ボーカルではハスキーボイスも出せる）
 - リードボーカル：エレナ
 - DJ／VJ／サンプラー／MC：マーシャ（固定楽器パートを持たない第6ポジション。ライブエディット、セットリスト構成）
 
