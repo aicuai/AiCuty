@@ -32,6 +32,10 @@
 
 ![Saki Noire フルボディ](SakiNoire-20260622.png)
 
+#### ちびキャラ版 V2.0
+
+![Chibi Saki Noire V2.0](Chibi_SakiNoireV2.0.png)
+
 #### ちびキャラ版・シークレットポーズ
 
 ![Chibi Saki Noire シークレットポーズ](Chibi_SakiNoire_SecretPose.png)
