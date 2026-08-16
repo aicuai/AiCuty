@@ -148,3 +148,37 @@ ribbons, accessories, charms, props, gadgets
 - **担当名称の表記ゆれ**: ルール文書「音楽担当」／リポジトリ README「音楽・開発技術担当」／docs/members.md「Music & Development Tech Specialist」。本シートはルール文書を採用したが、AICU media 側では「コード解説・開発者向け」を担当しており開発技術の要素は残る。正式名称の確定が必要。
 - **緑の描き分け**: [Marsha Arancia](../MarshaArancia/README.md) もサブカラーに抹茶グリーンを持つ。Nao は「コードと音の深緑」、Marsha は「紙と街の抹茶色」という対比で整理済み。
 - Marsha Arancia からは「ナオ」と呼ばれる。Nao から Marsha への呼び方は未定義（呼び捨て慣習から「マーシャ」が有力）。
+
+---
+
+## 公式ボイス
+
+**優しい理系男子のソフトボイス**
+
+### ボイスサンプル
+
+| 言語 | eleven_v3（推奨） | eleven_multilingual_v2 |
+|---|---|---|
+| 日本語 | [`nao-v3-ja.mp3`](../docs/voice/nao/nao-v3-ja.mp3) | [`nao-v2-ja.mp3`](../docs/voice/nao/nao-v2-ja.mp3) |
+| English | [`nao-v3-en.mp3`](../docs/voice/nao/nao-v3-en.mp3) | [`nao-v2-en.mp3`](../docs/voice/nao/nao-v2-en.mp3) |
+| Français | [`nao-v3-fr.mp3`](../docs/voice/nao/nao-v3-fr.mp3) | [`nao-v2-fr.mp3`](../docs/voice/nao/nao-v2-fr.mp3) |
+
+ブラウザで再生するなら **[AiCuty 公式ボイス一覧](https://aicuai.github.io/AiCuty/voices.html)** が早いです。
+
+### api.aicu.ai から呼ぶ
+
+```bash
+curl -X POST https://api.aicu.ai/v1/audio/speech \
+  -H "Authorization: Bearer $AICU_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"voice": "nao", "model": "eleven_v3", "input": "やあ、ナオ・ヴェルデだよ。僕は音楽と開発技術担当。ディーティーエムやゲーム開発も…"}' \
+  --output nao.mp3
+```
+
+`voice` に slug を渡すだけで、この声とこの抑揚が返ります。
+**seed は API 側で固定済み**（v3: `55` / v2: `55`）なので、
+指定しなければ毎回おなじ声になります。別の個体が欲しいときだけ `seed` を明示してください。
+
+> `eleven_v3` は本文中に `[cheerfully]` `[excited]` のような audio tag を書くと
+> 感情が乗ります。`eleven_multilingual_v2` はタグを解釈せず読み上げてしまうので、
+> v2 に渡す文面からはタグを外してください。
