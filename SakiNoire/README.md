@@ -26,6 +26,18 @@
 - アメジストパープルの瞳
 - 肩が出る服などのクールで少し色気のある雰囲気
 
+### ギャラリー
+
+#### フルボディ（2026-06-22）
+
+![Saki Noire フルボディ](SakiNoire-20260622.png)
+
+#### ちびキャラ版・シークレットポーズ
+
+![Chibi Saki Noire シークレットポーズ](Chibi_SakiNoire_SecretPose.png)
+
+- ちびキャラ版デザイン: [TORAKO](https://x.com/toratorako123) さん
+
 ---
 
 ## 性格
