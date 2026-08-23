@@ -12,6 +12,7 @@
 | [MarshaArancia-FullBody.png](MarshaArancia-FullBody.png) | 等身大キャラクターシート（Front / 3-4 / Back＋表情5種＋小物＋カラーパレット） |
 | [MarshaArancia-Original.png](MarshaArancia-Original.png) | 原案「本を買った帰り道」（抹茶オレンジ さん） |
 | [img/AiCuty-6.png](../img/AiCuty-6.png) ／ [img/AiCuty-6-peace.png](../img/AiCuty-6-peace.png) | 6人体制の集合ビジュアル |
+| [MarshaArancia-Cover-AICUStudy.png](MarshaArancia-Cover-AICUStudy.png) | AICU STUDY ナビゲーター就任記事のカバーアート（gpt-image-2 生成・191:100） |
 
 | 項目 | 設定 |
 |---|---|

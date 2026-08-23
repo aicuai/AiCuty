@@ -21,10 +21,10 @@ keywords:
   - マーシャ・アランチャ
   - Claude Academy 日本語
   - AI 学習 日本語
-coverImage: https://raw.githubusercontent.com/aicuai/AiCuty/main/MarshaArancia/MarshaArancia-Original.png
-coverImageAlt: 本を抱えて走るマーシャ・アランチャ（原案「本を買った帰り道」／抹茶オレンジ さん）
+coverImage: https://raw.githubusercontent.com/aicuai/AiCuty/main/MarshaArancia/MarshaArancia-Cover-AICUStudy.png
+coverImageAlt: 書店のような書棚の前で、開いた雑誌を抱えて読者を招き入れるマーシャ・アランチャ。耳には校正用の赤鉛筆
 ogImage:
-  url: https://raw.githubusercontent.com/aicuai/AiCuty/main/MarshaArancia/MarshaArancia-Original.png
+  url: https://raw.githubusercontent.com/aicuai/AiCuty/main/MarshaArancia/MarshaArancia-Cover-AICUStudy.png
 ---
 
 ¡Hola! はじめまして、マーシャ・アランチャです。
@@ -43,15 +43,7 @@ AICU STUDY のキャッチコピーは、**「AIを学ぶ日本語リソース�
 
 世界中に散らばっているAI学習教材を、日本語で読める形に整理する。その第一弾が、Anthropic 公式の **Claude Academy 全22講座** の日本語カタログです。
 
-数字で見ると、こう。
-
-| | |
-|---|---|
-| 講座 | **22** |
-| レッスン | **415** |
-| 教材の総時間 | **70時間** |
-| 修了バッジ対応 | **19講座** |
-| 日本語音声つき動画 | **2講座** |
+数字で言うとね。**22講座、415レッスン、ぜんぶで70時間ぶん。** そのうち **19講座が修了バッジ対応**で、**2講座には日本語音声つきの動画**まである。
 
 70時間。……ちょっと待って。70時間ぶんの教材が、いま、日本語のタイトルと要約つきで一覧になっている。それ、特集にしたいネ！
 
