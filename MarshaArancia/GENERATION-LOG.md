@@ -13,6 +13,7 @@
 
 | 出力 | サイズ | quality | プロンプト | 参照画像 | 生成日 |
 |---|---|---|---|---|---|
+| [MarshaArancia-DesignSheet.png](MarshaArancia-DesignSheet.png) | 1536x1024 | high | [platform-api-designsheet-prompt.txt](prompts/platform-api-designsheet-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-24 |
 | [MarshaArancia-PlatformRef.png](MarshaArancia-PlatformRef.png) | 1024x1536 | high | [platform-api-reference-prompt.txt](prompts/platform-api-reference-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-23 |
 | [MarshaArancia-Photo-Headshot.png](MarshaArancia-Photo-Headshot.png) | 1024x1536 | high | [photo-headshot-prompt.txt](prompts/photo-headshot-prompt.txt) | MarshaArancia-Photo-Hero.png ＋ MarshaArancia-FullBody.png | 2026-08-23 |
 | [MarshaArancia-Illustration-Reference.png](MarshaArancia-Illustration-Reference.png) | 1024x1024 | high | [illustration-reference-prompt.txt](prompts/illustration-reference-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-23 |
@@ -53,7 +54,25 @@
 
 ---
 
-## 3. 記録のルール
+## 3. リファレンス画像の方針
+
+**キャラクターリファレンスは「デザインシート」を本命とします。** 全身1枚では複数視点・表情を参照できず、
+別アングルや別表情を生成させたときに破綻します。
+
+| 用途 | 使うもの |
+|---|---|
+| API のキャラクター参照 | [MarshaArancia-DesignSheet.png](MarshaArancia-DesignSheet.png)（3面＋表情5種＋小物） |
+| キーヴィジュアル・記事カバー | [MarshaArancia-PlatformRef.png](MarshaArancia-PlatformRef.png) 等の全身1枚 |
+| 公式設定シート（人間が読む用） | [MarshaArancia-FullBody.png](MarshaArancia-FullBody.png)（ラベルつき） |
+
+デザインシートを作るときの必須条件。
+
+- **文字ラベルを入れない。** 参照画像に読めない文字が入ると、生成物に garbled text が混入する
+- **全パネルで褐色肌を維持**する
+- **全パネルで手を袖・物の後ろに隠す**
+- 3面は同じスケール・同じ目線高さで揃える
+
+## 4. 記録のルール
 
 新しく公式素材を生成したら、次を必ず残します。
 

@@ -13,7 +13,8 @@
 | [MarshaArancia-Original.png](MarshaArancia-Original.png) | 原案「本を買った帰り道」（抹茶オレンジ さん） |
 | [img/AiCuty-6.png](../img/AiCuty-6.png) ／ [img/AiCuty-6-peace.png](../img/AiCuty-6-peace.png) | 6人体制の集合ビジュアル |
 | [MarshaArancia-Cover-AICUStudy.png](MarshaArancia-Cover-AICUStudy.png) | AICU STUDY ナビゲーター就任記事のカバーアート（gpt-image-2 生成・191:100） |
-| [MarshaArancia-PlatformRef.png](MarshaArancia-PlatformRef.png) | platform-api 登録用リファレンス（1024x1536・既存5人と同体裁） |
+| [MarshaArancia-DesignSheet.png](MarshaArancia-DesignSheet.png) | **API リファレンス用デザインシート**（3面＋表情5種＋小物・文字なし） |
+| [MarshaArancia-PlatformRef.png](MarshaArancia-PlatformRef.png) | キーヴィジュアル（1024x1536・全身1枚） |
 | [MarshaArancia-Illustration-Reference.png](MarshaArancia-Illustration-Reference.png) | 汎用リファレンス（1024x1024・白背景） |
 | [MarshaArancia-Photo-Headshot.png](MarshaArancia-Photo-Headshot.png) | 実写版の宣材バストアップ |
 | [MarshaArancia-Photo-Hero.png](MarshaArancia-Photo-Hero.png) | 実写版の全身ヒーローショット |

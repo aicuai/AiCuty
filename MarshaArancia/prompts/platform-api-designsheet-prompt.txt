@@ -1,0 +1,29 @@
+Create an official character design / turnaround sheet of Marsha Arancia, to be used as the reference image for an image-generation API. The sheet must let a model read her from every angle and in several expressions.
+
+Reference role:
+- Image 1 is the definitive illustrated Marsha Arancia character sheet. Preserve her identity exactly: hair silhouette and colours, complexion, eyes, headphones, jacket construction, palette, accessories and backpack. Keep the SAME character in every panel.
+
+CHARACTER:
+Marsha Arancia is a fictional Italian-Colombian young adult woman, approximately 25 years old, born in Bogota and raised in Japan. She is AiCuty's editorial, publishing and culture specialist, and a DJ / VJ.
+- WARM MEDIUM-BROWN GOLDEN SKIN TONE (tan skin). Essential in EVERY panel. Never pale or white skin.
+- Short tousled matcha-green bob with vivid orange inner-layer streaks in the fringe and hair tips
+- One playful upward ahoge on top of her head
+- Bright yellow-green eyes
+- A slim red proofreading pencil tucked behind her ear
+- Orange-and-black over-ear headphones resting around her neck
+- Oversized cropped jacket in green / orange / black covered with editorial pop-art patches and pins, over a black hoodie
+- Black layered pleated skirt over shorts, patterned orange-green checkered socks, chunky multicolor platform sneakers
+- Decorated black backpack stuffed with ZINEs
+
+SHEET LAYOUT (single image, evenly arranged, generous margins):
+- Top row: three FULL-BODY standing views of the same character at the same scale and same eye level — FRONT, THREE-QUARTER, and BACK. Neutral relaxed standing pose, arms close to the body.
+- Bottom row: five HEAD-AND-SHOULDERS expression panels — neutral, happy laughing, shy, surprised, and thoughtful.
+- Small accessory callouts at the lower right: the orange-and-black headphones, an ARANCIA PRESS ZINE, and the decorated black backpack.
+
+HANDS - CRITICAL: No open palms and no splayed fingers anywhere on the sheet. In the full-body views her hands rest naturally against her sides, partly covered by the oversized jacket cuffs. Do not render detailed fingers, knuckles or thumbs.
+
+BACKGROUND: Flat, clean, very light warm-grey studio background across the whole sheet. Even neutral lighting with no strong shadows, so the costume colours read accurately. No scenery.
+
+STYLE: Clean modern anime illustration matching the official AiCuty character art. Confident linework, flat-to-soft cel shading, vibrant editorial pop-art palette of matcha green and vivid orange. Consistent proportions across all panels, roughly 7.5 heads tall in the full-body views.
+
+ABSOLUTELY NO TEXT: no labels, no captions, no letters, no numbers, no logos, no watermark, no signature. The patches on her jacket must be abstract graphic shapes only — no readable words.
