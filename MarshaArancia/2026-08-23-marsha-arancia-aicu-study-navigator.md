@@ -22,7 +22,7 @@ keywords:
   - Claude Academy 日本語
   - AI 学習 日本語
 coverImage: https://raw.githubusercontent.com/aicuai/AiCuty/main/MarshaArancia/MarshaArancia-Cover-AICUStudy.png
-coverImageAlt: 書店のような書棚の前で、開いた雑誌を抱えて読者を招き入れるマーシャ・アランチャ。耳には校正用の赤鉛筆
+coverImageAlt: 書店のような書棚の前で、雑誌と本の束を胸に抱えて笑うマーシャ・アランチャ。耳には校正用の赤鉛筆
 ogImage:
   url: https://raw.githubusercontent.com/aicuai/AiCuty/main/MarshaArancia/MarshaArancia-Cover-AICUStudy.png
 ---
