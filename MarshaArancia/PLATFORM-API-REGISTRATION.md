@@ -32,6 +32,12 @@
 
 ## 2. 登録案
 
+> **提案 PR: https://github.com/aicuai/platform-api-aicu-ai/pull/298**（未マージ）
+>
+> ⚠️ **`character_rights.original_author` は `royalty_pct`（40%・margin ベース）の支払先**です。
+> AICU Inc. 以外を設定すると**ロイヤリティ支払いの対象が発生します**。技術判断ではなく事業判断のため、
+> CEO 承認を得るまでマージしないでください。
+
 ```json
 {
   "slug": "MarshaArancia",
@@ -61,9 +67,14 @@
 
 | ファイル | サイズ | 用途 |
 |---|---|---|
-| [MarshaArancia-Illustration-Reference.png](MarshaArancia-Illustration-Reference.png) | **1024x1024** | **platform-api の reference 画像候補**。白背景・3/4 立ち・全身が読める構図 |
+| [MarshaArancia-PlatformRef.png](MarshaArancia-PlatformRef.png) | **1024x1536** | **platform-api 登録用**。既存5人と同体裁（縦・全身・世界観背景） |
+| [MarshaArancia-Illustration-Reference.png](MarshaArancia-Illustration-Reference.png) | 1024x1024 | 白背景版。汎用リファレンス |
 
-プロンプト: [prompts/illustration-reference-prompt.txt](prompts/illustration-reference-prompt.txt)
+プロンプト: [prompts/platform-api-reference-prompt.txt](prompts/platform-api-reference-prompt.txt) ／ [illustration-reference-prompt.txt](prompts/illustration-reference-prompt.txt)
+
+> **参照画像のサイズは 1024x1536（縦）です。** `GET /v1/images/characters` が返す `size: 1024x1024` は
+> **出力サイズ**であり、参照画像の寸法ではありません。実体は `platform-api-aicu-ai` の
+> `docs/character/*.png` にあり、既存5人はいずれも 1024x1536 の縦構図・世界観背景つき全身イラストです。
 
 ### 実写系フォト（宣材・営業写真）
 
@@ -105,7 +116,8 @@
 
 ## 5. 未確定事項
 
-- [ ] `original_author` の表記（抹茶オレンジさんの扱い。権利まわりの判断が必要）
+- [ ] **`original_author` = 抹茶オレンジ 氏 の可否（ロイヤリティ 40% の支払先になる。CEO 承認必須）**
+- [ ] 料率を既存キャラと同じ 40.0 にしてよいか
 - [ ] `source_url` = `https://aicu.ai/character/marsha_arancia` のページを aicu-ai 側に用意する必要があるか
 - [ ] リファレンス画像を `MarshaArancia-Illustration-Reference.png` で確定してよいか
 - [ ] `ap_cost` / `private_ap_cost` を既存キャラと同額（6400 / 12800）にしてよいか
