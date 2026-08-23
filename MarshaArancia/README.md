@@ -13,6 +13,13 @@
 | [MarshaArancia-Original.png](MarshaArancia-Original.png) | 原案「本を買った帰り道」（抹茶オレンジ さん） |
 | [img/AiCuty-6.png](../img/AiCuty-6.png) ／ [img/AiCuty-6-peace.png](../img/AiCuty-6-peace.png) | 6人体制の集合ビジュアル |
 | [MarshaArancia-Cover-AICUStudy.png](MarshaArancia-Cover-AICUStudy.png) | AICU STUDY ナビゲーター就任記事のカバーアート（gpt-image-2 生成・191:100） |
+| [MarshaArancia-Illustration-Reference.png](MarshaArancia-Illustration-Reference.png) | platform-api 登録用リファレンス（1024x1024・白背景） |
+| [MarshaArancia-Photo-Headshot.png](MarshaArancia-Photo-Headshot.png) | 実写版の宣材バストアップ |
+| [MarshaArancia-Photo-Hero.png](MarshaArancia-Photo-Hero.png) | 実写版の全身ヒーローショット |
+| [MarshaArancia-Photo-Sheet.png](MarshaArancia-Photo-Sheet.png) | 実写版キャスティングシート |
+
+生成プロンプトは [prompts/](prompts/)、platform-api への登録準備は [PLATFORM-API-REGISTRATION.md](PLATFORM-API-REGISTRATION.md) を参照。
+**実写版の Marsha は実在しない架空の人物です**（実在人物の再現・特定は不可）。
 
 | 項目 | 設定 |
 |---|---|

@@ -1,0 +1,26 @@
+Create a clean single-character reference illustration of Marsha Arancia for a character-generation API reference image.
+
+Reference role:
+- Image 1 is the definitive illustrated Marsha Arancia character sheet. Preserve her identity exactly: hair silhouette and colours, complexion, eyes, headphones, jacket construction, palette, accessories and backpack.
+
+CHARACTER:
+Marsha Arancia is a fictional Italian-Colombian young adult woman, approximately 25 years old, born in Bogota and raised in Japan. She is AiCuty's editorial, publishing and culture specialist.
+- WARM MEDIUM-BROWN GOLDEN SKIN TONE (tan skin). This is essential and must never be replaced with pale or white skin.
+- Short tousled matcha-green bob with vivid orange inner-layer streaks in the fringe and hair tips
+- One playful upward ahoge on top of her head
+- Bright yellow-green eyes, warm confident smile
+- A slim red proofreading pencil tucked behind her ear
+- Orange-and-black over-ear headphones resting around her neck
+- Oversized cropped jacket in green / orange / black covered with editorial pop-art patches and pins, over a black hoodie
+- Black layered pleated skirt over shorts
+- Decorated black backpack stuffed with ZINEs
+
+POSE: Standing three-quarter view, upper body down to mid-thigh, turned slightly to camera and looking straight at the viewer. She carries an ARANCIA PRESS art-and-culture ZINE tucked under one arm against her side, that hand fully hidden behind the ZINE. Her other hand is tucked into her jacket pocket.
+
+HANDS - CRITICAL: No open palms and no splayed fingers anywhere. One hand is concealed behind the ZINE, the other is inside a pocket. Do not render visible fingers, knuckles or thumbs.
+
+BACKGROUND: Plain flat white background, no scenery, no props other than the ZINE and backpack, soft even lighting with a subtle contact shadow.
+
+STYLE: Clean modern anime illustration matching the official AiCuty character sheets. Confident linework, flat-to-soft cel shading, vibrant editorial pop-art palette of matcha green and vivid orange. Full character clearly readable and centred with even margins.
+
+No text, no letters, no logos, no watermark, no signature, no border, no additional characters.
