@@ -13,15 +13,15 @@
 
 | 出力 | サイズ | quality | プロンプト | 参照画像 | 生成日 |
 |---|---|---|---|---|---|
-| [MarshaArancia-DesignSheet.png](MarshaArancia-DesignSheet.png) | 1536x1024 | high | [platform-api-designsheet-prompt.txt](prompts/platform-api-designsheet-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-24（v6 採用） |
-| [MarshaArancia-Expression-Cheeks.png](MarshaArancia-Expression-Cheeks.png) | 1024x1024 | high | [expression-hands-on-cheeks-prompt.txt](prompts/expression-hands-on-cheeks-prompt.txt) | MarshaArancia-DesignSheet.png | 2026-08-24 |
-| [MarshaArancia-PlatformRef.png](MarshaArancia-PlatformRef.png) | 1024x1536 | high | [platform-api-reference-prompt.txt](prompts/platform-api-reference-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-23 |
-| [MarshaArancia-Photo-Headshot.png](MarshaArancia-Photo-Headshot.png) | 1024x1536 | high | [photo-headshot-prompt.txt](prompts/photo-headshot-prompt.txt) | MarshaArancia-Photo-Hero.png ＋ MarshaArancia-FullBody.png | 2026-08-23 |
-| [MarshaArancia-Illustration-Reference.png](MarshaArancia-Illustration-Reference.png) | 1024x1024 | high | [illustration-reference-prompt.txt](prompts/illustration-reference-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-23 |
-| [MarshaArancia-Cover-AICUStudy.png](MarshaArancia-Cover-AICUStudy.png) | 1536x1024→1910x1000 | high | [cover-aicu-study-prompt.txt](prompts/cover-aicu-study-prompt.txt) | MarshaArancia-FullBody.png ＋ MarshaArancia-Original.png | 2026-08-23 |
+| [MarshaArancia-Standard.png](MarshaArancia-Standard.png) | 1536x1024 | high | [platform-api-designsheet-prompt.txt](prompts/platform-api-designsheet-prompt.txt) | MarshaArancia-Standard-v1.png | 2026-08-24（v6 採用） |
+| [MarshaArancia-Standard-Expression-Cheeks.png](MarshaArancia-Standard-Expression-Cheeks.png) | 1024x1024 | high | [expression-hands-on-cheeks-prompt.txt](prompts/expression-hands-on-cheeks-prompt.txt) | MarshaArancia-Standard.png | 2026-08-24 |
+| [MarshaArancia-KeyVisual.png](MarshaArancia-KeyVisual.png) | 1024x1536 | high | [platform-api-reference-prompt.txt](prompts/platform-api-reference-prompt.txt) | MarshaArancia-Standard-v1.png | 2026-08-23 |
+| [MarshaArancia-Photo-Headshot.png](MarshaArancia-Photo-Headshot.png) | 1024x1536 | high | [photo-headshot-prompt.txt](prompts/photo-headshot-prompt.txt) | MarshaArancia-Photo-Hero.png ＋ MarshaArancia-Standard-v1.png | 2026-08-23 |
+| [MarshaArancia-Illustration-Reference.png](MarshaArancia-Illustration-Reference.png) | 1024x1024 | high | [illustration-reference-prompt.txt](prompts/illustration-reference-prompt.txt) | MarshaArancia-Standard-v1.png | 2026-08-23 |
+| [MarshaArancia-Cover-AICUStudy.png](MarshaArancia-Cover-AICUStudy.png) | 1536x1024→1910x1000 | high | [cover-aicu-study-prompt.txt](prompts/cover-aicu-study-prompt.txt) | MarshaArancia-Standard-v1.png ＋ MarshaArancia-Original.png | 2026-08-23 |
 | [MarshaArancia-Photo-Hero.png](MarshaArancia-Photo-Hero.png) | 1024x1536 | high | [photo-hero-prompt.txt](prompts/photo-hero-prompt.txt) | award-aicu 由来 | — |
 | [MarshaArancia-Photo-Sheet.png](MarshaArancia-Photo-Sheet.png) | 1536x1024 | high | [photo-sheet-prompt.txt](prompts/photo-sheet-prompt.txt) | award-aicu 由来 | — |
-| [MarshaArancia-FullBody.png](MarshaArancia-FullBody.png) | 1536x1024 | high | [character-sheet-prompt.txt](prompts/character-sheet-prompt.txt) | award-aicu 由来 | — |
+| [MarshaArancia-Standard-v1.png](MarshaArancia-Standard-v1.png) | 1536x1024 | high | [character-sheet-prompt.txt](prompts/character-sheet-prompt.txt) | award-aicu 由来 | — |
 
 ### 没にした生成物
 
@@ -81,7 +81,7 @@ ACCESSORIES・COLOR PALETTE は AiCuty 公式シートの必須要素。文字�
 それに従うが、**それだけだと手の設定が資料に残らない**。
 
 そこで**表情パネルのスケールで手を描く**。顔と同じ大きさなら指は正しく描ける。
-[MarshaArancia-Expression-Cheeks.png](MarshaArancia-Expression-Cheeks.png)（両手を頬にあてた表情）が
+[MarshaArancia-Standard-Expression-Cheeks.png](MarshaArancia-Standard-Expression-Cheeks.png)（両手を頬にあてた表情）が
 その役割を兼ねており、シートの EXPRESSIONS 6枠目に入っている。
 
 プロンプトでは「4本の指を扇状に少し開き、各指と爪を個別に読めるように」「親指は顎線に沿って
@@ -94,9 +94,9 @@ ACCESSORIES・COLOR PALETTE は AiCuty 公式シートの必須要素。文字�
 
 | 用途 | 使うもの |
 |---|---|
-| API のキャラクター参照 | [MarshaArancia-DesignSheet.png](MarshaArancia-DesignSheet.png)（3面＋表情5種＋小物） |
-| キーヴィジュアル・記事カバー | [MarshaArancia-PlatformRef.png](MarshaArancia-PlatformRef.png) 等の全身1枚 |
-| 公式設定シート（人間が読む用） | [MarshaArancia-FullBody.png](MarshaArancia-FullBody.png)（ラベルつき） |
+| API のキャラクター参照 | [MarshaArancia-Standard.png](MarshaArancia-Standard.png)（3面＋表情5種＋小物） |
+| キーヴィジュアル・記事カバー | [MarshaArancia-KeyVisual.png](MarshaArancia-KeyVisual.png) 等の全身1枚 |
+| 公式設定シート（人間が読む用） | [MarshaArancia-Standard-v1.png](MarshaArancia-Standard-v1.png)（ラベルつき） |
 
 デザインシートを作るときの必須条件。
 

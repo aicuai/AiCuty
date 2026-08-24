@@ -4,23 +4,24 @@
 
 > 整合性チェック結果と決定事項は [REVIEW.md](REVIEW.md) を参照。
 
-![Marsha Arancia Character Sheet](MarshaArancia.png)
+![Marsha Arancia Character Sheet](MarshaArancia-Standard.png)
 
-| 画像 | 内容 |
-|---|---|
-| [MarshaArancia.png](MarshaArancia.png) | ちびキャラ版キャラクターシート（Front / Side / Back＋表情5種） |
-| [MarshaArancia-FullBody.png](MarshaArancia-FullBody.png) | 等身大キャラクターシート（Front / 3-4 / Back＋表情5種＋小物＋カラーパレット） |
-| [MarshaArancia-Original.png](MarshaArancia-Original.png) | 原案「本を買った帰り道」（抹茶オレンジ さん） |
-| [img/AiCuty-6.png](../img/AiCuty-6.png) ／ [img/AiCuty-6-peace.png](../img/AiCuty-6-peace.png) | 6人体制の集合ビジュアル |
-| [MarshaArancia-Cover-AICUStudy.png](MarshaArancia-Cover-AICUStudy.png) | AICU STUDY ナビゲーター就任記事のカバーアート（gpt-image-2 生成・191:100） |
-| [MarshaArancia-DesignSheet.png](MarshaArancia-DesignSheet.png) | **API リファレンス用デザインシート**（3面＋表情5種＋小物・文字なし） |
-| [MarshaArancia-PlatformRef.png](MarshaArancia-PlatformRef.png) | キーヴィジュアル（1024x1536・全身1枚） |
-| [MarshaArancia-Illustration-Reference.png](MarshaArancia-Illustration-Reference.png) | 汎用リファレンス（1024x1024・白背景） |
-| [MarshaArancia-Photo-Headshot.png](MarshaArancia-Photo-Headshot.png) | 実写版の宣材バストアップ |
-| [MarshaArancia-Photo-Hero.png](MarshaArancia-Photo-Hero.png) | 実写版の全身ヒーローショット |
-| [MarshaArancia-Photo-Sheet.png](MarshaArancia-Photo-Sheet.png) | 実写版キャスティングシート |
+| 区分 | ファイル | 内容 |
+|---|---|---|
+| **Standard** | [MarshaArancia-Standard.png](MarshaArancia-Standard.png) | **デザインシート（納品版）** 3面＋表情6種＋小物＋カラーパレット |
+| **Standard** | [MarshaArancia-Standard-Expression-Cheeks.png](MarshaArancia-Standard-Expression-Cheeks.png) | 両手を頬にあてた表情。**手のリファレンス**を兼ねる |
+| **Standard** | [MarshaArancia-Standard-v1.png](MarshaArancia-Standard-v1.png) | 初版の等身大シート |
+| **Chibi** | [MarshaArancia-Chibi.png](MarshaArancia-Chibi.png) | ちびキャラ版シート |
+| **Photo** | [MarshaArancia-Photo-Headshot.png](MarshaArancia-Photo-Headshot.png) | 宣材バストアップ |
+| **Photo** | [MarshaArancia-Photo-Hero.png](MarshaArancia-Photo-Hero.png) | 全身ヒーローショット |
+| **Photo** | [MarshaArancia-Photo-Sheet.png](MarshaArancia-Photo-Sheet.png) | キャスティングシート |
+| KeyVisual | [MarshaArancia-KeyVisual.png](MarshaArancia-KeyVisual.png) | 書店を歩く全身1枚絵 |
+| Cover | [MarshaArancia-Cover-AICUStudy.png](MarshaArancia-Cover-AICUStudy.png) | AICU STUDY 記事カバー（191:100） |
+| 原案 | [MarshaArancia-Original.png](MarshaArancia-Original.png) | 「本を買った帰り道」（抹茶オレンジ さん） |
+| 集合 | [img/AiCuty-6.png](../img/AiCuty-6.png) ／ [img/AiCuty-6-peace.png](../img/AiCuty-6-peace.png) | 6人体制の集合ビジュアル |
 
-生成プロンプトは [prompts/](prompts/)、生成条件の記録は [GENERATION-LOG.md](GENERATION-LOG.md)、platform-api への登録準備は [PLATFORM-API-REGISTRATION.md](PLATFORM-API-REGISTRATION.md) を参照。
+制作手順は [docs/character-sheet-workflow.md](../docs/character-sheet-workflow.md)、生成条件の記録は [GENERATION-LOG.md](GENERATION-LOG.md)、
+プロンプトは [prompts/](prompts/)、platform-api への登録準備は [PLATFORM-API-REGISTRATION.md](PLATFORM-API-REGISTRATION.md) を参照。
 **実写版の Marsha は実在しない架空の人物です**（実在人物の再現・特定は不可）。
 
 | 項目 | 設定 |
@@ -152,7 +153,7 @@ DJの選曲、ZINEの目次、ライブの曲順、記事の見出しは、す�
 
 ### カラーパレット
 
-[MarshaArancia-DesignSheet.png](MarshaArancia-DesignSheet.png) のパレットから実測した値です。
+[MarshaArancia-Standard.png](MarshaArancia-Standard.png) のパレットから実測した値です。
 
 | | HEX | 用途 |
 |---|---|---|
@@ -414,7 +415,7 @@ Sakiが作った映像へ、マーシャが文字や引用を重ねます。マ�
 ## クレジット
 
 - 原案キャラクターデザイン: **抹茶オレンジ さん（[@MATCHA_ORANGE_](https://x.com/MATCHA_ORANGE_)）**
-- ちびキャラ版シート画像（[MarshaArancia.png](MarshaArancia.png)）: **AICU Draft Edition**（作者確認中）
+- ちびキャラ版シート画像（[MarshaArancia-Chibi.png](MarshaArancia-Chibi.png)）: **AICU Draft Edition**（作者確認中）
 
 | 項目 | 内容 |
 |---|---|

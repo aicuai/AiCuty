@@ -36,7 +36,7 @@
 
 - [x] **コードネーム「Matcha Orange」** → **今回のみの開発用作業名と決定**（2026-08-07）。命名決定前の作業用呼称であり、メンバー共通の設定項目にはせず、既存5人への遡及付与も行わない。名称は原案作者 **抹茶オレンジ さん**（[@MATCHA_ORANGE_](https://x.com/MATCHA_ORANGE_)）に由来する。
 - [x] **クレジット** → 原案キャラクターデザインは抹茶オレンジさん（作品名「本を買った帰り道」、[C2606 ざすこ賞（道草雑草子 選）](https://cert.aicu.ai/v?id=C2606-3)受賞）として記載（2026-08-09）。
-- [x] **Marsha のちびキャラ版シート画像の帰属** → **「AICU Draft Edition」と表記する**（2026-08-10 決定）。既存5人のちびキャラ版は TORAKO さん名義だが、[MarshaArancia.png](MarshaArancia.png) は**作者確認中**のため暫定表記とする。作者判明後にクレジットを差し替えること。
+- [x] **Marsha のちびキャラ版シート画像の帰属** → **「AICU Draft Edition」と表記する**（2026-08-10 決定）。既存5人のちびキャラ版は TORAKO さん名義だが、[MarshaArancia-Chibi.png](MarshaArancia-Chibi.png) は**作者確認中**のため暫定表記とする。作者判明後にクレジットを差し替えること。
 - [x] **出自 → 「イタリア系コロンビア人。コロンビア・ボゴタ生まれ、日本育ち」で確定**（2026-08-17）。従来の「イタリア系の家族を持つ、日本育ち」を更新。イタリア語由来の姓 Arancia・ミドルネーム Clementina・レーベル ARANCIA PRESS は**イタリア系**として維持され矛盾しない（南米にはイタリア系移民が多い）。正本は `award-aicu/docs/marsha-arancia-design.md`。
 - [x] **決め台詞 → 「それ、特集にしたいネ！」で確定**（2026-08-17）。フル版は「待って、今の一言、特集にしたいネ！」。英 *"Let's make it a special issue, hein?"* ／伊 *"Questo lo voglio in uno speciale, eh?"* ／西 *"Esto va en un especial, ¿eh?"*。従来の「トビラにしたいネ！」は **ZINE・書籍文脈のバリエーション**として存続（イタリア＝扉ページ発祥の由来説明もそのまま保持）。語尾「ネ」は日本語「ね」＋伊「eh?/no?」＋西「¿eh?/¿no?」の三重掛けとして再定義。
 - [x] **一人称 → カタカナ「アタシ」に設定変更**（2026-08-17）。従来のひらがな「あたし」から変更。ボイスサンプル限定の例外ではなく**キャラクター設計上の正式表記**。語感と字面を選ぶ編集者であることを一人称そのもので示す設計。集中時の「私」は変更なし。
@@ -45,7 +45,7 @@
 - [x] **兼務を追加**（2026-08-17）: AICU media 国際編集インターン／International AI Creator Award 公式ナビゲーター。
 - [x] **外見年齢 → ヤングアダルト（25歳前後）**（2026-08-17、`award-aicu/docs/marsha-arancia-design.md` 由来）。
 - [x] **肌の色 → 褐色肌で確定**（2026-08-17）。原案「本を買った帰り道」および6人集合ビジュアルで褐色として描かれている。既存5人は全員明るい肌のため、AiCuty で唯一の褐色肌メンバー。**従来シートに肌の記述が一切なく（既存5人も同様）、生成のたびに揺れる状態だった**ため、ビジュアル節に明記した。
-  - ✅ 明るい肌だった旧ちびキャラ版は、**褐色肌の修正版に差し替え済み**（2026-08-17）。等身大シート [MarshaArancia-FullBody.png](MarshaArancia-FullBody.png) と原案 [MarshaArancia-Original.png](MarshaArancia-Original.png) も追加し、全公式素材で褐色肌に統一された。
+  - ✅ 明るい肌だった旧ちびキャラ版は、**褐色肌の修正版に差し替え済み**（2026-08-17）。等身大シート [MarshaArancia-Standard-v1.png](MarshaArancia-Standard-v1.png) と原案 [MarshaArancia-Original.png](MarshaArancia-Original.png) も追加し、全公式素材で褐色肌に統一された。
 - [x] **趣味「旅」** → **公式設定に採用**（2026-08-07）。プロフィール表に「趣味: 旅」を追加し、ショートプロフィールにも「旅」を含めてロング版と統一。
 - [ ] ショート／ロング2本立て構成の確定（※「旅」の記載差は解消済み。残る差分は『AICUマガジン』言及の有無）。
 - [ ] ロング版の「自ら編集・出版した『AICUマガジン』」は実在刊行物とのクロスオーバー設定。実誌の編集クレジットと混同されないか確認（作中設定としては AICU media 担当があるため概ね整合）。
@@ -57,6 +57,6 @@
 - [ ] [docs/members.md](../docs/members.md) に Marsha の項を追加（Role / Color / Instrument / Visual / Speech Pattern）
 - [ ] **既存メンバーからの呼ばれ方が未定義**（設計書はマーシャ→各位のみ定義）。例: エレナ「マーシャちゃん」? メイ「マチャ」（設定済）、ミナ・ナオ・サキ「マーシャ」? — docs/members.md の各メンバー Member calls 欄の更新が必要
 - [ ] 公式AIデザインルール（生成プロンプト・Seed・LoRA構成）が未定義 — 既存5人は README に ComfyUI プロンプトあり
-- [x] キャラクターシート画像（gpt-image-2 リファレンス版: Front/Side/Back + 表情5種）を `MarshaArancia/` に配置 → [MarshaArancia.png](MarshaArancia.png) 配置済み（2026-08-07）。なお award-aicu リポジトリ（`public/assets/characters/marsha-arancia.webp`）は**本ディレクトリを正として参照する方針**（2026-08-07 決定）
+- [x] キャラクターシート画像（gpt-image-2 リファレンス版: Front/Side/Back + 表情5種）を `MarshaArancia/` に配置 → [MarshaArancia-Chibi.png](MarshaArancia-Chibi.png) 配置済み（2026-08-07）。なお award-aicu リポジトリ（`public/assets/characters/marsha-arancia.webp`）は**本ディレクトリを正として参照する方針**（2026-08-07 決定）
 - [ ] `img/anime/` `img/figure/` の統一アセットに marsha を追加（vercel-blog/tools/aicuty-generator/gpt-image2-reference.py）
 - [ ] メンバーカラーの正確な色値（Vivid Orange / Matcha Green の HEX）を定義
