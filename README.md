@@ -40,6 +40,7 @@ Marsha Arancia / マーシャ・アランチャ
 
 ### 開発・更新の方針（エージェント／コントリビューター向け）
 
+キャラクターシートを作る手順（納品区分・フォーマット・検品）は **[docs/character-sheet-workflow.md](docs/character-sheet-workflow.md)** にまとめています。
 キャラクター設定を変更する前に **[AGENTS.md](AGENTS.md)** を読んでください。主従関係（本リポジトリは公開用のサブ情報で、口調の正本は `aicuty-bots/shared/characters.yaml`）と、**一括置換で壊してはいけない意図的な表記**をまとめています。特に次の3点は機械的な「表記ゆれ修正」で壊れやすいので注意してください。
 
 - **Saki Noire** は女性形 `Noire` が正（`Noir` は誤り）。ただし**表示名のみ**を統一し、slug 等の機械的識別子は温存します

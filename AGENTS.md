@@ -52,6 +52,10 @@ AiCuty（人とAIがつくるアイドルプロジェクト）のデザイン共
 
 ## 3. キャラクターシートの構成
 
+制作手順（納品区分 Chibi / Standard / Photo、必須フォーマット、検品倍率、手の資料化、HEX の後段合成、記録の残し方）は
+**[docs/character-sheet-workflow.md](docs/character-sheet-workflow.md)** が正本です。シートを作る前に読んでください。
+
+
 `ElenaBloom/` `MeiSoleil/` `MinaAzure/` `NaoVerde/` `SakiNoire/` `MarshaArancia/` の各 `README.md` が個別シートです。
 
 ```

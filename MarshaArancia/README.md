@@ -4,14 +4,25 @@
 
 > 整合性チェック結果と決定事項は [REVIEW.md](REVIEW.md) を参照。
 
-![Marsha Arancia Character Sheet](MarshaArancia.png)
+![Marsha Arancia Character Sheet](MarshaArancia-Standard.png)
 
-| 画像 | 内容 |
-|---|---|
-| [MarshaArancia.png](MarshaArancia.png) | ちびキャラ版キャラクターシート（Front / Side / Back＋表情5種） |
-| [MarshaArancia-FullBody.png](MarshaArancia-FullBody.png) | 等身大キャラクターシート（Front / 3-4 / Back＋表情5種＋小物＋カラーパレット） |
-| [MarshaArancia-Original.png](MarshaArancia-Original.png) | 原案「本を買った帰り道」（抹茶オレンジ さん） |
-| [img/AiCuty-6.png](../img/AiCuty-6.png) ／ [img/AiCuty-6-peace.png](../img/AiCuty-6-peace.png) | 6人体制の集合ビジュアル |
+| 区分 | ファイル | 内容 |
+|---|---|---|
+| **Standard** | [MarshaArancia-Standard.png](MarshaArancia-Standard.png) | **デザインシート（納品版）** 3面＋表情6種＋小物＋カラーパレット |
+| **Standard** | [MarshaArancia-Standard-Expression-Cheeks.png](MarshaArancia-Standard-Expression-Cheeks.png) | 両手を頬にあてた表情。**手のリファレンス**を兼ねる |
+| **Standard** | [MarshaArancia-Standard-v1.png](MarshaArancia-Standard-v1.png) | 初版の等身大シート |
+| **Chibi** | [MarshaArancia-Chibi.png](MarshaArancia-Chibi.png) | ちびキャラ版シート |
+| **Photo** | [MarshaArancia-Photo-Headshot.png](MarshaArancia-Photo-Headshot.png) | 宣材バストアップ |
+| **Photo** | [MarshaArancia-Photo-Hero.png](MarshaArancia-Photo-Hero.png) | 全身ヒーローショット |
+| **Photo** | [MarshaArancia-Photo-Sheet.png](MarshaArancia-Photo-Sheet.png) | キャスティングシート |
+| KeyVisual | [MarshaArancia-KeyVisual.png](MarshaArancia-KeyVisual.png) | 書店を歩く全身1枚絵 |
+| Cover | [MarshaArancia-Cover-AICUStudy.png](MarshaArancia-Cover-AICUStudy.png) | AICU STUDY 記事カバー（191:100） |
+| 原案 | [MarshaArancia-Original.png](MarshaArancia-Original.png) | 「本を買った帰り道」（抹茶オレンジ さん） |
+| 集合 | [img/AiCuty-6.png](../img/AiCuty-6.png) ／ [img/AiCuty-6-peace.png](../img/AiCuty-6-peace.png) | 6人体制の集合ビジュアル |
+
+制作手順は [docs/character-sheet-workflow.md](../docs/character-sheet-workflow.md)、生成条件の記録は [GENERATION-LOG.md](GENERATION-LOG.md)、
+プロンプトは [prompts/](prompts/)、platform-api への登録準備は [PLATFORM-API-REGISTRATION.md](PLATFORM-API-REGISTRATION.md) を参照。
+**実写版の Marsha は実在しない架空の人物です**（実在人物の再現・特定は不可）。
 
 | 項目 | 設定 |
 |---|---|
@@ -20,8 +31,8 @@
 | コードネーム | Matcha Orange |
 | 愛称 | マーシャ、マチャ |
 | DJ／VJ名義 | CLMNTA |
-| メンバーカラー | Vivid Orange |
-| サブカラー | Matcha Green |
+| メンバーカラー | Vivid Orange `#FD7310` |
+| サブカラー | Matcha Green `#737633` |
 | 担当 | Editorial, Publishing & Culture Specialist |
 | 音楽担当 | DJ／VJ／Sampler／MC |
 | 兼務 | AICU media 国際編集インターン／[International AI Creator Award](https://award.aicu.ai/) 公式ナビゲーター |
@@ -86,8 +97,8 @@ DJの選曲、ZINEの目次、ライブの曲順、記事の見出しは、す�
 | 出自 | **イタリア系コロンビア人**。コロンビア・ボゴタ生まれ、日本育ち |
 | 外見年齢 | ヤングアダルト（25歳前後） |
 | 一人称 | アタシ |
-| イメージカラー | オレンジ |
-| サブカラー | 抹茶グリーン |
+| イメージカラー | オレンジ `#FD7310` |
+| サブカラー | 抹茶グリーン `#737633` |
 | シンボル | オレンジの輪切り、しおり、波形、網点 |
 | 個人レーベル | ARANCIA PRESS |
 | 趣味 | 旅（取材を兼ねた街歩き、イベント遠征） |
@@ -139,6 +150,19 @@ DJの選曲、ZINEの目次、ライブの曲順、記事の見出しは、す�
 - 再生ボタンと引用符
 
 緑は髪を中心に使い、衣装ではオレンジを主役にすることで、Nao Verdeとの差を明確にします。
+
+### カラーパレット
+
+[MarshaArancia-Standard.png](MarshaArancia-Standard.png) のパレットから実測した値です。
+
+| | HEX | 用途 |
+|---|---|---|
+| 抹茶グリーン | `#737633` | 髪・ジャケット地。サブカラー |
+| ビビッドオレンジ | `#FD7310` | インナーカラー・差し色。メンバーカラー |
+| タンブラウン | `#C36925` | 褐色肌 |
+| ニアブラック | `#1F1D1E` | パーカー・スカート・バックパック |
+| オフホワイト | `#F6EBE1` | 白場・スニーカー |
+| イエローグリーン | `#C9B829` | パッチ・アクセント |
 
 ---
 
@@ -391,7 +415,7 @@ Sakiが作った映像へ、マーシャが文字や引用を重ねます。マ�
 ## クレジット
 
 - 原案キャラクターデザイン: **抹茶オレンジ さん（[@MATCHA_ORANGE_](https://x.com/MATCHA_ORANGE_)）**
-- ちびキャラ版シート画像（[MarshaArancia.png](MarshaArancia.png)）: **AICU Draft Edition**（作者確認中）
+- ちびキャラ版シート画像（[MarshaArancia-Chibi.png](MarshaArancia-Chibi.png)）: **AICU Draft Edition**（作者確認中）
 
 | 項目 | 内容 |
 |---|---|

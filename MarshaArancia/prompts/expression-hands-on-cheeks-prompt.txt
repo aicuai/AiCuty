@@ -1,0 +1,26 @@
+Create a single expression panel of Marsha Arancia for her official character design sheet.
+
+Reference role:
+- Image 1 is the official Marsha Arancia design sheet. Keep her identity exactly: hair silhouette and colours, complexion, eyes, headphones, hoodie and jacket, and the art style of the expression panels.
+
+EXPRESSION: Both hands pressed gently against her own cheeks, elbows drawn in, eyes shining with delight, mouth open in a happy "mmm, delicious!" expression — the classic pose of someone savouring something wonderful. Cheeks flushed with a warm blush. Joyful and a little bit swooning.
+
+HANDS — THIS PANEL IS THE HAND REFERENCE, RENDER THEM PERFECTLY:
+Both hands are clearly visible, framing her face, palms resting against her cheeks.
+On EACH hand, all FOUR fingers must be drawn slightly fanned apart with a visible gap between them, so that every individual finger and its own rounded fingernail is separately readable — do not let the fingers merge into a single mass. The index finger reaches up beside the eye, the little finger sits lowest, and the THUMB is clearly separate from the fingers, curving down along the jawline. That is five distinct digits per hand: four fingers plus one thumb.
+Treat this panel as the canonical hand reference for the character: render clean, accurate, well-proportioned anatomy with correct finger lengths and natural knuckles. Both hands must be equally well drawn — check the left hand as carefully as the right.
+
+CHARACTER:
+- WARM MEDIUM-BROWN GOLDEN SKIN TONE (tan skin) on face and hands. Never pale or white skin.
+- Short tousled matcha-green bob with vivid orange inner-layer streaks in the fringe and hair tips
+- One playful upward ahoge on top of her head
+- Large bright yellow-green eyes
+- A slim red proofreading pencil tucked behind her ear
+- Orange-and-black over-ear headphones resting around her neck
+- Black hoodie with the olive/orange patch-covered jacket over it
+
+COMPOSITION: Head-and-shoulders bust framing, centred, matching the scale and cropping of the existing expression panels on the sheet. Flat pure white background.
+
+STYLE: Clean modern anime illustration matching the official AiCuty character art. Confident linework, flat-to-soft cel shading, vibrant matcha green and vivid orange palette.
+
+No text, no letters, no logos, no watermark, no border, no additional characters.

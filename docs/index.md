@@ -31,6 +31,7 @@ Each of the six members has different specialties, exploring the possibilities o
 ## Resources
 
 - [Member Details](members.md) - キャラクター詳細
+- [Character Sheet Workflow](character-sheet-workflow.md) - キャラクターシート制作手順
 - [License & Guidelines](license.md) - ライセンス・ガイドライン
 - [Official Prompts](https://github.com/aicuai/AiCuty) - 公式プロンプト
 

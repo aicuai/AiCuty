@@ -1,0 +1,44 @@
+Create the official AiCuty character design sheet for Marsha Arancia. Follow the layout and typography of the reference sheet EXACTLY — this is a house format and must not be simplified.
+
+Reference role:
+- Image 1 is the official Marsha Arancia design sheet. Reproduce its LAYOUT, its LABELS, and the character's identity exactly. Keep the SAME character in every panel.
+
+SHEET LAYOUT (single landscape image, white background, generous margins):
+- Top-left corner: the title "MARSHA ARANCIA" in large bold uppercase sans-serif.
+- Upper band, three full-body views of the same character at the same scale and the same eye level, each with a small centred uppercase label above it: "FRONT", "3/4", "BACK".
+- Upper-right block: a header rule labelled "EXPRESSIONS", containing five head-and-shoulders expression panels of the same character.
+- Lower-left block: a header rule labelled "ACCESSORIES", containing three separate bordered panels, each holding one item rendered large and in careful detail.
+- Lower-right block: a header rule labelled "COLOR PALETTE", containing six flat rectangular colour swatches in a row: olive matcha green, vivid orange, warm tan brown, near-black, off-white, yellow-green.
+
+All labels must be spelled exactly as written above, in clean uppercase sans-serif. No other text anywhere.
+
+CHARACTER (identical in every panel):
+Marsha Arancia, a fictional Italian-Colombian young adult woman. AiCuty's editorial, publishing and culture specialist.
+- WARM MEDIUM-BROWN GOLDEN SKIN TONE (tan skin) in EVERY panel. Never pale or white skin.
+- Short tousled matcha-green bob with vivid orange inner-layer streaks in the fringe and hair tips
+- One playful upward ahoge on top of her head
+- Large bright yellow-green eyes
+- A slim red proofreading pencil tucked behind her ear
+- Orange-and-black over-ear headphones resting around her neck
+- Oversized cropped jacket in olive green / orange / black covered with editorial pop-art patches and pins, over a black hoodie
+- Black layered pleated skirt over black shorts
+- Black-and-white checkered socks, chunky olive/orange/white platform sneakers
+- Decorated black backpack stuffed with ZINEs
+
+SLEEVES AND HANDS — reproduce the reference exactly:
+Her jacket is deliberately oversized and its long ribbed cuffs extend past her wrists, completely covering her hands in all three full-body views, exactly as in the reference sheet. This is the canonical costume design, not a crop. Draw the cuffs as soft ribbed knit ending in a clean rounded silhouette. Do NOT draw exposed hands or individual fingers in the full-body views — at this scale they cannot be rendered correctly and the approved reference does not show them either.
+
+BACK VIEW — the jacket back print:
+The large pop-art starburst panel across the back of her jacket must read "ARANCIA PRESS" in bold uppercase, spelled exactly. This is her personal ZINE label and is the canonical back print. Do not write "PAPER BEAT CLUB" or any other wording. The hood behind her neck keeps the small "AiCuty" mark.
+
+ACCESSORY PANELS — render these three items large, clean and precisely, as product illustrations:
+1. The orange-and-black over-ear headphones, three-quarter view, showing the padded ear cups, the headband and the smiley detail on the ear cup.
+2. An ARANCIA PRESS culture ZINE, front cover facing the viewer, with her own illustration on the cover.
+3. The decorated black backpack, three-quarter view, showing pins, straps, a keychain tag and ZINEs sticking out of the top pocket.
+Each item must be carefully constructed and readable — not a vague sketchy blob.
+
+EXPRESSIONS: neutral smile, happy laughing with closed eyes, surprised with open mouth, thoughtful with a hand near the chin, and cheerful open-mouthed delight.
+
+STYLE: Clean modern anime illustration matching the official AiCuty character art. Confident linework, flat-to-soft cel shading, vibrant editorial pop-art palette of matcha green and vivid orange. Consistent proportions across all panels. Flat white background throughout.
+
+No watermark, no signature, no logos other than the labels listed above, no additional characters.
