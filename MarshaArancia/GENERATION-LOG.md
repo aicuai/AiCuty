@@ -13,7 +13,8 @@
 
 | 出力 | サイズ | quality | プロンプト | 参照画像 | 生成日 |
 |---|---|---|---|---|---|
-| [MarshaArancia-DesignSheet.png](MarshaArancia-DesignSheet.png) | 1536x1024 | high | [platform-api-designsheet-prompt.txt](prompts/platform-api-designsheet-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-24（v5 採用） |
+| [MarshaArancia-DesignSheet.png](MarshaArancia-DesignSheet.png) | 1536x1024 | high | [platform-api-designsheet-prompt.txt](prompts/platform-api-designsheet-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-24（v6 採用） |
+| [MarshaArancia-Expression-Cheeks.png](MarshaArancia-Expression-Cheeks.png) | 1024x1024 | high | [expression-hands-on-cheeks-prompt.txt](prompts/expression-hands-on-cheeks-prompt.txt) | MarshaArancia-DesignSheet.png | 2026-08-24 |
 | [MarshaArancia-PlatformRef.png](MarshaArancia-PlatformRef.png) | 1024x1536 | high | [platform-api-reference-prompt.txt](prompts/platform-api-reference-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-23 |
 | [MarshaArancia-Photo-Headshot.png](MarshaArancia-Photo-Headshot.png) | 1024x1536 | high | [photo-headshot-prompt.txt](prompts/photo-headshot-prompt.txt) | MarshaArancia-Photo-Hero.png ＋ MarshaArancia-FullBody.png | 2026-08-23 |
 | [MarshaArancia-Illustration-Reference.png](MarshaArancia-Illustration-Reference.png) | 1024x1024 | high | [illustration-reference-prompt.txt](prompts/illustration-reference-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-23 |
@@ -32,6 +33,7 @@
 | デザインシート v1（文字なし版） | **フォーマット違反**。タイトル・FRONT/3-4/BACK・EXPRESSIONS・ACCESSORIES・COLOR PALETTE をすべて省いた。小物の作り込みも不足 |
 | デザインシート v2（手を露出させた版） | 手を描かせたが**3本指＋親指＝4本**で破綻。公式シートは元々オーバーサイズ袖が手を覆う仕様であり、露出させたこと自体が公式からの逸脱だった |
 | デザインシート v3 | 背面プリントが「PAPER BEAT CLUB」のまま。個人レーベル **ARANCIA PRESS** に変更が必要だった |
+| 表情パネル「頬に手」v1 | 右手は5本で正常だったが、**左手の指が融合**して2枚爪しか判別できず、手のリファレンスとして不十分 |
 
 **教訓1: 破綻を「隠す」で回避しない。生成して、精査して、駄目なら作り直す。**
 手の領域は必ず5〜10倍に拡大して指の本数と関節を数えること。小物・ラベルの綴りも同様に拡大確認する。
@@ -73,7 +75,19 @@ ACCESSORIES・COLOR PALETTE は AiCuty 公式シートの必須要素。文字�
 合成時は既存要素を壊さないよう、対象領域の座標を実測してから描画すること
 （見出し罫線 y=886、スウォッチ本体 y=910-991 を測らずに白塗りして見出しを削る失敗をした）。
 
-## 4. リファレンス画像の方針
+## 4. 手は「大きく描ける構図」で документ化する
+
+全身ビューは手が小さすぎて指が破綻する。公式シートはオーバーサイズ袖で手を覆う仕様なので
+それに従うが、**それだけだと手の設定が資料に残らない**。
+
+そこで**表情パネルのスケールで手を描く**。顔と同じ大きさなら指は正しく描ける。
+[MarshaArancia-Expression-Cheeks.png](MarshaArancia-Expression-Cheeks.png)（両手を頬にあてた表情）が
+その役割を兼ねており、シートの EXPRESSIONS 6枠目に入っている。
+
+プロンプトでは「4本の指を扇状に少し開き、各指と爪を個別に読めるように」「親指は顎線に沿って
+はっきり分離」と指定する。指をまとめて描かせると融合して本数が読めなくなる。
+
+## 5. リファレンス画像の方針
 
 **キャラクターリファレンスは「デザインシート」を本命とします。** 全身1枚では複数視点・表情を参照できず、
 別アングルや別表情を生成させたときに破綻します。
@@ -91,7 +105,7 @@ ACCESSORIES・COLOR PALETTE は AiCuty 公式シートの必須要素。文字�
 - **全パネルで手を袖・物の後ろに隠す**
 - 3面は同じスケール・同じ目線高さで揃える
 
-## 5. 記録のルール
+## 6. 記録のルール
 
 新しく公式素材を生成したら、次を必ず残します。
 
