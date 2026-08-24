@@ -19,6 +19,7 @@
 | Cover | [MarshaArancia-Cover-AICUStudy.png](MarshaArancia-Cover-AICUStudy.png) | AICU STUDY 記事カバー（191:100） |
 | 原案 | [MarshaArancia-Original.png](MarshaArancia-Original.png) | 「本を買った帰り道」（抹茶オレンジ さん） |
 | 集合 | [img/AiCuty-6.png](../img/AiCuty-6.png) ／ [img/AiCuty-6-peace.png](../img/AiCuty-6-peace.png) | 6人体制の集合ビジュアル |
+| 統一アセット | [img/anime/marsha.png](../img/anime/marsha.png) ／ [img/figure/marsha.png](../img/figure/marsha.png) | 6人共通の anime / figure アセット |
 
 制作手順は [docs/character-sheet-workflow.md](../docs/character-sheet-workflow.md)、生成条件の記録は [GENERATION-LOG.md](GENERATION-LOG.md)、
 プロンプトは [prompts/](prompts/)、platform-api への登録準備は [PLATFORM-API-REGISTRATION.md](PLATFORM-API-REGISTRATION.md) を参照。

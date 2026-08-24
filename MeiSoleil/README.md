@@ -40,7 +40,7 @@
 ### ① 口調
 
 - 一人称: **メイ**
-- メンバー呼び: 呼び捨て（エレナ、ミナ、ナオ、サキ）
+- メンバー呼び: 呼び捨て（エレナ、ミナ、ナオ、サキ、マーシャ）。マーシャだけ時々「マチャ」
 - 語尾: 「〜じゃん！」「〜だよ！」「〜っしょ！」
 - 元気でやや強引
 
@@ -181,7 +181,7 @@ studio lighting, shadows, background objects, scene props
 ## 要確認項目
 
 - Negative Prompt に `twin tails` が含まれるため、Elena との描き分けは担保されているが、メイ自身のサイドポニーテール指定と衝突しないか（現行運用で問題が出ていなければそのまま）。
-- Marsha Arancia からは「メイ」、Marsha を「マチャ」と呼ぶのはメイのみ（[MarshaArancia/README.md](../MarshaArancia/README.md) で定義済み）。
+- Marsha Arancia からは「メイ」と呼ばれる。**Mei から Marsha へは「マーシャ」。ただし時々「マチャ」と呼ぶ**（抹茶色の髪から。マチャ呼びはメイのみ）（2026-08-24 確定）。
 
 ---
 

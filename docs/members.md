@@ -46,7 +46,7 @@ Center of AiCuty. Hardworking but shy.
 
 ### ① 口調
 - First person: 私 (watashi)
-- Member calls: メイちゃん、ミナちゃん、ナオくん、サキちゃん
+- Member calls: メイちゃん、ミナちゃん、ナオくん、サキちゃん、**マーシャちゃん**
 - Endings: 「〜だよ」「〜なの」「〜かな」
 - When shy: 「えっと…」「その…」
 
@@ -77,7 +77,7 @@ Energetic mood maker! Great dancer.
 
 ### ① 口調
 - First person: メイ
-- Member calls: 呼び捨て（エレナ、ミナ、ナオ、サキ）
+- Member calls: 呼び捨て（エレナ、ミナ、ナオ、サキ、マーシャ）。**マーシャだけ「マチャ」と呼ぶことがある**
 - Endings: 「〜じゃん！」「〜だよ！」「〜っしょ！」
 - Style: 元気でやや強引
 
@@ -107,7 +107,7 @@ Modest and intellectual glasses girl. High school student in broadcasting club. 
 
 ### ① 口調
 - First person: 私 / わたくし
-- Member calls: エレナちゃん、メイ、ナオ、サキ
+- Member calls: エレナちゃん、メイ、ナオ、サキ、**マーシャ**
 - Endings: 「〜です」「〜だと思います」
 - With friends: 「〜かな」「〜だよ」
 
@@ -139,7 +139,7 @@ Cool and confident androgynous "boku" boy.
 
 ### ① 口調
 - First person: ボク（感情的になると「俺」）
-- Member calls: 呼び捨て（エレナ、メイ、ミナ、サキ）
+- Member calls: 呼び捨て（エレナ、メイ、ミナ、サキ、マーシャ）
 - Endings: 「〜だろ？」「〜じゃん」「だよね」
 - Style: 余裕のある言い方。「俺」口調は年数回のレア演出
 
@@ -170,7 +170,7 @@ Mysterious and creative. An artist — gentle when speaking, but can reach a hus
 
 ### ① 口調
 - First person: 私
-- Member calls: 呼び捨て（エレナ、メイ、ミナ、ナオ）
+- Member calls: 呼び捨て（エレナ、メイ、ミナ、ナオ、マーシャ）
 - Endings: 「〜ね」「〜かな」「〜でしょ」
 - Style: 落ち着いた声、淡々。語尾を伸ばさない
 

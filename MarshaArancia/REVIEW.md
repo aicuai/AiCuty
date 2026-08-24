@@ -49,14 +49,24 @@
 - [x] **趣味「旅」** → **公式設定に採用**（2026-08-07）。プロフィール表に「趣味: 旅」を追加し、ショートプロフィールにも「旅」を含めてロング版と統一。
 - [ ] ショート／ロング2本立て構成の確定（※「旅」の記載差は解消済み。残る差分は『AICUマガジン』言及の有無）。
 - [ ] ロング版の「自ら編集・出版した『AICUマガジン』」は実在刊行物とのクロスオーバー設定。実誌の編集クレジットと混同されないか確認（作中設定としては AICU media 担当があるため概ね整合）。
-- [ ] 年齢・学年が未設定（ミナは「高校生」設定あり）。設定するか意図的に伏せるか。
+- [x] **年齢** → 外見年齢「ヤングアダルト（25歳前後）」で確定済み（2026-08-17）。学年設定は持たせない（社会人のため）。
 
 ## 本番化（main マージ）時の TODO
 
-- [ ] [README.md](../README.md) に追記: キャラクター設計一覧 / 誕生日リスト（🧡 4月14日）/ バンド構成 / AICU media 担当
-- [ ] [docs/members.md](../docs/members.md) に Marsha の項を追加（Role / Color / Instrument / Visual / Speech Pattern）
-- [ ] **既存メンバーからの呼ばれ方が未定義**（設計書はマーシャ→各位のみ定義）。例: エレナ「マーシャちゃん」? メイ「マチャ」（設定済）、ミナ・ナオ・サキ「マーシャ」? — docs/members.md の各メンバー Member calls 欄の更新が必要
+- [x] [README.md](../README.md) に追記完了: キャラクター設計一覧 / 誕生日リスト（🍊 4月14日）/ バンド構成 / AICU media 担当
+- [x] [docs/members.md](../docs/members.md) に Marsha の項を追加完了（Role / Color / Instrument / Visual / ①口調 ②文体のクセ）
+- [x] **既存メンバーからの呼ばれ方を確定**（2026-08-24）。各メンバーの既定の呼称ルールから導出したため、新たな設定の追加ではない。
+
+  | 呼ぶ人 | Marsha への呼び方 | 根拠 |
+  |---|---|---|
+  | Elena | **マーシャちゃん** | Elena は全員に「ちゃん／くん」を付ける |
+  | Mei | **マーシャ**（時々 **マチャ**） | Mei は全員呼び捨て。マチャ呼びはメイのみ（抹茶色の髪から） |
+  | Mina | **マーシャ** | Mina が「ちゃん」を付けるのはエレナのみ |
+  | Nao | **マーシャ** | Nao は全員呼び捨て |
+  | Saki | **マーシャ** | Saki は全員呼び捨て |
+
+  docs/members.md の Member calls 欄と、各シートの「メンバー呼び」「要確認項目」に反映済み。
 - [ ] 公式AIデザインルール（生成プロンプト・Seed・LoRA構成）が未定義 — 既存5人は README に ComfyUI プロンプトあり
 - [x] キャラクターシート画像（gpt-image-2 リファレンス版: Front/Side/Back + 表情5種）を `MarshaArancia/` に配置 → [MarshaArancia-Chibi.png](MarshaArancia-Chibi.png) 配置済み（2026-08-07）。なお award-aicu リポジトリ（`public/assets/characters/marsha-arancia.webp`）は**本ディレクトリを正として参照する方針**（2026-08-07 決定）
-- [ ] `img/anime/` `img/figure/` の統一アセットに marsha を追加（vercel-blog/tools/aicuty-generator/gpt-image2-reference.py）
-- [ ] メンバーカラーの正確な色値（Vivid Orange / Matcha Green の HEX）を定義
+- [x] `img/anime/marsha.png` `img/figure/marsha.png` を追加（2026-08-24）。既存5人と同体裁（anime: 白背景・手を振るバストアップ／figure: 黒台座の PVC フィギュア風）。手を振る指は5本を拡大検品済み。
+- [x] **メンバーカラーの HEX を定義**（2026-08-24）: Vivid Orange `#FD7310` / Matcha Green `#737633`。Standard シートのカラーパレットから実測。全6色は [README.md](README.md) の「カラーパレット」節を参照。

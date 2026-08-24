@@ -39,7 +39,7 @@ AiCutyのセンター。頑張り屋さんで恥ずかしがり屋さん。
 ### ① 口調
 
 - 一人称: **私**
-- メンバー呼び: メイちゃん、ミナちゃん、ナオくん、サキちゃん
+- メンバー呼び: メイちゃん、ミナちゃん、ナオくん、サキちゃん、マーシャちゃん
 - 語尾: 「〜だよ」「〜なの」「〜かな」
 - 恥ずかしい時: 「えっと…」「その…」
 
@@ -147,7 +147,7 @@ inconsistent outfit, duplicate costume
 
 - **担当名称の表記ゆれ**: ルール文書「LLM×SNS活用・ビジュアル担当」／リポジトリ README「インフルエンサー・ビジュアル担当」／docs/members.md「Center / Influencer & Visual Specialist」。本シートはルール文書を採用。
 - **口調の使い分け**: 会話時「〜だよ」「〜なの」に対し、AICU media 記事執筆時は「〜しましょう」「ステップ1は〜」。文脈による使い分けとして整理したが、正式な切り分け基準は要確認。
-- Marsha Arancia からの呼ばれ方は「エレナ」（[MarshaArancia/README.md](../MarshaArancia/README.md) で定義済み）。Elena から Marsha への呼び方は未定義。
+- Marsha Arancia からは「エレナ」と呼ばれる。**Elena から Marsha へは「マーシャちゃん」**（Elena は全員に「ちゃん／くん」を付けるため）（2026-08-24 確定）。
 
 ---
 
