@@ -13,7 +13,7 @@
 
 | 出力 | サイズ | quality | プロンプト | 参照画像 | 生成日 |
 |---|---|---|---|---|---|
-| [MarshaArancia-DesignSheet.png](MarshaArancia-DesignSheet.png) | 1536x1024 | high | [platform-api-designsheet-prompt.txt](prompts/platform-api-designsheet-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-24 |
+| [MarshaArancia-DesignSheet.png](MarshaArancia-DesignSheet.png) | 1536x1024 | high | [platform-api-designsheet-prompt.txt](prompts/platform-api-designsheet-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-24（v3 採用） |
 | [MarshaArancia-PlatformRef.png](MarshaArancia-PlatformRef.png) | 1024x1536 | high | [platform-api-reference-prompt.txt](prompts/platform-api-reference-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-23 |
 | [MarshaArancia-Photo-Headshot.png](MarshaArancia-Photo-Headshot.png) | 1024x1536 | high | [photo-headshot-prompt.txt](prompts/photo-headshot-prompt.txt) | MarshaArancia-Photo-Hero.png ＋ MarshaArancia-FullBody.png | 2026-08-23 |
 | [MarshaArancia-Illustration-Reference.png](MarshaArancia-Illustration-Reference.png) | 1024x1024 | high | [illustration-reference-prompt.txt](prompts/illustration-reference-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-23 |
@@ -29,9 +29,18 @@
 | カバーアート第1稿（招くポーズ） | **差し出した手の指が4本**に見える破綻 |
 | カバーアート第2稿（両手で誌面を掲げる） | 誌面の縁越しに指先3本＋親指で、同じく4本に見える曖昧さ |
 | `MarshaArancia-Cover-AICUStudy-full.png` | ボディの造形が不十分 |
+| デザインシート v1（文字なし版） | **フォーマット違反**。タイトル・FRONT/3-4/BACK・EXPRESSIONS・ACCESSORIES・COLOR PALETTE をすべて省いた。小物の作り込みも不足 |
+| デザインシート v2（手を露出させた版） | 手を描かせたが**3本指＋親指＝4本**で破綻。公式シートは元々オーバーサイズ袖が手を覆う仕様であり、露出させたこと自体が公式からの逸脱だった |
 
-**教訓: 開いた手のひらは必ず破綻します。** 手はポケット・ZINE の後ろ・フレーム外に逃がし、
-プロンプトに「指を描画しない」を明記すること。生成後は必ず手の領域を3〜5倍に拡大して検品する。
+**教訓1: 破綻を「隠す」で回避しない。生成して、精査して、駄目なら作り直す。**
+手の領域は必ず5〜10倍に拡大して指の本数と関節を数えること。小物・ラベルの綴りも同様に拡大確認する。
+
+**教訓2: 公式フォーマットを勝手に省かない。** タイトル・FRONT/3-4/BACK・EXPRESSIONS・
+ACCESSORIES・COLOR PALETTE は AiCuty 公式シートの必須要素。文字が garbled になるのを嫌って
+省略するのはフォーマット違反。
+
+**教訓3: 迷ったら承認済みの公式シートを見る。** Marsha の公式シートは**オーバーサイズ
+ジャケットの長い袖が手を完全に覆う仕様**。これは逃げではなく衣装設定なので、そのまま再現する。
 
 ---
 
