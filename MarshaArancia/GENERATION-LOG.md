@@ -13,7 +13,7 @@
 
 | 出力 | サイズ | quality | プロンプト | 参照画像 | 生成日 |
 |---|---|---|---|---|---|
-| [MarshaArancia-DesignSheet.png](MarshaArancia-DesignSheet.png) | 1536x1024 | high | [platform-api-designsheet-prompt.txt](prompts/platform-api-designsheet-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-24（v3 採用） |
+| [MarshaArancia-DesignSheet.png](MarshaArancia-DesignSheet.png) | 1536x1024 | high | [platform-api-designsheet-prompt.txt](prompts/platform-api-designsheet-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-24（v5 採用） |
 | [MarshaArancia-PlatformRef.png](MarshaArancia-PlatformRef.png) | 1024x1536 | high | [platform-api-reference-prompt.txt](prompts/platform-api-reference-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-23 |
 | [MarshaArancia-Photo-Headshot.png](MarshaArancia-Photo-Headshot.png) | 1024x1536 | high | [photo-headshot-prompt.txt](prompts/photo-headshot-prompt.txt) | MarshaArancia-Photo-Hero.png ＋ MarshaArancia-FullBody.png | 2026-08-23 |
 | [MarshaArancia-Illustration-Reference.png](MarshaArancia-Illustration-Reference.png) | 1024x1024 | high | [illustration-reference-prompt.txt](prompts/illustration-reference-prompt.txt) | MarshaArancia-FullBody.png | 2026-08-23 |
@@ -31,6 +31,7 @@
 | `MarshaArancia-Cover-AICUStudy-full.png` | ボディの造形が不十分 |
 | デザインシート v1（文字なし版） | **フォーマット違反**。タイトル・FRONT/3-4/BACK・EXPRESSIONS・ACCESSORIES・COLOR PALETTE をすべて省いた。小物の作り込みも不足 |
 | デザインシート v2（手を露出させた版） | 手を描かせたが**3本指＋親指＝4本**で破綻。公式シートは元々オーバーサイズ袖が手を覆う仕様であり、露出させたこと自体が公式からの逸脱だった |
+| デザインシート v3 | 背面プリントが「PAPER BEAT CLUB」のまま。個人レーベル **ARANCIA PRESS** に変更が必要だった |
 
 **教訓1: 破綻を「隠す」で回避しない。生成して、精査して、駄目なら作り直す。**
 手の領域は必ず5〜10倍に拡大して指の本数と関節を数えること。小物・ラベルの綴りも同様に拡大確認する。
@@ -63,7 +64,16 @@ ACCESSORIES・COLOR PALETTE は AiCuty 公式シートの必須要素。文字�
 
 ---
 
-## 3. リファレンス画像の方針
+## 3. 文字要素は後段で合成する
+
+**正確さが要る文字は生成モデルに書かせない。** カラーパレットの HEX は、生成後に
+スウォッチの実ピクセルを採取して PIL で合成している（`#737633` `#FD7310` `#C36925`
+`#1F1D1E` `#F6EBE1` `#C9B829`）。こうすると値が実際の色と必ず一致し、文字も崩れない。
+
+合成時は既存要素を壊さないよう、対象領域の座標を実測してから描画すること
+（見出し罫線 y=886、スウォッチ本体 y=910-991 を測らずに白塗りして見出しを削る失敗をした）。
+
+## 4. リファレンス画像の方針
 
 **キャラクターリファレンスは「デザインシート」を本命とします。** 全身1枚では複数視点・表情を参照できず、
 別アングルや別表情を生成させたときに破綻します。
@@ -81,7 +91,7 @@ ACCESSORIES・COLOR PALETTE は AiCuty 公式シートの必須要素。文字�
 - **全パネルで手を袖・物の後ろに隠す**
 - 3面は同じスケール・同じ目線高さで揃える
 
-## 4. 記録のルール
+## 5. 記録のルール
 
 新しく公式素材を生成したら、次を必ず残します。
 
