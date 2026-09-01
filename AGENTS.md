@@ -52,6 +52,19 @@ AiCuty（人とAIがつくるアイドルプロジェクト）のデザイン共
 
 ## 3. キャラクターシートの構成
 
+### 納品区分は Chibi / Standard / Photo
+
+同じキャラクターでも用途で作り分け、**混ぜて納品しない**。ファイル名は `<CharacterName>-<区分>[-<派生>].png`。
+
+| 区分 | 内容 | 用途 |
+|---|---|---|
+| **Chibi** | 2〜3頭身のちびキャラ版シート | ステッカー、SNS、LP |
+| **Standard** | 等身大デザインシート（3面＋表情＋小物＋パレット） | **設定の正本。生成AIのリファレンス** |
+| **Photo** | 実写系の宣材写真・キャスティングシート | 記事・広報 |
+
+シート以外の単体素材は **KeyVisual**（全身1枚絵）、**Cover**（記事カバー）。
+
+
 制作手順（納品区分 Chibi / Standard / Photo、必須フォーマット、検品倍率、手の資料化、HEX の後段合成、記録の残し方）は
 **[docs/character-sheet-workflow.md](docs/character-sheet-workflow.md)** が正本です。シートを作る前に読んでください。
 
@@ -124,3 +137,39 @@ Negative に `pale skin` / `white skin` を明示してください。
   と `vercel-blog/tools/aicuty-generator/reference_images/OK/`（両者バイト同一）
 - 公式ボイス: `docs/voice/<slug>/`、一覧ページ https://aicuai.github.io/AiCuty/voices.html
 - ComfyUI ワークフロー: `AiCuty-Workflows/AiCuty_<Name>.json`
+
+---
+
+## 7. 別のマシンで作業を再開するとき
+
+**エージェントの記憶とスキルは git で移動しません。** リポジトリを clone しただけでは、
+前セッションの文脈は引き継がれません。マシンを変えたら次を確認してください。
+
+### git で移動するもの（このリポジトリに入っている）
+
+- 作業方針: 本ファイル `AGENTS.md`
+- 制作手順: [docs/character-sheet-workflow.md](docs/character-sheet-workflow.md)
+- キャラクター設定の正本: 各 `<CharacterName>/README.md`
+- 決定の経緯: `<CharacterName>/REVIEW.md`
+- 生成条件の記録: `<CharacterName>/GENERATION-LOG.md`、`<CharacterName>/prompts/`
+
+**継続に必要な判断材料は、原則すべてリポジトリ側に置いてください。**
+エージェントのローカル記憶だけに残すと、マシンを変えた時点で失われます。
+
+### git で移動しないもの（マシンごとに用意が必要）
+
+| 対象 | 内容 |
+|---|---|
+| `~/.claude/projects/*/memory/` | セッション記憶。**別マシンには存在しない** |
+| `~/.claude/skills/` | 画像生成などのスキル定義 |
+| `~/.secrets/` | `OPENAI_API_KEY` 等。画像生成に必須 |
+| `gh` / `gog` の認証 | GitHub・Google Workspace |
+
+`~/.claude` と `~/.secrets` は毎月1日に iCloud Drive へバックアップされる運用のため、
+新しいマシンではそこから復元するのが早道です。
+
+### 再開時の最初の確認
+
+1. `gh pr list --state open` と `gh issue list --state open` で未処理を把握する
+2. 各キャラクターの `REVIEW.md` の未チェック項目（`- [ ]`）を見る
+3. 画像を生成するなら `docs/character-sheet-workflow.md` を先に読む

@@ -16,7 +16,7 @@
 | **Photo** | [MarshaArancia-Photo-Hero.png](MarshaArancia-Photo-Hero.png) | 全身ヒーローショット |
 | **Photo** | [MarshaArancia-Photo-Sheet.png](MarshaArancia-Photo-Sheet.png) | キャスティングシート |
 | KeyVisual | [MarshaArancia-KeyVisual.png](MarshaArancia-KeyVisual.png) | 書店を歩く全身1枚絵 |
-| Cover | [MarshaArancia-Cover-AICUStudy.png](MarshaArancia-Cover-AICUStudy.png) | AICU STUDY 記事カバー（191:100） |
+| Cover | [MarshaArancia-Cover-AICUStudy.png](MarshaArancia-Cover-AICUStudy.png) | AICU Study 記事カバー（191:100） |
 | 原案 | [MarshaArancia-Original.png](MarshaArancia-Original.png) | 「本を買った帰り道」（抹茶オレンジ さん） |
 | 集合 | [img/AiCuty-6.png](../img/AiCuty-6.png) ／ [img/AiCuty-6-peace.png](../img/AiCuty-6-peace.png) | 6人体制の集合ビジュアル |
 | 統一アセット | [img/anime/marsha.png](../img/anime/marsha.png) ／ [img/figure/marsha.png](../img/figure/marsha.png) | 6人共通の anime / figure アセット |
