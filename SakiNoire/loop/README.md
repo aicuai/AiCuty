@@ -8,8 +8,8 @@
 | モデル | MiniMax-H3 Ref2VA（pruned_int8_convrot）20 step、ComfyUI 標準ノード |
 | 参照 | `saki-chibi-green.png`（comfy-aicu `infra/bench/video/refs/`） |
 | seed | 1031（誕生日） |
-| 生成 | NVIDIA RTX 4000 Ada 20GB × 1、6 分、comfy-aicu Actions run 33710931194 |
-| 検査 | 上余白 28px（全フレーム最小）／ 最初と最後のフレームの差 3.6（255 中） |
+| 生成 | NVIDIA RTX 4000 Ada 20GB × 1、6 分、comfy-aicu Actions run 33715408672 |
+| 検査 | 上余白 161px（全フレーム最小）／ 最初と最後のフレームの差 1.5（255 中） |
 
 ### プロンプト（H3-Context-IR）
 
@@ -27,7 +27,7 @@ retention_analysis:
 
 detailed_description:
 Clean 2D anime style, cel-shaded, crisp outlines. Solid flat chroma-key green background with no gradient, no floor, no shadow.
-[Shot 1] Fixed wide shot from the center, camera never moves. FULL BODY ALWAYS VISIBLE WITH LARGE MARGIN: the figure is SMALL in the frame, filling only about 60% of the frame height when standing, centered, with empty green space above the head equal to at least one head height. The jumps are small hops (never higher than half a head), so even at the top of a hop the whole head and hair stay far below the top edge. The feet stay well above the bottom edge. <Subject 1> begins in the idle pose of <Image 1>, then bounces rhythmically in place, launches into a small energetic jump, spins around once in midair, lands softly, strikes a cute pose with one hand near her cheek, then swings both arms wide to the left and to the right. Hair, clothes and accessories bounce with each movement. Abrupt cuts and extreme splits are avoided; every movement flows smoothly into the next. In the final frames she settles back into the exact idle pose of <Image 1>, centered, feet together, so the loop repeats naturally.
+[Shot 1] Fixed wide shot from the center, camera never moves. FULL BODY ALWAYS VISIBLE WITH LARGE MARGIN: the figure is SMALL in the frame, filling only about 60% of the frame height when standing, centered, with empty green space above the head equal to at least one head height. The jumps are small hops (never higher than half a head), so even at the top of a hop the whole head and hair stay far below the top edge. The feet stay well above the bottom edge. The background is a SOLID FLAT CHROMA-KEY GREEN (#00FF00) in every single frame, exactly like <Image 1>: no dark background, no gradient, no floor, no shadow. <Subject 1> begins in the idle pose of <Image 1>, then bounces rhythmically in place, launches into a small energetic jump, spins around once in midair, lands softly, strikes a cute pose with one hand near her cheek, then swings both arms wide to the left and to the right. Hair, clothes and accessories bounce with each movement. Abrupt cuts and extreme splits are avoided; every movement flows smoothly into the next. In the final frames she settles back into the exact idle pose of <Image 1>, centered, feet together, so the loop repeats naturally.
 
 overall_soundscape:
 Silence. No music, no voice, no sound effects.
