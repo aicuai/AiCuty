@@ -4,18 +4,18 @@
 
 | | |
 |---|---|
-| ファイル | `loop-20260721.mp4`（緑背景・608×800・124 フレーム・24fps）／ `loop-20260721.webm`（クロマキー抜き・alpha） |
+| ファイル | `loop-20260721.mp4`（緑背景・124 フレーム・24fps）／ `loop-20260721.gif`（プレビュー）／ `loop-20260721.webm`（クロマキー抜き・alpha） |
 | モデル | MiniMax-H3 Ref2VA（pruned_int8_convrot）20 step、ComfyUI 標準ノード |
 | 参照 | `mei-chibi-green.png`（comfy-aicu `infra/bench/video/refs/`） |
 | seed | 20260721 |
-| 生成 | NVIDIA RTX 4000 Ada 20GB × 1、6 分、comfy-aicu Actions run 33716201973 |
-| 検査 | 上余白 100px（全フレーム最小）／ 最初と最後のフレームの差 2.4（255 中） |
+| 生成 | NVIDIA RTX 4000 Ada 20GB × 1、6 分、comfy-aicu Actions run 33728891093 |
+| 検査 | 上余白 97px（全フレーム最小）／ 最初と最後のフレームの差 2.8（255 中） |
 
 ### プロンプト（H3-Context-IR）
 
 ```
 subject_definitions:
-<Subject 1> is a chibi (super-deformed, 2.5 heads tall) version of Mei Soleil: a chibi girl with bright golden-yellow hair in a high side ponytail ending in drill curls, a yellow star hair pin, amber eyes, a yellow cropped track jacket with white stripes over a white crop top, yellow track pants with a white panel and a star charm, yellow-and-white sneakers.
+<Subject 1> is a chibi (super-deformed, 2.5 heads tall) version of Mei Soleil: a chibi girl with vibrant golden-yellow hair in a high side ponytail with soft outward curls tied with a yellow ribbon, short side bangs, a star-shaped yellow hairpin, amber-brown eyes, freckles, a bright cheerful smile, a sun-yellow cropped tech jacket with silver accents over a white crop top, a pleated asymmetrical vivid-yellow mini skirt layered over pale-yellow utility shorts, a yellow harness belt with a carabiner charm, white socks and yellow high-top sneakers with glowing soles. The skirt panel over the shorts and the high-top sneakers stay as in <Image 1>.
 <Image 1> is the character reference for <Subject 1>, standing centered in an idle pose on a flat green background.
 
 summary:
