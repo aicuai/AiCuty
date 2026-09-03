@@ -14,6 +14,8 @@
 | 出力 | サイズ | quality | プロンプト | 参照画像 | 生成日 |
 |---|---|---|---|---|---|
 | [MarshaArancia-Standard.png](MarshaArancia-Standard.png) | 1536x1024 | high | [platform-api-designsheet-prompt.txt](prompts/platform-api-designsheet-prompt.txt) | MarshaArancia-Standard-v1.png | 2026-08-24（v6 採用） |
+| [img/anime/marsha.png](../img/anime/marsha.png) | 1024x1024 | high | [img-anime-prompt.txt](prompts/img-anime-prompt.txt) | MarshaArancia-Standard.png | 2026-08-24 |
+| [img/figure/marsha.png](../img/figure/marsha.png) | 1024x1024 | high | [img-figure-prompt.txt](prompts/img-figure-prompt.txt) | MarshaArancia-Standard.png | 2026-08-24 |
 | [MarshaArancia-Standard-Expression-Cheeks.png](MarshaArancia-Standard-Expression-Cheeks.png) | 1024x1024 | high | [expression-hands-on-cheeks-prompt.txt](prompts/expression-hands-on-cheeks-prompt.txt) | MarshaArancia-Standard.png | 2026-08-24 |
 | [MarshaArancia-KeyVisual.png](MarshaArancia-KeyVisual.png) | 1024x1536 | high | [platform-api-reference-prompt.txt](prompts/platform-api-reference-prompt.txt) | MarshaArancia-Standard-v1.png | 2026-08-23 |
 | [MarshaArancia-Photo-Headshot.png](MarshaArancia-Photo-Headshot.png) | 1024x1536 | high | [photo-headshot-prompt.txt](prompts/photo-headshot-prompt.txt) | MarshaArancia-Photo-Hero.png ＋ MarshaArancia-Standard-v1.png | 2026-08-23 |

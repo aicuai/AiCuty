@@ -1,0 +1,24 @@
+Create the AiCuty unified anime asset for Marsha Arancia, matching the existing set (elena / mei / mina / nao / saki).
+
+Reference role:
+- Image 1 is the official Marsha Arancia Standard design sheet. Preserve her identity exactly.
+
+CHARACTER:
+- WARM MEDIUM-BROWN GOLDEN SKIN TONE (tan skin). Essential. Never pale or white skin.
+- Short tousled matcha-green bob with vivid orange inner-layer streaks in the fringe and hair tips, glossy anime hair highlights
+- One playful upward ahoge on top of her head
+- Large bright yellow-green eyes with soft highlights
+- A slim red proofreading pencil tucked behind her ear
+- Orange-and-black over-ear headphones resting around her neck
+- Oversized cropped jacket in olive green / orange / black with editorial pop-art patches, over a black hoodie
+
+COMPOSITION: Upper body / bust framing, centred, slightly large head proportion matching the existing AiCuty anime assets. She is smiling brightly with her mouth open and WAVING at the viewer with one hand raised beside her head.
+
+WAVING HAND — render it perfectly:
+The raised hand is open with the palm toward the viewer, fingers comfortably spread apart. It must have exactly FIVE digits: four fingers plus one thumb, each individually separated with a visible gap and its own rounded fingertip. The jacket cuff is pushed back so the whole hand is visible. Correct proportions and natural knuckles. Count the fingers.
+
+BACKGROUND: Flat pure white background, no scenery, no shadow.
+
+STYLE: Clean modern anime illustration matching the official AiCuty character art. Confident linework, glossy cel shading, vibrant matcha green and vivid orange palette.
+
+No text, no letters, no logos, no watermark, no border, no additional characters.

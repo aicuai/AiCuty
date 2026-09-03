@@ -95,7 +95,7 @@
 | [MarshaArancia-Standard-v1.png](MarshaArancia-Standard-v1.png) | 1536x1024 | 等身大キャラクターシート（カラーパレット付き） |
 | [MarshaArancia-Chibi.png](MarshaArancia-Chibi.png) | 1672x941 | ちびキャラ版シート |
 | [MarshaArancia-Original.png](MarshaArancia-Original.png) | 1023x1537 | 原案「本を買った帰り道」（抹茶オレンジ さん） |
-| [MarshaArancia-Cover-AICUStudy.png](MarshaArancia-Cover-AICUStudy.png) | 1910x1000 | AICU STUDY 記事カバー |
+| [MarshaArancia-Cover-AICUStudy.png](MarshaArancia-Cover-AICUStudy.png) | 1910x1000 | AICU Study 記事カバー |
 
 プロンプト: [prompts/character-sheet-prompt.txt](prompts/character-sheet-prompt.txt)
 

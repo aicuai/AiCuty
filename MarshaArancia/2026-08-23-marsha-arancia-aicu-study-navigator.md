@@ -1,14 +1,14 @@
 ---
-title: ¡Hola! AICU STUDY のナビゲーターになりました — マーシャ・アランチャです
+title: ¡Hola! AICU Study のナビゲーターになりました — マーシャ・アランチャです
 slug: marsha-arancia-aicu-study-navigator
 date: '2026-08-23T12:00:00+09:00'
 author: marsha-arancia
-category: AICU STUDY
-tagline: マーシャ・アランチャがお送りする AICU STUDY 案内。世界中に散らばったAI学習教材を、日本語の一か所に。
-excerpt: AiCuty の第6メンバー、編集・出版担当のマーシャ・アランチャです。今日から AICU STUDY（aicu.jp/study）のナビゲーターを担当します。Anthropic 公式 Claude Academy の22講座・415レッスン・70時間ぶんの教材を日本語で整理したカタログを、編集者の目線でご案内します。
-description: AiCuty のカルチャーエディター、マーシャ・アランチャの自己紹介と AICU STUDY の歩き方。コロンビア・ボゴタ生まれ日本育ちの編集者が、Claude Academy 22講座の日本語カタログをどう読むか、最初の一冊ならぬ最初の一講座をどう選ぶかを案内します。
+category: AICU Study
+tagline: マーシャ・アランチャがお送りする AICU Study 案内。世界中に散らばったAI学習教材を、日本語の一か所に。
+excerpt: AiCuty の第6メンバー、編集・出版担当のマーシャ・アランチャです。今日から AICU Study（aicu.jp/study）のナビゲーターを担当します。Anthropic 公式 Claude Academy の22講座・415レッスン・70時間ぶんの教材を日本語で整理したカタログを、編集者の目線でご案内します。
+description: AiCuty のカルチャーエディター、マーシャ・アランチャの自己紹介と AICU Study の歩き方。コロンビア・ボゴタ生まれ日本育ちの編集者が、Claude Academy 22講座の日本語カタログをどう読むか、最初の一冊ならぬ最初の一講座をどう選ぶかを案内します。
 tags:
-  - AICU STUDY
+  - AICU Study
   - AiCuty
   - マーシャ・アランチャ
   - Claude Academy
@@ -17,7 +17,7 @@ tags:
   - Claude Code
   - AI Fluency
 keywords:
-  - AICU STUDY
+  - AICU Study
   - マーシャ・アランチャ
   - Claude Academy 日本語
   - AI 学習 日本語
@@ -31,7 +31,7 @@ ogImage:
 
 AiCuty で編集と出版を担当しています。……と名乗ったところで気づいたんだけど、アタシ、自己紹介がいちばん苦手なんだよネ。人の話を聞くのは何時間でもいけるのに、自分の話になると急に原稿が止まる。
 
-でも今日はちゃんと名乗ります。だって、今日から **[AICU STUDY](https://aicu.jp/study)** のナビゲーターをやることになったから。
+でも今日はちゃんと名乗ります。だって、今日から **[AICU Study](https://aicu.jp/study)** のナビゲーターをやることになったから。
 
 ---
 
@@ -39,7 +39,7 @@ AiCuty で編集と出版を担当しています。……と名乗ったとこ�
 
 アタシの悪い癖で、結論から入れないの。だから先に、この場所がどういうところかを話させてください。
 
-AICU STUDY のキャッチコピーは、**「AIを学ぶ日本語リソースを、一か所に。」**
+AICU Study のキャッチコピーは、**「AIを学ぶ日本語リソースを、一か所に。」**
 
 世界中に散らばっているAI学習教材を、日本語で読める形に整理する。その第一弾が、Anthropic 公式の **Claude Academy 全22講座** の日本語カタログです。
 
@@ -59,7 +59,7 @@ AICU STUDY のキャッチコピーは、**「AIを学ぶ日本語リソース�
 
 DJの選曲も、ZINEの目次も、ライブの曲順も、記事の見出しも、アタシにとっては全部おなじ作業です。バラバラにあるものを、ある順番で並べる。それだけで、そこに無かった意味が生まれる。
 
-で、AICU STUDY がやっているのは、まさにそれでした。
+で、AICU Study がやっているのは、まさにそれでした。
 
 世界中に散らばった教材を、日本語で、所要時間とレベルつきで、並べ直す。**原文を書き換えるわけじゃない。並べ方と入口を作る。** これ、編集そのものなんだよネ。
 
@@ -121,7 +121,7 @@ DJの選曲も、ZINEの目次も、ライブの曲順も、記事の見出し�
 
 > 本サイトは Anthropic の学習サイト Claude Academy の公開情報をもとに、AICU が日本語で独自に要約・整理したカタログです。受講は各コースの公式ページで行ってください。Anthropic による公認・提携ではありません。
 
-——[AICU STUDY](https://aicu.jp/study) より
+——[AICU Study](https://aicu.jp/study) より
 
 日本語で読める入口はここに作るけれど、**教室そのものは Anthropic のもの**。受講は必ず各コースの公式ページで。ここ、編集者として一番きちんと書いておきたかったところです。
 
@@ -129,7 +129,7 @@ DJの選曲も、ZINEの目次も、ライブの曲順も、記事の見出し�
 
 ## これからやること
 
-AICU STUDY は、Claude Academy から始まりましたが、コンセプトは「AIを学ぶ**日本語リソース**を、一か所に」です。つまり、まだ増えます。
+AICU Study は、Claude Academy から始まりましたが、コンセプトは「AIを学ぶ**日本語リソース**を、一か所に」です。つまり、まだ増えます。
 
 アタシがやるのは、たぶんこういうこと。
 
@@ -145,11 +145,11 @@ AICU STUDY は、Claude Academy から始まりましたが、コンセプトは
 それでは、また。書店で会いましょう。
 
 **マーシャ・アランチャ / Marsha Arancia**
-AiCuty 編集・出版・カルチャー担当／AICU STUDY ナビゲーター
+AiCuty 編集・出版・カルチャー担当／AICU Study ナビゲーター
 
 ---
 
-- AICU STUDY: https://aicu.jp/study
+- AICU Study: https://aicu.jp/study
 - Claude 公式レクチャー 22講座 日本語カタログ: https://aicu.jp/study/claude
 - キャラクター設定: https://github.com/aicuai/AiCuty/blob/main/MarshaArancia/README.md
 - 原案キャラクターデザイン: 抹茶オレンジ さん（[@MATCHA_ORANGE_](https://x.com/MATCHA_ORANGE_)）／作品名「本を買った帰り道」・[C2606 ざすこ賞（道草雑草子 選）](https://cert.aicu.ai/v?id=C2606-3)受賞

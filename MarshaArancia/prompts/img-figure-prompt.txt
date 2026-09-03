@@ -1,0 +1,25 @@
+Create the AiCuty collectible figure asset for Marsha Arancia, matching the existing set (elena / mei / mina / nao / saki).
+
+Reference role:
+- Image 1 is the official Marsha Arancia Standard design sheet. Preserve her identity exactly.
+
+SUBJECT: A collectible PVC figure of Marsha Arancia, chibi proportions of about three heads tall, standing upright on a round black display base, photographed as a product shot.
+
+CHARACTER:
+- WARM MEDIUM-BROWN GOLDEN SKIN TONE (tan skin). Essential. Never pale or white skin.
+- Short tousled matcha-green bob with vivid orange inner-layer streaks, glossy sculpted highlights
+- One playful upward ahoge on top of her head
+- Large bright yellow-green eyes
+- A slim red proofreading pencil tucked behind her ear
+- Orange-and-black over-ear headphones around her neck
+- Oversized cropped jacket in olive green / orange / black with pop-art patches, over a black hoodie
+- Black layered pleated skirt, black-and-white checkered socks, chunky olive/orange/white platform sneakers
+- Decorated black backpack
+
+HANDS: Her oversized jacket cuffs extend past her wrists and cover her hands, as in the reference sheet. Do not draw exposed fingers.
+
+RENDERING: Glossy injection-moulded PVC surface with soft specular highlights and subtle subsurface warmth on the skin, crisp seam-free sculpt, slight ambient occlusion where parts meet. Soft even studio lighting from the front-upper-left, gentle contact shadow on the base.
+
+BACKGROUND: Plain light warm-grey seamless studio background with a soft gradient, matching a product photograph.
+
+No text, no letters, no logos, no watermark, no additional characters.
