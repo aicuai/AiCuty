@@ -4,18 +4,18 @@
 
 | | |
 |---|---|
-| ファイル | `loop-1001.mp4`（緑背景・608×800・124 フレーム・24fps）／ `loop-1001.webm`（クロマキー抜き・alpha） |
+| ファイル | `loop-1001.mp4`（緑背景・124 フレーム・24fps）／ `loop-1001.gif`（プレビュー）／ `loop-1001.webm`（クロマキー抜き・alpha） |
 | モデル | MiniMax-H3 Ref2VA（pruned_int8_convrot）20 step、ComfyUI 標準ノード |
 | 参照 | `mina-chibi-green.png`（comfy-aicu `infra/bench/video/refs/`） |
 | seed | 1001（誕生日） |
-| 生成 | NVIDIA RTX 4000 Ada 20GB × 1、6 分、comfy-aicu Actions run 33715041790 |
-| 検査 | 上余白 98px（全フレーム最小）／ 最初と最後のフレームの差 2.6（255 中） |
+| 生成 | NVIDIA RTX 4000 Ada 20GB × 1、6 分、comfy-aicu Actions run 33727770658 |
+| 検査 | 上余白 99px（全フレーム最小）／ 最初と最後のフレームの差 3.2（255 中） |
 
 ### プロンプト（H3-Context-IR）
 
 ```
 subject_definitions:
-<Subject 1> is a chibi (super-deformed, 2.5 heads tall) version of Mina Azure: a chibi girl with long straight ice-blue hair and blunt bangs, thin silver round glasses, aqua-blue eyes, a navy beret with a ribbon, a navy school-uniform style idol dress with a caplet, gold buttons and white cuffs, white socks and navy shoes.
+<Subject 1> is a chibi (super-deformed, 2.5 heads tall) version of Mina Azure: a chibi girl with very long straight icy sky-blue hair and evenly cut bangs, thin silver round glasses, aqua-blue eyes, an icy sky-blue beret with a navy ribbon, an icy sky-blue school-uniform idol dress with a short capelet, double-breasted jacket with gold buttons and a navy bow tie, a pleated mini skirt, white ruffled gloves, WHITE THIGH-HIGH SOCKS with small icy-blue side ribbons, and black mary jane shoes. The thigh-high socks and mary janes must be visible in every frame.
 <Image 1> is the character reference for <Subject 1>, standing centered in an idle pose on a flat green background.
 
 summary:
