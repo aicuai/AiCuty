@@ -1,0 +1,6 @@
+quality,out_image_tok,total_tok,sec
+low,196,471,15.3
+medium,439,714,13.1
+high,1756,2031,21.6
+xhigh,3122,3397,29.2
+max,7024,7299,51.9
