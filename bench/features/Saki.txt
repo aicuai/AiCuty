@@ -1,0 +1,10 @@
+Strict character QA for "Saki Noire". For each canonical feature answer present/partial/absent with a one-line note, then an overall_score 0-100. Return JSON {features:[{name,status,note}],overall_score,verdict}:
+1) dark violet hair
+2) sleek straight bob, NO end curls
+3) side bangs covering the LEFT eye
+4) amethyst (light purple) eyes
+5) one finger at lips + secretive small smile
+6) black off-shoulder top with subtle violet circuit-thread pattern
+7) double-layered skirt (matte black outer + violet chiffon inner frill)
+8) thigh-high glossy black boots with ankle ribbons and over-the-knee purple sheer socks
+9) minimal black gloves with violet trims
