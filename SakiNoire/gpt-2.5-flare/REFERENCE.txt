@@ -1,0 +1,3 @@
+参照画像（--reference に必ず渡す）: SakiNoire/SakiNoire.png
+これは AICU 公式キャラクターシート（V20260113 / CHECKED_BY_HAKASE）です。
+参照画像なしで生成したものは公式素材にしないでください。

@@ -1,0 +1,5 @@
+label,model,quality,size,ap_cost,latency_ms,wall_s,bytes,image_id,cached,balance_after,ts
+pilot-Mei-01-front,gpt-image-2.5-flare,medium,1024x1024,1600,14093,14.9,906609,f6f13036-fcc3-4868-9ca2-ed1e9cad609d,False,10108,2026-09-21 03:20:47
+pilot-Mei-07-expressions,gpt-image-2.5-flare,medium,1536x1024,2300,13262,13.8,2095052,67bde76f-65e4-4a74-b299-5d61155ac3d1,False,7808,2026-09-21 03:21:02
+ref-Mei-01-front,gpt-image-2.5-flare,medium,1024x1024,MeiSoleil/MeiSoleil.png,1600,15952,17.2,960681,79ed34bc-d941-4b29-b625-8f201ada7fbd,False,6208,2026-09-21 03:22:07
+ref-Mei-01-chibi,gpt-image-2.5-flare,medium,1024x1024,MeiSoleil/MeiSoleil.png,1600,14981,15.8,1026163,e0dc598f-023e-4e4f-996b-449ddabe4618,False,4608,2026-09-21 03:22:52

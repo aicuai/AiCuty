@@ -32,6 +32,7 @@ def main():
     p.add_argument("--size", default="1024x1024")
     p.add_argument("--prompt-file"); p.add_argument("--prompt")
     p.add_argument("--character", help="登録プリセットの slug（model より優先される）")
+    p.add_argument("--reference", help="参照画像のパス（base64 で reference_image に載せる）")
     p.add_argument("--label", required=True)
     p.add_argument("--dry-run", action="store_true")
     a = p.parse_args()
@@ -43,6 +44,10 @@ def main():
     body = {"prompt": prompt, "size": a.size, "quality": a.quality, "force": True}
     if a.character: body["character"] = a.character
     else: body["model"] = a.model
+    if a.reference:
+        ref = pathlib.Path(a.reference).read_bytes()
+        body["reference_image"] = base64.b64encode(ref).decode()
+        print(f"  参照画像: {a.reference} ({len(ref):,} bytes)")
 
     before = balance(key)
     tag = a.character or a.model
@@ -67,6 +72,7 @@ def main():
     if b64: png.write_bytes(base64.b64decode(b64))
 
     row = {"label": a.label, "model": tag, "quality": a.quality, "size": a.size,
+           "reference": a.reference or "",
            "ap_cost": ap, "latency_ms": h.get("X-AICU-Latency-Ms") or int(dt*1000),
            "wall_s": round(dt,1), "bytes": png.stat().st_size if png.exists() else 0,
            "image_id": d.get("id",""), "cached": d.get("cached"),
