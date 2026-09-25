@@ -32,11 +32,15 @@
 
 ## 2. 登録案
 
-> **提案 PR: https://github.com/aicuai/platform-api-aicu-ai/pull/298**（未マージ）
+> **PR: https://github.com/aicuai/platform-api-aicu-ai/pull/298 — マージ済み**（2026-09-25 に確認）
 >
-> ⚠️ **`character_rights.original_author` は `royalty_pct`（40%・margin ベース）の支払先**です。
-> AICU Inc. 以外を設定すると**ロイヤリティ支払いの対象が発生します**。技術判断ではなく事業判断のため、
-> CEO 承認を得るまでマージしないでください。
+> ⚠️ **`character_rights.original_author` はロイヤリティの支払先**です。AICU Inc. 以外を設定すると
+> **支払いの対象が発生します**。技術判断ではなく事業判断なので、CEO 承認が要ります。
+>
+> **この文書は「提案」として書かれたもので、状態は古くなります。**現状を知りたいときは、
+> 文書ではなく **platform-api 側の本番を引いて**確認してください。
+> （2026-09-24、「未マージ」という記述をそのまま現状と読み、award 側と platform 側の両方が
+> 報告を誤りました。経緯は aicuai/award-aicuai#391）
 
 ```json
 {
