@@ -7,7 +7,7 @@ theme: minima
 
 # Navigation
 header_pages:
-  - index.md
+  - about.md
   - members.md
   - voices.md
   - license.md
