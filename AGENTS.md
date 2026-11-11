@@ -5,6 +5,42 @@ AiCuty（人とAIがつくるアイドルプロジェクト）のデザイン共
 
 ---
 
+## 0. 早見表 — 知りたいことと、読むファイル
+
+他のリポジトリやセッションから AiCuty の情報を引くときは、まずここを見てください。
+ローカルは `/Users/aki/git.local/AiCuty`、公開 URL は `https://github.com/aicuai/AiCuty`、
+ファイル単体は `https://raw.githubusercontent.com/aicuai/AiCuty/main/<パス>` で取れます。
+
+| 知りたいこと | 読むファイル |
+|---|---|
+| メンバーの設定（外見・性格・口調・担当） | `<CharacterName>/README.md`（6 人ぶん。下の表） |
+| 6 人の一覧を 1 ファイルで | [docs/members.md](docs/members.md)、[README.md](README.md) |
+| 壊してはいけない表記 | 本ファイル第 2 節 |
+| キャラクターシートの作り方 | [docs/character-sheet-workflow.md](docs/character-sheet-workflow.md) |
+| GPT-Image-2.5 用リファレンスの規格 | [docs/CHARACTER-SHEET-STANDARD.md](docs/CHARACTER-SHEET-STANDARD.md)、`<CharacterName>/gpt-2.5-flare/` |
+| 画像生成の品質・コストの実測 | [bench/](bench/)、[bench/aicu-api/README.md](bench/aicu-api/README.md) |
+| 作業の種類ごとの手順と道具 | [SKILLS.md](SKILLS.md) |
+| 公式ボイス（mp3） | `docs/voice/<slug>/<slug>-v3-<言語>.mp3`（`ja`・`en` は全員。ほかに `fr`、Marsha は `es`・`it`）。説明は [docs/voices.md](docs/voices.md) |
+| 単体の参照画像（アニメ調・フィギュア調） | `img/anime/<slug>.png`、`img/figure/<slug>.png` |
+| 公式ロゴ（PNG 2 色・Illustrator 原本） | [img/logo/](img/logo/)。作り直さず、ここのファイルを使う |
+| 集合ビジュアル | `img/AiCuty-6.png`、`img/aicuty-on-stage.png` ほか |
+| ライセンスとガイドライン | [aicuty-guideline.md](aicuty-guideline.md)、[docs/license.md](docs/license.md) |
+| 決定の経緯・未確定事項 | `<CharacterName>/REVIEW.md`、各 README 末尾「要確認項目」、GitHub Issue |
+
+| No. | 表示名 | ディレクトリ | slug | カラー | 誕生日 |
+|---|---|---|---|---|---|
+| 1 | Elena Bloom | `ElenaBloom/` | `elena` | ピンク | 3/30 |
+| 2 | Mei Soleil | `MeiSoleil/` | `mei` | 黄色 | 7/21 |
+| 3 | Mina Azure | `MinaAzure/` | `mina` | ブルー | 10/1 |
+| 4 | Nao Verde | `NaoVerde/` | `nao` | グリーン | 5/5 |
+| 5 | Saki Noire | `SakiNoire/` | `saki` | パープル | 10/31 |
+| 6 | Marsha Arancia | `MarshaArancia/` | `marsha` | オレンジ | 4/14 |
+
+一人称・呼び方・語尾は変わることがあるので、この表には載せません。**書く直前に各 README を読んでください。**
+`img/anime/` と `docs/voice/` にある `luc4`・`hakase` は AICU の別キャラクターで、AiCuty の 6 人には含めません。
+
+---
+
 ## 1. このリポジトリの位置づけ（主従関係）
 
 キャラクター情報は複数リポジトリに分散しており、**役割が決まっています**。
@@ -15,6 +51,7 @@ AiCuty（人とAIがつくるアイドルプロジェクト）のデザイン共
 | `aicuty-bots` の `shared/characters.yaml` | **口調・文体の最も詳細な正本**。楽曲・ng_rules・article_style・x_account 等 |
 | **本リポジトリ（AiCuty）** | **公開用のサブ情報**。コミュニティ向けキャラクターシート・生成プロンプト・素材 |
 | `award-aicu` の `docs/*-design.md` | Award 用ビジュアルの Design Source of Truth |
+| `aicuai-aicuty`（非公開）の `sites/` | 公式 Web サイト `aicu.ai/aicuty`。本リポジトリの内容を**写して載せる側**（第 8 節） |
 
 - サービス間の結線は **aicu-ai ⇄ platform-api-aicu-ai のみ**。本リポジトリは結線に含まれません。
 - **キャラクター設定を変更する前に、まず `aicuty-bots/shared/characters.yaml` を読むこと。** 本リポジトリにない情報を多く持っており、過去に「bots 側が先に正しく、AiCuty 側が誤っていた」事例があります。
@@ -109,6 +146,7 @@ Negative に `pale skin` / `white skin` を明示してください。
 - Marsha Arancia 原案: **抹茶オレンジ さん**（https://x.com/MATCHA_ORANGE_ ）
   作品名「本を買った帰り道」／C2606 ざすこ賞（道草雑草子 選）受賞・認定証 https://cert.aicu.ai/v?id=C2606-3
 - Marsha ちびキャラ版シート画像: **AICU Draft Edition**（作者確認中。判明後に差し替え）
+- AiCuty 公式ロゴ（`img/logo/`）: **藤吉香帆P（Kaho Fujiyoshi）**（https://github.com/KahoFUJIYOSHI ）
 
 ---
 
@@ -135,8 +173,13 @@ Negative に `pale skin` / `white skin` を明示してください。
 
 - 承認済みリファレンス画像: `japan-corp/media-blog/tools/aicuty-generator/reference_images/OK/`
   と `vercel-blog/tools/aicuty-generator/reference_images/OK/`（両者バイト同一）
+- 公式ロゴ: `img/logo/`（`AiCuty-Logo-PK.png`・`AiCuty-Logo-WT.png`・原本 `AiCuty-Logo.ai`）
 - 公式ボイス: `docs/voice/<slug>/`、一覧ページ https://aicuai.github.io/AiCuty/voices.html
 - ComfyUI ワークフロー: `AiCuty-Workflows/AiCuty_<Name>.json`
+- GPT-Image-2.5 用リファレンス: `<CharacterName>/gpt-2.5-flare/`（プロンプト・参照画像の指定・採用カット）
+- GPT-Image-2.5 の検証画像（2026-09 の試行。公式素材ではない）: `GPT-Image-2.5-trial/`
+- 計測スクリプトと結果: `bench/`。**`bench/aicu-api/out/` は生成物の一時置き場で git に入りません**。
+  採用したカットだけを `<CharacterName>/gpt-2.5-flare/out/` に置きます
 
 ---
 
@@ -148,6 +191,7 @@ Negative に `pale skin` / `white skin` を明示してください。
 ### git で移動するもの（このリポジトリに入っている）
 
 - 作業方針: 本ファイル `AGENTS.md`
+- 作業の種類ごとの手順と道具: [SKILLS.md](SKILLS.md)
 - 制作手順: [docs/character-sheet-workflow.md](docs/character-sheet-workflow.md)
 - キャラクター設定の正本: 各 `<CharacterName>/README.md`
 - 決定の経緯: `<CharacterName>/REVIEW.md`
@@ -173,3 +217,23 @@ Negative に `pale skin` / `white skin` を明示してください。
 1. `gh pr list --state open` と `gh issue list --state open` で未処理を把握する
 2. 各キャラクターの `REVIEW.md` の未チェック項目（`- [ ]`）を見る
 3. 画像を生成するなら `docs/character-sheet-workflow.md` を先に読む
+
+---
+
+## 8. 公式 Web サイトとの関係
+
+公式サイト `https://aicu.ai/aicuty/`（日本語）・`/aicuty/en/`（英語）は、**別リポジトリ**
+[aicuai/aicuai-aicuty](https://github.com/aicuai/aicuai-aicuty)（非公開。ローカルは
+`/Users/aki/git.local/aicuai-aicuty/sites/`）で制作しています。
+
+- **設定の向きは一方通行です。** 本リポジトリの `<CharacterName>/README.md` が先、サイトの `sites/data.js` が後。
+  サイト側だけを直して終わりにしないでください。設定を変えたら、サイトの `data.js` も同じ内容に合わせます。
+- サイトの `data.js` は、メンバーの `dir`（`ElenaBloom` など）と `id`（`elena` など）で本リポジトリを指しています。
+  **ディレクトリ名と slug を変えるとサイトが壊れます**（第 2 節「機械的識別子は温存」と同じ理由）。
+- サイトに載せる画像と音声は、本リポジトリの `img/`・`docs/voice/` から書き出した写しです（webp・v3 の mp3）。
+  差し替えるときは、先に本リポジトリの原本を更新します。
+- **サイトはこのリポジトリでは扱いません。** サイトをこの中に置く案だった PR #45・#47 は、2026-11-11 に閉じました。
+  サイトの相談と変更は `aicuai-aicuty` 側で行います。
+- `docs/` は GitHub Pages（https://aicuai.github.io/AiCuty/ ）としてそのまま公開されます。
+  `docs/` に置いたものは公開物です。
+
