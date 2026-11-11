@@ -1,0 +1,46 @@
+char,n,score,pass
+Nao,1,95,1
+Nao,2,100,1
+Nao,3,100,1
+Nao,4,90,1
+Nao,5,100,1
+Nao,6,100,1
+Nao,7,95,1
+Nao,8,100,1
+Nao,9,95,1
+Nao,10,100,1
+Elena,1,100,1
+Elena,2,100,1
+Elena,3,95,1
+Elena,4,95,1
+Elena,5,90,1
+Elena,6,100,1
+Elena,7,100,1
+Elena,8,95,1
+Elena,9,100,1
+Elena,10,95,1
+Mina,1,100,1
+Mina,2,100,1
+Mina,3,100,1
+Mina,4,100,1
+Mina,5,100,1
+Mina,6,100,1
+Mina,7,100,1
+Mina,8,100,1
+Mina,9,100,1
+Mina,10,100,1
+Marsha,1,100,1
+Marsha,2,100,1
+Marsha,3,100,1
+Marsha,4,100,1
+Marsha,5,100,1
+Marsha,6,100,1
+Marsha,7,100,1
+Marsha,8,100,1
+Marsha,9,100,1
+Marsha,10,100,1
+=== YIELD (threshold=85) ===
+Elena: pass=10/10 yield=100%  avg=97
+Marsha: pass=10/10 yield=100%  avg=100
+Mina: pass=10/10 yield=100%  avg=100
+Nao: pass=10/10 yield=100%  avg=98

@@ -1,0 +1,14 @@
+char,n,score,pass
+Mei,1,100,1
+Mei,2,100,1
+Mei,3,87,1
+Mei,4,100,1
+Mei,5,90,1
+Saki,1,100,1
+Saki,2,100,1
+Saki,3,100,1
+Saki,4,100,1
+Saki,5,95,1
+=== YIELD (threshold=85) ===
+Mei: pass=5/5 yield=100%  avg=95
+Saki: pass=5/5 yield=100%  avg=99

@@ -1,0 +1,4 @@
+label,model,quality,size,ap_cost,latency_ms,wall_s,bytes,image_id,cached,balance_after,ts
+flare-low,gpt-image-2.5-flare,low,1024x1024,700,10414,11.3,917651,62f7bf16-4d36-4bf3-9c24-18353cffb25b,False,24343,2026-09-21 01:50:02
+flare-medium,gpt-image-2.5-flare,medium,1024x1024,1600,11648,12.1,923183,c5767ff6-628b-4b59-8958-113aa790bfa2,False,22743,2026-09-21 01:50:14
+flare-high,gpt-image-2.5-flare,high,1024x1024,6400,22085,22.6,910934,7dc535c4-4143-48e0-9563-96bfe4222154,False,16343,2026-09-21 01:50:37
