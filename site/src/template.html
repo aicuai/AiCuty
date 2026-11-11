@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{t.pageTitle}}</title>
+<meta name="description" content="{{t.metaDesc}}">
+<link rel="canonical" href="{{canonical}}">
+<link rel="alternate" hreflang="ja" href="https://aicu.ai/aicuty/">
+<link rel="alternate" hreflang="en" href="https://aicu.ai/aicuty/en/">
+<link rel="alternate" hreflang="x-default" href="https://aicu.ai/aicuty/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AiCuty">
+<meta property="og:title" content="{{t.pageTitle}}">
+<meta property="og:description" content="{{t.metaDesc}}">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:image" content="https://aicu.ai/aicuty/img/hero-six.webp">
+<meta property="og:locale" content="{{t.ogLocale}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="{{base}}style.css">
+</head>
+<body>
+<div class="penlight" aria-hidden="true"></div>
+<header class="site">
+  <div class="wrap hbar">
+    <a class="logo" href="#top" aria-label="AiCuty">A<i>i</i>Cuty</a>
+    <nav class="main" aria-label="{{t.navLabel}}">
+      <a href="#news">NEWS</a><a href="#members">MEMBERS</a><a href="#music">MUSIC</a><a href="#calendar">CALENDAR</a><a href="#create">CREATE</a><a href="#business">BUSINESS</a>
+    </nav>
+    <div class="hright">
+      <div class="oshi-pick" role="group" aria-label="{{t.oshiLabel}}">
+        <span>{{t.oshi}}</span>
+        <button style="--c:var(--c-elena)" data-oshi="elena" aria-label="Elena Bloom"></button>
+        <button style="--c:var(--c-mei)" data-oshi="mei" aria-label="Mei Soleil"></button>
+        <button style="--c:var(--c-mina)" data-oshi="mina" aria-label="Mina Azure"></button>
+        <button style="--c:var(--c-nao)" data-oshi="nao" aria-label="Nao Verde"></button>
+        <button style="--c:var(--c-saki)" data-oshi="saki" aria-label="Saki Noire"></button>
+        <button style="--c:var(--c-marsha)" data-oshi="marsha" aria-label="Marsha Arancia"></button>
+      </div>
+      <div class="lang" aria-label="Language"><a href="{{jaHref}}" hreflang="ja" lang="ja" aria-current="{{isJa}}">JA</a><a href="{{enHref}}" hreflang="en" lang="en" aria-current="{{isEn}}">EN</a></div>
+      <a class="btn primary" href="#business">{{t.ctaWork}}</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-roledescription="carousel" aria-label="Key visual">
+    <h1 class="tagline-h" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">{{t.h1}}</h1>
+    <div class="slides" id="slides"></div>
+    <div class="tagline"><div class="wrap"><span>{{t.tagline}}</span><span>6 MEMBERS ・ AICU</span></div></div>
+  </section>
+
+  <section class="blk" id="news">
+    <div class="wrap">
+      <div class="shead"><h2>NEWS<small>{{t.newsSub}}</small></h2><a class="more" href="https://www.aicu.jp/" target="_blank" rel="noopener">{{t.newsMore}}</a></div>
+      <div class="filters" id="filters" role="group"></div>
+      <div class="news" id="newsList"></div>
+    </div>
+  </section>
+
+  <section class="blk members-band" id="members">
+    <div class="wrap">
+      <div class="shead"><h2>MEMBERS<small>{{t.membersSub}}</small></h2><a class="more" href="https://github.com/aicuai/AiCuty" target="_blank" rel="noopener">{{t.membersMore}}</a></div>
+      <div class="mgrid" id="mgrid"></div>
+    </div>
+  </section>
+
+  <section class="blk" id="music">
+    <div class="wrap">
+      <div class="shead"><h2>MUSIC<small>{{t.musicSub}}</small></h2><a class="more" href="https://www.tunecore.co.jp/artists/AiCuty" target="_blank" rel="noopener">{{t.musicMore}}</a></div>
+      <div class="music">
+        <div class="tracks">
+          <a class="track" href="https://music.youtube.com/watch?v=GgK3HGVu1nc" target="_blank" rel="noopener">
+            <img src="{{base}}img/hero-six.webp" alt="" loading="lazy">
+            <div><div class="t">{{t.track1}}</div><div class="s">AiCuty ・ 2026</div></div><span class="go">LISTEN</span>
+          </a>
+          <a class="track" href="https://youtu.be/GaYYt1cDleY" target="_blank" rel="noopener">
+            <img src="{{base}}img/hero-saki.webp" alt="" loading="lazy">
+            <div><div class="t">Shibuya in the Dark</div><div class="s">Saki Noire ・ 2025</div></div><span class="go">WATCH</span>
+          </a>
+          <a class="track" href="https://linkco.re/qcrsSBu3?lang={{lang}}" target="_blank" rel="noopener">
+            <img src="{{base}}img/hero-stage.webp" alt="" loading="lazy">
+            <div><div class="t">{{t.track3}}</div><div class="s">Spotify / Apple Music …</div></div><span class="go">LINKCORE</span>
+          </a>
+        </div>
+        <div class="stage">
+          <h3>{{t.bandTitle}}</h3>
+          <p>{{t.bandLead}}</p>
+          <div class="plot">
+            <div class="pos" style="--c:var(--c-mei)"><i class="dot"></i><b>{{t.pMei}}</b><span>{{t.pMeiR}}</span></div>
+            <div class="pos" style="--c:var(--c-marsha)"><i class="dot"></i><b>{{t.pMarsha}}</b><span>{{t.pMarshaR}}</span></div>
+            <div class="pos" style="--c:var(--c-mina)"><i class="dot"></i><b>{{t.pMina}}</b><span>{{t.pMinaR}}</span></div>
+            <div class="pos" style="--c:var(--c-nao)"><i class="dot"></i><b>{{t.pNao}}</b><span>{{t.pNaoR}}</span></div>
+            <div class="pos" style="--c:var(--c-elena)"><i class="dot"></i><b>{{t.pElena}}</b><span>{{t.pElenaR}}</span></div>
+            <div class="pos" style="--c:var(--c-saki)"><i class="dot"></i><b>{{t.pSaki}}</b><span>{{t.pSakiR}}</span></div>
+          </div>
+          <div class="edge">STAGE FRONT</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk members-band" id="calendar">
+    <div class="wrap">
+      <div class="shead"><h2>CALENDAR<small>{{t.calSub}}</small></h2></div>
+      <div class="cal-next" id="calNext"></div>
+      <div class="months" id="months"></div>
+    </div>
+  </section>
+
+  <section class="blk" id="create">
+    <div class="wrap">
+      <div class="shead"><h2>CREATE<small>{{t.createSub}}</small></h2><a class="more" href="https://www.aicu.jp/terms/aicuty-guideline" target="_blank" rel="noopener">{{t.guideline}} →</a></div>
+      <div class="create">
+        <div class="cbox">
+          <h3>{{t.c1h}}</h3>
+          <p>{{t.c1p}}</p>
+          <div class="spec">Steps    28
+Sampler  DPM++ 2M SDE Karras
+CFG      5
+Clip Skip 2
+Size     832×1216</div>
+          <a class="more" href="https://github.com/aicuai/AiCuty/tree/main/AiCuty-Workflows" target="_blank" rel="noopener">{{t.c1a}}</a>
+        </div>
+        <div class="cbox">
+          <h3>{{t.c2h}}</h3>
+          <p>{{t.c2p}}</p>
+          <div class="spec">POST /v1/audio/speech
+{ "voice": "mina",
+  "model": "eleven_v3",
+  "input": "{{t.c2input}}" }</div>
+          <a class="more" href="https://api.aicu.ai" target="_blank" rel="noopener">api.aicu.ai →</a>
+        </div>
+        <div class="cbox">
+          <h3>{{t.c3h}}</h3>
+          <p>{{t.c3p}}</p>
+          <a class="more" href="https://j.aicu.ai/MagV15" target="_blank" rel="noopener">{{t.c3a}}</a>
+          <a class="more" href="https://www.aicu.jp/post/aicuty-20250902" target="_blank" rel="noopener">{{t.c3b}}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk biz" id="business">
+    <div class="wrap">
+      <div class="shead"><h2>BUSINESS<small>{{t.bizSub}}</small></h2></div>
+      <div class="bgrid">
+        <div class="bitem"><span class="k">APPEARANCE</span><h3>{{t.b1h}}</h3><p>{{t.b1p}}</p></div>
+        <div class="bitem"><span class="k">LICENSE</span><h3>{{t.b2h}}</h3><p>{{t.b2p}}</p></div>
+        <div class="bitem"><span class="k">VOICE API</span><h3>{{t.b3h}}</h3><p>{{t.b3p}}</p></div>
+        <div class="bitem"><span class="k">CONTENT</span><h3>{{t.b4h}}</h3><p>{{t.b4p}}</p></div>
+      </div>
+      <div class="bcta">
+        <a class="btn primary" href="{{contactUrl}}" target="_blank" rel="noopener">{{t.bizCta}}</a>
+        <a class="btn ghost" href="https://www.aicu.jp/terms/aicuty-guideline" target="_blank" rel="noopener">{{t.bizGuide}}</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap fgrid">
+    <div>
+      <a class="logo" href="#top">A<i>i</i>Cuty</a>
+      <p class="credit">{{t.credit}}</p>
+    </div>
+    <div><h4>MEMBERS</h4><ul id="fMembers"></ul></div>
+    <div><h4>FOLLOW</h4><ul>
+      <li><a href="https://x.com/SakiNoire" target="_blank" rel="noopener">X @SakiNoire</a></li>
+      <li><a href="https://www.tunecore.co.jp/artists/AiCuty" target="_blank" rel="noopener">TuneCore</a></li>
+      <li><a href="https://youtu.be/GaYYt1cDleY" target="_blank" rel="noopener">YouTube</a></li>
+      <li><a href="https://github.com/aicuai/AiCuty" target="_blank" rel="noopener">GitHub</a></li>
+    </ul></div>
+    <div><h4>INFO</h4><ul>
+      <li><a href="https://www.aicu.jp/terms/aicuty-guideline" target="_blank" rel="noopener">{{t.guideline}}</a></li>
+      <li><a href="https://aicuai.github.io/AiCuty/voices.html" target="_blank" rel="noopener">{{t.fVoices}}</a></li>
+      <li><a href="https://www.aicu.jp/" target="_blank" rel="noopener">AICU media</a></li>
+      <li><a href="https://aicu.ai/" target="_blank" rel="noopener">{{t.fCompany}}</a></li>
+    </ul></div>
+  </div>
+  <div class="copy"><div class="wrap"><span>© AICU Japan / AiCuty</span><span>{{t.mission}}</span></div></div>
+</footer>
+<button class="totop" id="totop" aria-label="Top">↑</button>
+<dialog class="member" id="dlg" aria-labelledby="dName"></dialog>
+<script>window.AICUTY={lang:"{{lang}}",base:"{{base}}"};</script>
+<script src="{{base}}data.js"></script>
+<script src="{{base}}app.js"></script>
+</body>
+</html>
