@@ -26,6 +26,7 @@ AiCuty の素材や設定を扱うエージェント向けに、**「この作�
 | GPT-Image-2.5 用リファレンス 7 カット | [docs/CHARACTER-SHEET-STANDARD.md](docs/CHARACTER-SHEET-STANDARD.md)、`<CharacterName>/gpt-2.5-flare/README.md` | `gpt-image2`、`aicu-api` |
 | プロンプトからシートを再現生成する | `python3 scripts/generate_charsheet.py --prompt <プロンプト> --out <出力>`（先頭コメントに使い方） | — |
 | シートの文字（HEX・ラベル）を後から載せる | `python3 scripts/compose_charsheet_text.py`。文字は画像生成に任せない | — |
+| ロゴを載せる | [img/logo/](img/logo/) のファイルをそのまま使う。画像生成でロゴを描かせない | — |
 | 6 人の集合キービジュアル | 参照は `img/anime/<slug>.png` と各公式シート | `gpt-image2` |
 | 記事カバー・OGP | 参照は各 `<CharacterName>/<CharacterName>.png` | `cover-art`、`gpt-image2` |
 | 週刊AICU のヘッダー（横長） | — | `aicu-newsletter-banner` |
