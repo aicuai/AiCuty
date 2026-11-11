@@ -146,6 +146,7 @@ Negative に `pale skin` / `white skin` を明示してください。
 - Marsha Arancia 原案: **抹茶オレンジ さん**（https://x.com/MATCHA_ORANGE_ ）
   作品名「本を買った帰り道」／C2606 ざすこ賞（道草雑草子 選）受賞・認定証 https://cert.aicu.ai/v?id=C2606-3
 - Marsha ちびキャラ版シート画像: **AICU Draft Edition**（作者確認中。判明後に差し替え）
+- AiCuty 公式ロゴ（`img/logo/`）: **藤吉香帆P（Kaho Fujiyoshi）**（https://github.com/KahoFUJIYOSHI ）
 
 ---
 
@@ -231,8 +232,8 @@ Negative に `pale skin` / `white skin` を明示してください。
   **ディレクトリ名と slug を変えるとサイトが壊れます**（第 2 節「機械的識別子は温存」と同じ理由）。
 - サイトに載せる画像と音声は、本リポジトリの `img/`・`docs/voice/` から書き出した写しです（webp・v3 の mp3）。
   差し替えるときは、先に本リポジトリの原本を更新します。
-- 本リポジトリの PR #45・#47 は、サイトをこのリポジトリの中に置く案でした。**制作の場は `aicuai-aicuty` に移っています。**
-  どちらを残すかは人が決めます。エージェントは 2 つの PR を勝手に閉じたり、取り込んだりしないでください。
+- **サイトはこのリポジトリでは扱いません。** サイトをこの中に置く案だった PR #45・#47 は、2026-11-11 に閉じました。
+  サイトの相談と変更は `aicuai-aicuty` 側で行います。
 - `docs/` は GitHub Pages（https://aicuai.github.io/AiCuty/ ）としてそのまま公開されます。
   `docs/` に置いたものは公開物です。
 
