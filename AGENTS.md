@@ -22,6 +22,7 @@ AiCuty（人とAIがつくるアイドルプロジェクト）のデザイン共
 | 作業の種類ごとの手順と道具 | [SKILLS.md](SKILLS.md) |
 | 公式ボイス（mp3） | `docs/voice/<slug>/<slug>-v3-<言語>.mp3`（`ja`・`en` は全員。ほかに `fr`、Marsha は `es`・`it`）。説明は [docs/voices.md](docs/voices.md) |
 | 単体の参照画像（アニメ調・フィギュア調） | `img/anime/<slug>.png`、`img/figure/<slug>.png` |
+| フォトリアルのアーティスト写真（6 人・縦 2:3） | [img/photo-artist-2026/](img/photo-artist-2026/)（Marsha は 2 案・未決） |
 | 公式ロゴ（PNG 2 色・Illustrator 原本） | [img/logo/](img/logo/)。作り直さず、ここのファイルを使う |
 | 集合ビジュアル | `img/AiCuty-6.png`、`img/aicuty-on-stage.png` ほか |
 | ライセンスとガイドライン | [aicuty-guideline.md](aicuty-guideline.md)、[docs/license.md](docs/license.md) |
